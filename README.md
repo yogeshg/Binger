@@ -13,6 +13,9 @@ Files
     Reult.py
     QueryExpander.py
     main.py
+    APIKEY.txt
+    test_*.typescript
+    README.md
 
 How to Run
 ----------

@@ -25,7 +25,10 @@ def main():
         success = app.getNextIteration()
         print success
         if(success):
-            print 'Success!!'
+            if( app.getCurrentPrecision() > 0.0 ):
+                print 'Success!!'
+            else :
+                print 'No relevant results found :( '
             break
         else:
             app.queryWords = ' '.join(app.queryWords)
