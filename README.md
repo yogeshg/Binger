@@ -49,6 +49,9 @@ Description
 -----------
 For the QueryExtender, we grab all words from the titles, URLs and the description of the website. These words are stored in a list. Then, we calculate the idf for each single word and store the value in the same sequence as the words. After that, we generate a 2-D list to store the tf info for each word in each single documents. Then, we could also obtain the tf-idf matrix. Then, we could generate a ‘Final score’ using Rocchio Algorithm. Because the sequence of the words is as same as the sequence in score list, we could find the single best word according to the index of the max value in score list. (The expander can only add 1 word in each single iteration)
 
+Bing Search Account Key
+-----------------------
+Added the api key in file called APIKEY.txt
 
 Additional Information
 ----------------------
