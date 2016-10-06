@@ -16,6 +16,11 @@ Files
 
 How to Run
 ----------
+Run the following linux command to see a [typescript](test_musk.typescript) of a test run
+
+    less -R test_musk.typescript
+
+We have also described it in detail below:
 Part1: First of all, run the program with command line python main.py . Then input your query word, and the expected precision@10.
 
     ./main.py apikey query precision10

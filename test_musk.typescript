@@ -1,0 +1,105 @@
+Script started on Thu Oct  6 18:44:15 2016
+ubuntu@ip-172-31-54-126:~/code/adb/binger2$ ./main.py `cat API*` 'Bing Chandler' 0.9
+DEBUG:root:{'query': 'musk', 'apikey': 'xxxxxxx', 'precision10': 0.9}
+INFO:BingApi:BingApiInitialised
+INFO:BingApi:searching...
+	https://api.datamarket.azure.com/Bing/Search/Web?Query=%27musk%27&$top=10&$format=json
+INFO:BingApi:Did not find in cache, requesting...
+	https://api.datamarket.azure.com/Bing/Search/Web?Query=%27musk%27&$top=10&$format=json
+Title           : Musk - Wikipedia, the free encyclopedia
+Url             : https://en.wikipedia.org/wiki/Musk
+Description     : Musk is a class of aromatic substances commonly used as base notes in perfumery. They include glandular secretions from animals such as the musk deer, numerous plants ...
+relevance {0,1}  :0
+ Title           : Elon Musk - CNBC
+Url             : http://www.cnbc.com/elon-musk/
+Description     : Wednesday, 28 Sep 2016 | 12:06 PM ET. Astrophysicist Neil deGrasse Tyson, like Elon Musk, says it is highly likely our reality is one big simulation.
+relevance {0,1}  :1
+ Title           : Musk | Define Musk at Dictionary.com
+Url             : http://www.dictionary.com/browse/musk
+Description     : Musk definition, a substance secreted in a glandular sac under the skin of the abdomen of the male musk deer, having a strong odor, and used in perfumery. See more.
+relevance {0,1}  :0
+ Title           : Elon Musk to Tesla employees: NEVER discount a car - Sep ...
+Url             : http://money.cnn.com/2016/09/30/technology/tesla-elon-musk-discount/index.html
+Description     : Telsa CEO Elon Musk chided his salespeople for offering discounts to customers, violating the company's strict 'no negotiation, no discount' policy.
+relevance {0,1}  :1
+ Title           : Elon Musk unveils ambitious Mars colonization plan | Fox News
+Url             : http://www.foxnews.com/science/2016/09/28/elon-musk-unveils-ambitious-mars-colonization-plan.html
+Description     : On Tuesday, SpaceX CEO Elon Musk unveiled plans for a spacecraft and rocket project that intends to put intelligent life on Mars: human life. In a speech ...
+relevance {0,1}  :1
+ Title           : Elon Musks Plan: Get Humans to Mars, and Beyond - The New ...
+Url             : http://www.nytimes.com/2016/09/28/science/elon-musk-spacex-mars-exploration.html
+Description     : SpaceX, Elon Musks rocket company, released a video simulation of a journey to Mars. His plan is for spacecraft that would take 100 passengers to the ...
+relevance {0,1}  :1
+ Title           : Musk | Definition of Musk by Merriam-Webster
+Url             : http://www.merriam-webster.com/dictionary/musk
+Description     : :a strong-smelling material that is used in perfumes and is obtained from a gland of an Asian deer (musk deer) or is prepared artificially
+relevance {0,1}  :0
+ Title           : Elon Musk - Wikipedia, the free encyclopedia
+Url             : https://en.wikipedia.org/wiki/Elon_Musk
+Description     : Elon Reeve Musk (/  i l  n  m  s k /; born June 28, 1971) is a South African-born Canadian-American business magnate, investor, engineer and ...
+relevance {0,1}  :1
+ Title           : SpaceX CEO Elon Musk unveils grandiose plan to colonize ...
+Url             : http://www.cbsnews.com/news/spacex-elon-musk-unveils-grandiose-plan-to-colonize-mars/
+Description     : In a long-awaited presentation Tuesday, SpaceX founder Elon Musk unveiled a grandiose, long-range plan for building reusable super boosters and huge spaceships to ...
+relevance {0,1}  :1
+ Title           : Elon Musk Makes His Case for Colonizing Mars - NBC News
+Url             : http://www.nbcnews.com/tech/tech-news/elon-musk-makes-his-case-colonizing-mars-n655641
+Description     : If Elon Musk has his way, a ticket to Mars will one day cost the same as the median U.S. house price  about $200,000. Not cheap, but arguably affordable.
+relevance {0,1}  :1
+INFO:Binger:Current relevance / target relevance : 0.700000 / 0.900000
+ False
+musk
+[{'Url': 'https://en.wikipedia.org/wiki/Musk', 'Description': 'Musk is a class of aromatic substances commonly used as base notes in perfumery. They include glandular secretions from animals such as the musk deer, numerous plants ...', 'Title': 'Musk - Wikipedia, the free encyclopedia'}, {'Url': 'http://www.cnbc.com/elon-musk/', 'Description': 'Wednesday, 28 Sep 2016 | 12:06 PM ET. Astrophysicist Neil deGrasse Tyson, like Elon Musk, says it is highly likely our reality is one big simulation.', 'Title': 'Elon Musk - CNBC'}, {'Url': 'http://www.dictionary.com/browse/musk', 'Description': 'Musk definition, a substance secreted in a glandular sac under the skin of the abdomen of the male musk deer, having a strong odor, and used in perfumery. See more.', 'Title': 'Musk | Define Musk at Dictionary.com'}, {'Url': 'http://money.cnn.com/2016/09/30/technology/tesla-elon-musk-discount/index.html', 'Description': "Telsa CEO Elon Musk chided his salespeople for offering discounts to customers, violating the company's strict 'no negotiation, no discount' policy.", 'Title': 'Elon Musk to Tesla employees: NEVER discount a car - Sep ...'}, {'Url': 'http://www.foxnews.com/science/2016/09/28/elon-musk-unveils-ambitious-mars-colonization-plan.html', 'Description': 'On Tuesday, SpaceX CEO Elon Musk unveiled plans for a spacecraft and rocket project that intends to put intelligent life on Mars: human life. In a speech ...', 'Title': 'Elon Musk unveils ambitious Mars colonization plan | Fox News'}, {'Url': 'http://www.nytimes.com/2016/09/28/science/elon-musk-spacex-mars-exploration.html', 'Description': 'SpaceX, Elon Musks rocket company, released a video simulation of a journey to Mars. His plan is for spacecraft that would take 100 passengers to the ...', 'Title': 'Elon Musks Plan: Get Humans to Mars, and Beyond - The New ...'}, {'Url': 'http://www.merriam-webster.com/dictionary/musk', 'Description': ':a strong-smelling material that is used in perfumes and is obtained from a gland of an Asian deer (musk deer) or is prepared artificially', 'Title': 'Musk | Definition of Musk by Merriam-Webster'}, {'Url': 'https://en.wikipedia.org/wiki/Elon_Musk', 'Description': 'Elon Reeve Musk (/  i l  n  m  s k /; born June 28, 1971) is a South African-born Canadian-American business magnate, investor, engineer and ...', 'Title': 'Elon Musk - Wikipedia, the free encyclopedia'}, {'Url': 'http://www.cbsnews.com/news/spacex-elon-musk-unveils-grandiose-plan-to-colonize-mars/', 'Description': 'In a long-awaited presentation Tuesday, SpaceX founder Elon Musk unveiled a grandiose, long-range plan for building reusable super boosters and huge spaceships to ...', 'Title': 'SpaceX CEO Elon Musk unveils grandiose plan to colonize ...'}, {'Url': 'http://www.nbcnews.com/tech/tech-news/elon-musk-makes-his-case-colonizing-mars-n655641', 'Description': 'If Elon Musk has his way, a ticket to Mars will one day cost the same as the median U.S. house price  about $200,000. Not cheap, but arguably affordable.', 'Title': 'Elon Musk Makes His Case for Colonizing Mars - NBC News'}]
+[0, 1, 0, 1, 1, 1, 0, 1, 1, 1]
+The new query is: 
+musk plan
+INFO:BingApi:searching...
+	https://api.datamarket.azure.com/Bing/Search/Web?Query=%27musk+plan%27&$top=10&$format=json
+INFO:BingApi:Did not find in cache, requesting...
+	https://api.datamarket.azure.com/Bing/Search/Web?Query=%27musk+plan%27&$top=10&$format=json
+Title           : [NEWS] Elon Musk unveils ambitious Mars colonization plan
+Url             : http://www.foxnews.com/science/2016/09/28/elon-musk-unveils-ambitious-mars-colonization-plan.html
+Description     : On Tuesday, SpaceX CEO Elon Musk unveiled plans for a spacecraft and rocket project that intends to put intelligent life on Mars: human life. In a speech ...
+relevance {0,1}  :1
+ Title           : Elon Musks Plan: Get Humans to Mars, and Beyond - The New ...
+Url             : http://www.nytimes.com/2016/09/28/science/elon-musk-spacex-mars-exploration.html
+Description     : SpaceX, Elon Musks rocket company, released a video simulation of a journey to Mars. His plan is for spacecraft that would take 100 passengers to the ...
+relevance {0,1}  :1
+ Title           : Elon Musk lays out the plan to put humans on Mars - Sep ...
+Url             : http://money.cnn.com/2016/09/27/technology/spacex-elon-musk-mars-colonization/index.html
+Description     : Elon Musk said Tuesday that a self-sustaining colony of people could be living on Mars within 50 to 150 years. The SpaceX CEO laid out his plan to colonize ...
+relevance {0,1}  :1
+ Title           : Elon Musk teases new master plan for Tesla - Jul. 11, 2016
+Url             : http://money.cnn.com/2016/07/11/investing/tesla-elon-musk-masterplan-solarcity-autopilot/index.html
+Description     : Musk wrote about the company's first Master Plan back in 2006. At the time, Tesla was just making the Roadster sports car. And Musk quipped that his day ...
+relevance {0,1}  :1
+ Title           : Elon Musk Unveils His Plan For Colonizing Mars : The Two ...
+Url             : http://www.npr.org/sections/thetwo-way/2016/09/27/495622695/this-afternoon-elon-musk-unveils-his-plan-for-colonizing-mars
+Description     : Billionaire tech entrepreneur Elon Musk says his space transport company, SpaceX, will build a rocket system capable of taking people to Mars and ...
+relevance {0,1}  :1
+ Title           : Elon Musk Lays Out Plan for 'Self-Sustaining Civilization ...
+Url             : http://www.pcmag.com/news/348247/elon-musk-lays-out-plan-for-self-sustaining-civilization-o
+Description     : SpaceX and Tesla CEO Elon Musk on Wednesday laid out his plan for making humans a "multiplanetary species" and creating a self-sustaining civilization on Mars.
+relevance {0,1}  :1
+ Title           : SpaceX CEO Elon Musk unveils grandiose plan to colonize ...
+Url             : http://www.cbsnews.com/news/spacex-elon-musk-unveils-grandiose-plan-to-colonize-mars/
+Description     : In a long-awaited presentation Tuesday, SpaceX founder Elon Musk unveiled a grandiose, long-range plan for building reusable super boosters and huge spaceships to ...
+relevance {0,1}  :1
+ Title           : Musks Master Plan Met With Indifference From Tesla ...
+Url             : http://www.bloomberg.com/news/articles/2016-07-21/tesla-s-musk-calls-for-building-semi-truck-in-new-master-plan
+Description     : Musk published his long-awaited plan on Teslas website partly to explain why the companys proposed integration with SolarCity Corp. will benefit ...
+relevance {0,1}  :1
+ Title           : How Elon Musk Plans to Go to Mars - gizmodo.com
+Url             : http://gizmodo.com/this-is-how-elon-musk-plans-to-build-a-city-on-mars-up-1787146547
+Description     : SpaceX plans to build a self-sustaining city on Mars, according to its founder Elon Musk. But, while we now know a lot more about how SpaceX plans to get to ...
+relevance {0,1}  :1
+ Title           : Billionaire Elon Musk outlines plans for humans to ...
+Url             : http://www.reuters.com/article/us-space-musk-idUSKCN11X2DV
+Description     : Musk outlined his plans for the Mars rocket, capable of carrying 100 passengers plus cargo per voyage, even as SpaceX is still investigating why a different rocket ...
+relevance {0,1}  :1
+INFO:Binger:Current relevance / target relevance : 1.000000 / 0.900000
+ True
+Success!!
+ubuntu@ip-172-31-54-126:~/code/adb/binger2$ 
+ubuntu@ip-172-31-54-126:~/code/adb/binger2$ 
+Script done on Thu Oct  6 18:45:35 2016
