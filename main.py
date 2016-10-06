@@ -2,7 +2,7 @@
 # coding: utf-8
 
 # In[1]:
-
+from QueryExpander import QueryExpander
 import logging
 from Binger import Binger
 
@@ -21,11 +21,12 @@ for i in range(maxIterations):
         print 'Success!!'
         break
     else:
+        app.queryWords = ' '.join(app.queryWords)
         print app.queryWords
         print app.results
         print app.relevance
-
-        # Call the query modifier here app.queryWords = f(app.queryWords, app.results, app.relevance)
-        app.queryWords = ['Gates', 'Bill']
+        abc = QueryExpander()
+        app.queryWords = abc.calculate_Weight(app.queryWords, app.results, app.relevance)
+        app.queryWords = app.queryWords.split(' ')
 
 

@@ -58,7 +58,7 @@ class Binger():
         self.results = self.b.search('+'.join(self.queryWords))
         self.getRelevance()
         self.logger.info('Current relevance / target relevance : %f / %f', self.getCurrentPrecision(), self.targetPrecision)
-        return (self.getCurrentPrecision() >= self.targetPrecision)
+        return ((self.getCurrentPrecision() >= self.targetPrecision) or (self.getCurrentPrecision() <= 0))
 
 
 
