@@ -18,9 +18,9 @@ How to Run
 ----------
 Part1: First of all, run the program with command line python main.py . Then input your query word, and the expected precision@10.
 
-    python main.py
-    <Enter query words on prompt>
-    <Enter expected precision@10>
+    ./main.py apikey query precision10
+
+    ./main.py `cat API*` 'Bing Chandler' 0.9
 
 Part2: After that, 10 results will be displayed and the users need to input 0 or 1 to judge whether the result is relevant. (0 means irrelevant, 1 means relevant).
 

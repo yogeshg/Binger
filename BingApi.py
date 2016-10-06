@@ -16,9 +16,11 @@ import pprint
 import Result
 
 class BingApi():
-    def __init__(self):
-        with open('APIKEY.txt', 'r') as f:
-            accountKey = f.readline().strip()
+    def __init__(self, api=None):
+        if( api==None ):
+            with open('APIKEY.txt', 'r') as f:
+                accountKey = f.readline().strip()
+        accountKey = api
         accountKeyEnc = base64.b64encode(accountKey + ':' + accountKey)
         self.headers = {'Authorization': 'Basic ' + accountKeyEnc}
         self.url_format = 'https://api.datamarket.azure.com/Bing/Search/Web?Query=%27{query_word}%27&$top={num_results}&$format={output_format}'

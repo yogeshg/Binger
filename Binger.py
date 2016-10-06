@@ -6,14 +6,14 @@ from BingApi import BingApi
 import Result
 
 class Binger():
-    def __init__(self):
-        self.queryWords = ['Gates']
-        self.targetPrecision = 0.8
-        self.b = BingApi()
+    def __init__(self, api, query, precision10):
+        self.queryWords = query # like ['Gates']
+        self.targetPrecision = precision10 # like 0.8
+        self.b = BingApi(api)
         self.iterations = 0
         self.results = []
         self.logger = logging.getLogger(self.__class__.__name__)
-        self.getInitParameteres()
+        #self.getInitParameteres()
     
     def getInitParameteres(self):
         for i in range(10):
