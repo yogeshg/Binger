@@ -45,3 +45,25 @@ class BingApi():
         
         return self.cache[query_word]
 
+    def searchSiteMatch(self, host, query):
+        query = query.replace(' ', "%20")
+        bing_url_Prefix = "https://api.datamarket.azure.com/Data.ashx/Bing/SearchWeb/v1/Composite?Query="
+        bing_url = bing_url_Prefix + "%27site%3a" + host + "%20" + query +"%27&$top=10&$format=json"
+
+        #Send request to Bing Search
+        request = urllib2.Request(bing_url, headers=self.headers)
+        response = urllib2.urlopen(request)
+        
+        #Get and analyze result
+        content = json.load(response)
+        count = float(content["d"]["results"][0]["WebTotal"])
+        webs = content["d"]["results"][0]["Web"]
+        
+        #print count
+        return count
+
+
+if __name__ == "__main__":
+    bing = BingApi()
+    print bing.searchSiteMatch("yahoo.com", "hello World")
+

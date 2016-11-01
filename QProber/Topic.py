@@ -24,6 +24,7 @@ class Topic():
             s.load()
         return
 
+
     def str(self, pre):
         s = "{}{} : {} queries".format(pre, self.name, str(len(self.queries)))
         for sub in self.subtopics.itervalues():
@@ -32,4 +33,27 @@ class Topic():
     
     def __str__(self):
         return self.str('')
+
+
+
+
+if __name__ == "__main__":
+    r = Topic("Root")
+    r.load()
+    print r.name
+    '''
+    for each in r.subtopics:
+        print each
+    for each in r.queries:
+        print each
+    for query in r.queries:
+        print r.queries.get(query)
+
+    for each in r.subtopics:
+        subtopic = r.subtopics.get(each)
+        print subtopic.subtopics
+        print subtopic.queries
+    '''
+
+    print r.subtopics.get("Computers").queries
 
