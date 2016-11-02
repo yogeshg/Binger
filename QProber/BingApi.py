@@ -48,7 +48,7 @@ class BingApi():
         # webtotal - number of results
         return self.cache[query_word]
 
-    def searchSiteMatch(self, host, query):
+    def searchSiteMatch(self, host, query, topic):
         query = query.replace(' ', "%20")
         bing_url_Prefix = "https://api.datamarket.azure.com/Data.ashx/Bing/SearchWeb/v1/Composite?Query="
         bing_url = bing_url_Prefix + "%27site%3a" + host + "%20" + query +"%27&$top=10&$format=json"
@@ -61,6 +61,12 @@ class BingApi():
         content = json.load(response)
         count = float(content["d"]["results"][0]["WebTotal"])
         webs = content["d"]["results"][0]["Web"]
+        urls = set()
+        for i in xrange(len(webs)):
+            if i == 4:
+                break
+            topic.addDocumentToThisAndParents(host,webs[i]["Url"])
+
         
         #print count
         return count

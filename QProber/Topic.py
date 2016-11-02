@@ -71,6 +71,8 @@ if __name__ == "__main__":
         print s.name, s.sampleCD
 
     s.addDocumentToThisAndParents('fifa.com', 'YOU CAN ADD ANY OBJECT HERE')
+    s.addDocumentToThisAndParents('fifa.com', 'Test')
+    s.addDocumentToThisAndParents('fifa.com', 'YOU CAN ADD ANY OBJECT HERE')
 
     print r.name, r.sampleCD
     for s in r.iterSubtopics():

@@ -28,6 +28,7 @@ class QProber(object):
         				tmp = 1
         		if(tmp==0):
         			print host+":" + self.printPath(each.name)
+        print self.r.sampleCD
 
     
     def classify(self, topic, ts, tc, src_topic_espec):
@@ -35,7 +36,8 @@ class QProber(object):
         #Calculate coverage info
         for query in topic.queries:
         	subtopic = topic.queries.get(query)
-        	self.topic_coverage[subtopic] = self.topic_coverage[subtopic] + self.bing.searchSiteMatch(self.host, query)
+        	subtopicobject = topic.subtopics.get(subtopic)
+        	self.topic_coverage[subtopic] = self.topic_coverage[subtopic] + self.bing.searchSiteMatch(self.host, query, subtopicobject)
         for subtopic in topic.subtopics:
         	totalCount = totalCount+self.topic_coverage[subtopic]
         	#print self.topic_coverage[subtopic]
@@ -73,6 +75,7 @@ if __name__ == "__main__":
     
     qp = QProber()
     qp.probe("health.com",0.6, 100)
+    '''
     qp = QProber()
     qp.probe("fifa.com",0.6, 100)
     qp = QProber()
@@ -81,5 +84,6 @@ if __name__ == "__main__":
     qp.probe("hardwarecentral.com",0.6, 100)
     qp = QProber()
     qp.probe("yahoo.com",0.6, 100)
+    '''
 
     
