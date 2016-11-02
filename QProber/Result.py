@@ -12,5 +12,5 @@ def parseWebResults(web_json_list, num_results=10):
     return contents 
 
 def parseCompositeResult(result_json_dict, num_results=10):
-    return {'WebTotal': result_json_dict['WebTotal'], 'Web':parseWebResults(result_json_dict['Web'], num_results)} 
+    return {'WebTotal': int(result_json_dict['WebTotal']), 'Web':parseWebResults(result_json_dict['Web'], num_results)} 
  

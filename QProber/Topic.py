@@ -1,3 +1,4 @@
+from collections import defaultdict
 import logging
 logger = logging.getLogger(__name__)
 
@@ -6,9 +7,14 @@ class Topic():
         self.name = topic
         self.subtopics={}
         self.queries={}
+        self.parent=None
+        # db:str -> docs:set
+        # r.sampleCD['fifa.com']
+        self.sampleCD=defaultdict(set)
         return
 
-    def load(self):
+    def load(self, parent=None):
+        self.parent = parent
         logger.debug('loading... '+str(self))
         try:
             with open('./data/'+self.name.lower()+'.txt','r') as f:
@@ -21,27 +27,32 @@ class Topic():
             logger.exception(e)
             logger.debug('leaf node encountered')
         for s in self.subtopics.itervalues():
-            s.load()
+            s.load( parent=self )
         return
 
+    def iterSubtopics(self):
+        return self.subtopics.itervalues()
+
+    def addDocumentToThisAndParents(self, database, document):
+        self.sampleCD[database].add(document)
+        if(self.parent):
+            return self.parent.addDocumentToThisAndParents(database, document)
+        else:
+            return
 
     def str(self, pre):
         s = "{}{} : {} queries".format(pre, self.name, str(len(self.queries)))
-        for sub in self.subtopics.itervalues():
+        for sub in self.iterSubtopics():
             s+='\n'+sub.str(pre+'  ')
         return s 
     
     def __str__(self):
         return self.str('')
 
-
-
-
 if __name__ == "__main__":
     r = Topic("Root")
     r.load()
     print r.name
-    '''
     for each in r.subtopics:
         print each
     for each in r.queries:
@@ -49,11 +60,19 @@ if __name__ == "__main__":
     for query in r.queries:
         print r.queries.get(query)
 
-    for each in r.subtopics:
-        subtopic = r.subtopics.get(each)
+    for subtopic in r.iterSubtopics():
         print subtopic.subtopics
         print subtopic.queries
-    '''
 
     print r.subtopics.get("Computers").queries
+
+    print r.name, r.sampleCD
+    for s in r.iterSubtopics():
+        print s.name, s.sampleCD
+
+    s.addDocumentToThisAndParents('fifa.com', 'YOU CAN ADD ANY OBJECT HERE')
+
+    print r.name, r.sampleCD
+    for s in r.iterSubtopics():
+        print s.name, s.sampleCD
 
