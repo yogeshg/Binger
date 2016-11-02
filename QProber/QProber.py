@@ -13,10 +13,21 @@ class QProber(object):
         self.r.load()
         self.topic_coverage = defaultdict(float)
         self.topic_specificity = defaultdict(float)
-        self.result = self.r
+        self.result = []
+        self.result.append(self.r)
         self.classify(self.r, ts, tc, 1.0)
         print "Result of Classifying:"
-        print host+":" + self.printPath(self.result.name)
+        for each in self.result:
+        	#print each.name
+        	if(len(each.subtopics)==0):
+        		print host+":" + self.printPath(each.name)
+        	else:
+        		tmp = 0
+        		for eachsub in each.subtopics:
+        			if each.subtopics.get(eachsub) in self.result:
+        				tmp = 1
+        		if(tmp==0):
+        			print host+":" + self.printPath(each.name)
 
     
     def classify(self, topic, ts, tc, src_topic_espec):
@@ -37,9 +48,9 @@ class QProber(object):
         #Judge result
         for subtopic in topic.subtopics:
         	if(self.topic_specificity[subtopic] >= ts and self.topic_coverage[subtopic] >= tc):
-				self.result = topic.subtopics.get(subtopic)
+				self.result.append(topic.subtopics.get(subtopic))
 				if(topic.name==self.r.name):
-					self.classify(self.result, ts, tc, self.topic_specificity[subtopic])
+					self.classify(topic.subtopics.get(subtopic), ts, tc, self.topic_specificity[subtopic])
 
     
     def printPath(self, name):
@@ -59,6 +70,7 @@ class QProber(object):
 
     
 if __name__ == "__main__":
+    
     qp = QProber()
     qp.probe("health.com",0.6, 100)
     qp = QProber()
@@ -69,6 +81,5 @@ if __name__ == "__main__":
     qp.probe("hardwarecentral.com",0.6, 100)
     qp = QProber()
     qp.probe("yahoo.com",0.6, 100)
-
 
     
