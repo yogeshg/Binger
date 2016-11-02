@@ -43,6 +43,9 @@ class BingApi():
             #     contents.append({k:json_response['d']['results']['Web'][i][k].encode('ascii','ignore') for k in Result.RESULT_KEYS})
             self.cache[query_word] = Result.parseCompositeResult(json_response['d']['results'][0])
         
+        # returns a dictionary with keys Web and Webtotal
+        # web - a list of results
+        # webtotal - number of results
         return self.cache[query_word]
 
     def searchSiteMatch(self, host, query):
