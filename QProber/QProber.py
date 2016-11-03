@@ -28,7 +28,7 @@ class QProber(object):
         				tmp = 1
         		if(tmp==0):
         			print host+":" + self.printPath(each.name)
-        print self.r.sampleCD
+        #print self.r.sampleCD
 
     
     def classify(self, topic, ts, tc, src_topic_espec):
