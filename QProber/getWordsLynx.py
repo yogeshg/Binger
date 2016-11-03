@@ -36,6 +36,7 @@ if __name__ == '__main__':
         pass
     f = runLynx('www.google.com')
     c = preProcess(f)
+    print c
     for w in sorted(c.iterkeys()):
         print w
 
