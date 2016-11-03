@@ -33,20 +33,17 @@ class BingApi():
         
         self.logger.info(("searching...\n\t"+query))
         
-        if(not self.cache.has_key(query_word)):
+        if(not self.cache.has_key(query)):
             req = urllib2.Request(query, headers = self.headers)
             self.logger.info('Did not find in cache, requesting...\n\t'+req.get_full_url())
             url_response = urllib2.urlopen(req)
             json_response = json.load(url_response)
-            # contents = []
-            # for i in range(10):
-            #     contents.append({k:json_response['d']['results']['Web'][i][k].encode('ascii','ignore') for k in Result.RESULT_KEYS})
-            self.cache[query_word] = Result.parseCompositeResult(json_response['d']['results'][0])
+            self.cache[query] = Result.parseCompositeResult(json_response['d']['results'][0], num_results=num_results)
         
         # returns a dictionary with keys Web and Webtotal
         # web - a list of results
         # webtotal - number of results
-        return self.cache[query_word]
+        return self.cache[query]
 
     def searchSiteMatch(self, host, query, topic):
         query = query.replace(' ', "%20")
@@ -73,6 +70,7 @@ class BingApi():
 
 
 if __name__ == "__main__":
-    bing = BingApi()
-    print bing.searchSiteMatch("yahoo.com", "hello World")
+    b = BingApi()
+    r = b.searchSite('fifa.com', 'messi', num_results=1)
+    # print bing.searchSiteMatch("yahoo.com", "hello World")
 
