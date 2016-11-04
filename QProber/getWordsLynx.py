@@ -10,7 +10,7 @@ IGNORE_LINES_AFTER = 'References'
 IGNORE_PATTERN = re.compile(r'\[.*?\]')
 WORD_PATTERN = re.compile(r'[A-Za-z]+')
 
-class lynxHelper():
+class LynxHelper():
     def __init__(self):
         self.cache = DirDict('cache.lynx')
         self.logger = logging.getLogger(self.__class__.__name__)
@@ -48,7 +48,7 @@ if __name__ == '__main__':
         url = sys.argv[1]
     except:
         pass
-    lynx = lynxHelper()
+    lynx = LynxHelper()
     f = lynx.run(url)
     c = getCountset(f.split("\n"))
     print c

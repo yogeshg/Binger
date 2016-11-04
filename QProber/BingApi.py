@@ -63,5 +63,4 @@ if __name__ == "__main__":
     b = BingApi()
     r = b.searchSite('fifa.com', 'messi', num_results=1)
     print r
-    # print bing.searchSiteMatch("yahoo.com", "hello World")
 
