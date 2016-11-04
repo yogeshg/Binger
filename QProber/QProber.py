@@ -1,7 +1,7 @@
 from collections import defaultdict, Counter
 
 import logging
-logging.basicConfig( level=logging.WARN )
+logging.basicConfig( level=logging.INFO )
 
 from BingApi import BingApi
 from Topic import Topic
@@ -9,8 +9,8 @@ from getWordsLynx import LynxHelper, getCountset
 
 class QProber(object):
 
-    def __init__(self):
-        self.bing = BingApi()
+    def __init__(self, bingApiKey=None):
+        self.bing = BingApi(api=bingApiKey)
         self.r = Topic("Root")
         self.r.load()
         self.lynx = LynxHelper()
@@ -20,7 +20,7 @@ class QProber(object):
         return
 
     def probe(self, host, ts, tc):
-        print "Classifying..."
+        print "Classifying...", host
         self.host = host
         self.topic_coverage = defaultdict(float)
         self.topic_specificity = defaultdict(float)
@@ -57,8 +57,13 @@ class QProber(object):
         #print totalCount
 
         #Calculate specificity info
-        for subtopic in topic.subtopics:
-            self.topic_specificity[subtopic] = (src_topic_espec * self.topic_coverage[subtopic] / totalCount)
+        try:
+            for subtopic in topic.subtopics:
+                self.topic_specificity[subtopic] = (src_topic_espec * self.topic_coverage[subtopic] / totalCount)
+                print 'for', subtopic, 'specificity=', self.topic_specificity[subtopic], 'coverage=', self.topic_coverage[subtopic]
+        except:
+            # error due to math
+            pass
 
         #Judge result
         for subtopic in topic.subtopics:
