@@ -1,20 +1,35 @@
 import os
 import re
 
+import logging
 from collections import Counter
 
-def runLynx(url):
-    '''
-    param: url: string
-    returns: filepointer: use readline or readlines
-    '''
-    return os.popen('lynx -dump {url}'.format(url=url))
+from Util import FileDict, DirDict
 
 IGNORE_LINES_AFTER = 'References'
 IGNORE_PATTERN = re.compile(r'\[.*?\]')
 WORD_PATTERN = re.compile(r'[A-Za-z]+')
 
-def preProcess(lines):
+class lynxHelper():
+    def __init__(self):
+        self.cache = DirDict('cache.lynx')
+        self.logger = logging.getLogger(self.__class__.__name__)
+        self.logger.info(self.__class__.__name__+'Initialised')
+        return
+    
+    def run(self, url):
+        '''
+        param: url: string
+        returns: filepointer: use readline or readlines
+        '''
+        if( not self.cache.has_key(url) ):
+            self.logger.info('lynx-ing... %s', url)
+            self.cache[url] = os.popen('lynx -dump {url}'.format(url=url))
+        else :
+            self.logger.debug('using cached... %s', url)
+        return self.cache[url]
+
+def getCountset(lines):
     text = ''
     countset = Counter()
     for l in lines:
@@ -25,7 +40,6 @@ def preProcess(lines):
             words = WORD_PATTERN.findall(l)
             for w in words:
                 countset[w.lower()]+=1
-            #print countset
     return countset
 
 if __name__ == '__main__':
@@ -34,9 +48,10 @@ if __name__ == '__main__':
         url = sys.argv[1]
     except:
         pass
-    f = runLynx('www.google.com')
-    c = preProcess(f)
+    lynx = lynxHelper()
+    f = lynx.run(url)
+    c = getCountset(f.split("\n"))
     print c
     for w in sorted(c.iterkeys()):
-        print w
-
+        print w,
+    pass

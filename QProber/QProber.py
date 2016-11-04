@@ -3,14 +3,22 @@ from collections import defaultdict
 from BingApi import BingApi
 from Topic import Topic
 
+import logging
+logging.basicConfig( level=logging.INFO )
+
 class QProber(object):
+
+    def __init__(self):
+        self.bing = BingApi()
+        self.r = Topic("Root")
+        self.r.load()
+        self.logger = logging.getLogger(self.__class__.__name__)
+        self.logger.info(self.__class__.__name__+'Initialised')
+        return
 
     def probe(self, host, ts, tc):
         print "Classifying..."
-        self.bing = BingApi()
         self.host = host
-        self.r = Topic("Root")
-        self.r.load()
         self.topic_coverage = defaultdict(float)
         self.topic_specificity = defaultdict(float)
         self.result = []
@@ -32,14 +40,15 @@ class QProber(object):
 
     
     def classify(self, topic, ts, tc, src_topic_espec):
-        totalCount = 0
+        self.logger.info('classifying %s, %f, %d', topic.name, ts, tc)
         #Calculate coverage info
         for query in topic.queries:
         	subtopic = topic.queries.get(query)
         	subtopicobject = topic.subtopics.get(subtopic)
         	self.topic_coverage[subtopic] = self.topic_coverage[subtopic] + self.bing.searchSiteMatch(self.host, query, subtopicobject)
+        totalCount = 0
         for subtopic in topic.subtopics:
-        	totalCount = totalCount+self.topic_coverage[subtopic]
+        	totalCount += self.topic_coverage[subtopic]
         	#print self.topic_coverage[subtopic]
         #print totalCount
 
@@ -75,7 +84,6 @@ if __name__ == "__main__":
     
     qp = QProber()
     qp.probe("health.com",0.6, 100)
-    '''
     qp = QProber()
     qp.probe("fifa.com",0.6, 100)
     qp = QProber()
@@ -84,6 +92,5 @@ if __name__ == "__main__":
     qp.probe("hardwarecentral.com",0.6, 100)
     qp = QProber()
     qp.probe("yahoo.com",0.6, 100)
-    '''
-
+    print qp.r
     

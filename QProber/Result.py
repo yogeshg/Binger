@@ -8,7 +8,10 @@ def printResult(res):
 def parseWebResults(web_json_list, num_results=10):
     contents = []
     for i in range(num_results):
-        contents.append({k:web_json_list[i][k].encode('ascii','ignore') for k in RESULT_KEYS})
+        try:
+            contents.append({k:web_json_list[i][k].encode('ascii','ignore') for k in RESULT_KEYS})
+        except:
+            pass
     return contents 
 
 def parseCompositeResult(result_json_dict, num_results=10):

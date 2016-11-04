@@ -15,6 +15,8 @@ import pprint
 
 import Result
 
+from Util import FileDict
+
 class BingApi():
     def __init__(self, api=None):
         if( api==None ):
@@ -26,7 +28,7 @@ class BingApi():
         self.url_format = 'https://api.datamarket.azure.com/Data.ashx/Bing/SearchWeb/v1/Composite?Query=%27site%3a{site}%20{query_word}%27&$top={num_results}&$format={output_format}'
         self.logger = logging.getLogger(self.__class__.__name__)
         self.logger.info(self.__class__.__name__+'Initialised')
-        self.cache = {}
+        self.cache = FileDict('./cache.{}.json'.format(self.__class__.__name__))
     
     def searchSite(self, site, query_word, num_results=10, output_format='json'):
         query = self.url_format.format(site=site, query_word=query_word, num_results=num_results, output_format=output_format)
@@ -47,30 +49,19 @@ class BingApi():
 
     def searchSiteMatch(self, host, query, topic):
         query = query.replace(' ', "%20")
-        bing_url_Prefix = "https://api.datamarket.azure.com/Data.ashx/Bing/SearchWeb/v1/Composite?Query="
-        bing_url = bing_url_Prefix + "%27site%3a" + host + "%20" + query +"%27&$top=10&$format=json"
-
-        #Send request to Bing Search
-        request = urllib2.Request(bing_url, headers=self.headers)
-        response = urllib2.urlopen(request)
-        
-        #Get and analyze result
-        content = json.load(response)
-        count = float(content["d"]["results"][0]["WebTotal"])
-        webs = content["d"]["results"][0]["Web"]
+        r = self.searchSite( host, query, num_results=4 );
+        count = r['WebTotal']
+        webs = r['Web']
         urls = set()
         for i in xrange(len(webs)):
             if i == 4:
                 break
             topic.addDocumentToThisAndParents(host,webs[i]["Url"])
-
-        
-        #print count
         return count
-
 
 if __name__ == "__main__":
     b = BingApi()
     r = b.searchSite('fifa.com', 'messi', num_results=1)
+    print r
     # print bing.searchSiteMatch("yahoo.com", "hello World")
 

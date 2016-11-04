@@ -1,6 +1,5 @@
 from collections import defaultdict
 import logging
-logger = logging.getLogger(__name__)
 
 class Topic():
     def __init__(self, topic):
@@ -11,11 +10,13 @@ class Topic():
         # db:str -> docs:set
         # r.sampleCD['fifa.com']
         self.sampleCD=defaultdict(set)
+        self.logger = logging.getLogger(self.__class__.__name__)
+        self.logger.info(self.__class__.__name__+'Initialised')
         return
 
     def load(self, parent=None):
         self.parent = parent
-        logger.debug('loading... '+str(self))
+        self.logger.debug('loading... '+str(self))
         try:
             with open('./data/'+self.name.lower()+'.txt','r') as f:
               for line in f:
@@ -24,8 +25,8 @@ class Topic():
                     self.subtopics[subtopic] = Topic(subtopic)
                 self.queries[query] = subtopic
         except Exception as e:
-            logger.exception(e)
-            logger.debug('leaf node encountered')
+            # self.logger.exception(e)
+            self.logger.debug('leaf node encountered')
         for s in self.subtopics.itervalues():
             s.load( parent=self )
         return
@@ -52,19 +53,13 @@ class Topic():
 if __name__ == "__main__":
     r = Topic("Root")
     r.load()
-    print r.name
-    for each in r.subtopics:
-        print each
-    for each in r.queries:
-        print each
-    for query in r.queries:
-        print r.queries.get(query)
+    print r
 
     for subtopic in r.iterSubtopics():
         print subtopic.subtopics
         print subtopic.queries
 
-    print r.subtopics.get("Computers").queries
+    print r.subtopics["Computers"].queries
 
     print r.name, r.sampleCD
     for s in r.iterSubtopics():
