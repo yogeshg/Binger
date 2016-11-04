@@ -39,7 +39,7 @@ class ContentSummaryConstructor(object):
         rootset = r.sampleCD().get(hostname)
         for url in rootset:
 	        #Get a set of word for this url
-		#Now we have many sets or words (one set for one URL) and we could get doc frequency
+		#Now we have many sets of words (one set for one URL) and we could get doc frequency
 		#Write doc frequency info to txt files
 
 		#Check each subtopic, if the subtopic's sampleCD is not empty do the same thing above
