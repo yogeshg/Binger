@@ -13,6 +13,7 @@ Files
     output.txt
     xxxx
     README.md
+    example-run.txt
 
 A detailed description
 ----------
