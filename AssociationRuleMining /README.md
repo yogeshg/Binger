@@ -30,6 +30,7 @@ A clear description of the internal design of your project
     1. We just read all from cvs file and store it in memory
     2. Then we iterate each row and generate the Set of large 1-itemset and filter it to get Set of candidate 1-itemset
     3. Use Algorithm Apriori  to find all existed Set of large k-itemset & Set of candidate k-itemset (Here is the pseudo code for it, figure-1 in the paper)
+```
 	1)  L1 = {large 1-itemsets};
 	2)  for ( k = 2; Lk-1 # 0; k++ ) do begin
 	3)    ck = apriori-gen(Lk-1); // New candidates
@@ -41,6 +42,7 @@ A clear description of the internal design of your project
 	9)    Lk = {C E ck | C.count >= minsup}
 	10) end
 	11) Answer = Uk Lk;
+```
     4. We try to generate all possible association based on all Sets of candidate k-itemsets and keep those whose confidence is higher than threshold.
     5. Finally, we write all of them to output.txt.
 
