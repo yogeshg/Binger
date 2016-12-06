@@ -56,3 +56,4 @@ The command line specification of an interesting sample run
 Additional Information
 ----------------------
     xxx
+python Association_Finder.py data/aggdata2.csv 0.05 0.9

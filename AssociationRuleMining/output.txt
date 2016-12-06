@@ -1,97 +1,107 @@
-Itemsets whose support is larger than 0.200000:
-[RESIDENTIAL BUILDING], 57.7%
-[HPD], 57.7%
-[RESIDENTIAL BUILDING,HPD], 57.7%
-[Department of Housing Preservation and Development], 57.6%
-[RESIDENTIAL BUILDING,Department of Housing Preservation and Development], 57.6%
-[HPD,Department of Housing Preservation and Development], 57.6%
-[RESIDENTIAL BUILDING,Department of Housing Preservation and Development,HPD], 57.6%
-[HEAT/HOT WATER], 43.0%
-[RESIDENTIAL BUILDING,HEAT/HOT WATER], 43.0%
-[HPD,HEAT/HOT WATER], 43.0%
-[RESIDENTIAL BUILDING,HPD,HEAT/HOT WATER], 43.0%
-[HEAT/HOT WATER,Department of Housing Preservation and Development], 42.9%
-[HPD,HEAT/HOT WATER,Department of Housing Preservation and Development], 42.9%
-[BROOKLYN], 31.7%
-[ENTIRE BUILDING], 28.5%
-[HPD,ENTIRE BUILDING], 28.5%
-[RESIDENTIAL BUILDING,ENTIRE BUILDING], 28.5%
-[ENTIRE BUILDING,HEAT/HOT WATER], 28.5%
-[RESIDENTIAL BUILDING,ENTIRE BUILDING,HEAT/HOT WATER], 28.5%
-[ENTIRE BUILDING,Department of Housing Preservation and Development], 28.4%
-[ENTIRE BUILDING,HEAT/HOT WATER,Department of Housing Preservation and Development], 28.4%
-[BRONX], 25.9%
-[MANHATTAN], 23.1%
-[NEW YORK], 22.5%
-[NEW YORK,MANHATTAN], 22.5%
-[NYPD], 22.3%
-[New York City Police Department], 22.3%
-[NYPD,New York City Police Department], 22.3%
-[Precinct], 22.3%
-[Precinct,NYPD], 22.3%
-[Precinct,New York City Police Department], 22.3%
-[Precinct,NYPD,New York City Police Department], 22.3%
+Itemsets whose support is larger than 0.050000:
+[1], 57.6%
+[2010 02], 29.2%
+[2010 03], 27.5%
+[queens], 24.3%
+[brooklyn], 22.6%
+[2010 01], 21.8%
+[2010 04], 21.6%
+[unspecified], 18.7%
+[residential building], 18.1%
+[department of housing preservation and development], 18.0%
+[department of housing preservation and development,residential building], 18.0%
+[residential building,unspecified], 17.9%
+[department of housing preservation and development,unspecified], 17.9%
+[2], 17.5%
+[manhattan], 17.4%
+[department of transportation], 17.3%
+[street], 15.9%
+[2010 02,1], 15.8%
+[1,2010 03], 15.5%
+[queens,1], 15.3%
+[1,brooklyn], 13.5%
+[new york city police department], 13.4%
+[2010 04,1], 13.2%
+[1,2010 01], 13.0%
+[bronx], 11.3%
+[manhattan,1], 11.3%
+[department of buildings], 11.1%
+[1,department of transportation], 10.3%
+[1,street], 9.3%
+[sidewalk], 8.4%
+[3], 8.4%
+[street sidewalk], 8.3%
+[street sidewalk,new york city police department], 8.3%
+[1,bronx], 7.2%
+[queens,2010 02], 7.1%
+[department of buildings,1], 7.1%
+[department of transportation,street], 7.0%
+[1,unspecified], 7.0%
+[queens,2010 03], 6.7%
+[residential building,1], 6.7%
+[2010 02,brooklyn], 6.6%
+[department of health and mental hygiene], 6.6%
+[new york city police department,1], 6.6%
+[department of housing preservation and development,1], 6.6%
+[department of housing preservation and development,1,unspecified], 6.5%
+[residential building,1,unspecified], 6.5%
+[department of parks and recreation], 6.4%
+[2010 03,brooklyn], 6.3%
+[queens,department of transportation], 5.8%
+[staten island], 5.7%
+[sidewalk,1], 5.7%
+[department of health and mental hygiene,1], 5.5%
+[2010 04,queens], 5.3%
+[general construction plumbing], 5.3%
+[department of buildings,general construction plumbing], 5.3%
+[manhattan,2010 02], 5.3%
+[queens,street], 5.2%
+[2010 02,unspecified], 5.2%
+[queens,2010 01], 5.2%
+[2,2010 02], 5.1%
+[general construction], 5.0%
+[department of housing preservation and development,general construction], 5.0%
+[residential building,general construction], 5.0%
+[department of housing preservation and development,residential building,general construction], 5.0%
+[general construction,unspecified], 5.0%
+[department of housing preservation and development,unspecified,general construction], 5.0%
+[residential building,general construction,unspecified], 5.0%
+[2010 02,residential building], 5.0%
 
 
-Itemsets whose confidence is larger than 0.700000:
-[RESIDENTIAL BUILDING] --> [HPD] (Conf: 100.0%, Supp: 57.7%)
-[HPD] --> [RESIDENTIAL BUILDING] (Conf: 100.0%, Supp: 57.7%)
-[RESIDENTIAL BUILDING,Department of Housing Preservation and Development] --> [HPD] (Conf: 100.0%, Supp: 57.6%)
-[Department of Housing Preservation and Development] --> [HPD] (Conf: 100.0%, Supp: 57.6%)
-[Department of Housing Preservation and Development] --> [RESIDENTIAL BUILDING] (Conf: 100.0%, Supp: 57.6%)
-[HPD,Department of Housing Preservation and Development] --> [RESIDENTIAL BUILDING] (Conf: 100.0%, Supp: 57.6%)
-[HEAT/HOT WATER] --> [RESIDENTIAL BUILDING] (Conf: 100.0%, Supp: 43.0%)
-[RESIDENTIAL BUILDING,HEAT/HOT WATER] --> [HPD] (Conf: 100.0%, Supp: 43.0%)
-[HEAT/HOT WATER] --> [HPD] (Conf: 100.0%, Supp: 43.0%)
-[HPD,HEAT/HOT WATER] --> [RESIDENTIAL BUILDING] (Conf: 100.0%, Supp: 43.0%)
-[HEAT/HOT WATER,Department of Housing Preservation and Development] --> [HPD] (Conf: 100.0%, Supp: 42.9%)
-[HPD,HEAT/HOT WATER,Department of Housing Preservation and Development] --> [RESIDENTIAL BUILDING] (Conf: 100.0%, Supp: 42.9%)
-[HEAT/HOT WATER,Department of Housing Preservation and Development] --> [RESIDENTIAL BUILDING] (Conf: 100.0%, Supp: 42.9%)
-[RESIDENTIAL BUILDING,ENTIRE BUILDING,HEAT/HOT WATER] --> [HPD] (Conf: 100.0%, Supp: 28.5%)
-[ENTIRE BUILDING,HEAT/HOT WATER] --> [HPD] (Conf: 100.0%, Supp: 28.5%)
-[ENTIRE BUILDING] --> [HEAT/HOT WATER] (Conf: 100.0%, Supp: 28.5%)
-[ENTIRE BUILDING] --> [RESIDENTIAL BUILDING] (Conf: 100.0%, Supp: 28.5%)
-[RESIDENTIAL BUILDING,ENTIRE BUILDING] --> [HPD] (Conf: 100.0%, Supp: 28.5%)
-[HPD,ENTIRE BUILDING] --> [HEAT/HOT WATER] (Conf: 100.0%, Supp: 28.5%)
-[RESIDENTIAL BUILDING,ENTIRE BUILDING] --> [HEAT/HOT WATER] (Conf: 100.0%, Supp: 28.5%)
-[ENTIRE BUILDING] --> [HPD] (Conf: 100.0%, Supp: 28.5%)
-[HPD,ENTIRE BUILDING] --> [RESIDENTIAL BUILDING] (Conf: 100.0%, Supp: 28.5%)
-[ENTIRE BUILDING,HEAT/HOT WATER] --> [RESIDENTIAL BUILDING] (Conf: 100.0%, Supp: 28.5%)
-[ENTIRE BUILDING,Department of Housing Preservation and Development] --> [HEAT/HOT WATER] (Conf: 100.0%, Supp: 28.4%)
-[ENTIRE BUILDING,HEAT/HOT WATER,Department of Housing Preservation and Development] --> [HPD] (Conf: 100.0%, Supp: 28.4%)
-[ENTIRE BUILDING,Department of Housing Preservation and Development] --> [HPD] (Conf: 100.0%, Supp: 28.4%)
-[ENTIRE BUILDING,HEAT/HOT WATER,Department of Housing Preservation and Development] --> [RESIDENTIAL BUILDING] (Conf: 100.0%, Supp: 28.4%)
-[ENTIRE BUILDING,Department of Housing Preservation and Development] --> [RESIDENTIAL BUILDING] (Conf: 100.0%, Supp: 28.4%)
-[NEW YORK] --> [MANHATTAN] (Conf: 100.0%, Supp: 22.5%)
-[NYPD] --> [New York City Police Department] (Conf: 100.0%, Supp: 22.3%)
-[New York City Police Department] --> [NYPD] (Conf: 100.0%, Supp: 22.3%)
-[Precinct,NYPD] --> [New York City Police Department] (Conf: 100.0%, Supp: 22.3%)
-[Precinct] --> [New York City Police Department] (Conf: 100.0%, Supp: 22.3%)
-[Precinct] --> [NYPD] (Conf: 100.0%, Supp: 22.3%)
-[Precinct,New York City Police Department] --> [NYPD] (Conf: 100.0%, Supp: 22.3%)
-[RESIDENTIAL BUILDING] --> [Department of Housing Preservation and Development] (Conf: 99.8%, Supp: 57.7%)
-[HPD] --> [Department of Housing Preservation and Development] (Conf: 99.8%, Supp: 57.7%)
-[RESIDENTIAL BUILDING,HPD] --> [Department of Housing Preservation and Development] (Conf: 99.8%, Supp: 57.7%)
-[RESIDENTIAL BUILDING,HPD,HEAT/HOT WATER] --> [Department of Housing Preservation and Development] (Conf: 99.7%, Supp: 43.0%)
-[HPD,HEAT/HOT WATER] --> [Department of Housing Preservation and Development] (Conf: 99.7%, Supp: 43.0%)
-[RESIDENTIAL BUILDING,HEAT/HOT WATER] --> [Department of Housing Preservation and Development] (Conf: 99.7%, Supp: 43.0%)
-[HEAT/HOT WATER] --> [Department of Housing Preservation and Development] (Conf: 99.7%, Supp: 43.0%)
-[NYPD,New York City Police Department] --> [Precinct] (Conf: 99.7%, Supp: 22.3%)
-[NYPD] --> [Precinct] (Conf: 99.7%, Supp: 22.3%)
-[New York City Police Department] --> [Precinct] (Conf: 99.7%, Supp: 22.3%)
-[ENTIRE BUILDING] --> [Department of Housing Preservation and Development] (Conf: 99.6%, Supp: 28.5%)
-[HPD,ENTIRE BUILDING] --> [Department of Housing Preservation and Development] (Conf: 99.6%, Supp: 28.5%)
-[ENTIRE BUILDING,HEAT/HOT WATER] --> [Department of Housing Preservation and Development] (Conf: 99.6%, Supp: 28.5%)
-[RESIDENTIAL BUILDING,ENTIRE BUILDING] --> [Department of Housing Preservation and Development] (Conf: 99.6%, Supp: 28.5%)
-[RESIDENTIAL BUILDING,ENTIRE BUILDING,HEAT/HOT WATER] --> [Department of Housing Preservation and Development] (Conf: 99.6%, Supp: 28.5%)
-[MANHATTAN] --> [NEW YORK] (Conf: 97.3%, Supp: 23.1%)
-[HPD] --> [HEAT/HOT WATER] (Conf: 74.6%, Supp: 57.7%)
-[RESIDENTIAL BUILDING,HPD] --> [HEAT/HOT WATER] (Conf: 74.6%, Supp: 57.7%)
-[RESIDENTIAL BUILDING] --> [HEAT/HOT WATER] (Conf: 74.6%, Supp: 57.7%)
-[RESIDENTIAL BUILDING,Department of Housing Preservation and Development] --> [HEAT/HOT WATER] (Conf: 74.6%, Supp: 57.6%)
-[Department of Housing Preservation and Development] --> [HEAT/HOT WATER] (Conf: 74.6%, Supp: 57.6%)
-[HPD,Department of Housing Preservation and Development] --> [HEAT/HOT WATER] (Conf: 74.6%, Supp: 57.6%)
-[RESIDENTIAL BUILDING,Department of Housing Preservation and Development,HPD] --> [HEAT/HOT WATER] (Conf: 74.6%, Supp: 57.6%)
-[BRONX] --> [HPD] (Conf: 74.5%, Supp: 25.9%)
-[BRONX] --> [RESIDENTIAL BUILDING] (Conf: 74.5%, Supp: 25.9%)
-[BRONX] --> [Department of Housing Preservation and Development] (Conf: 74.5%, Supp: 25.9%)
+Itemsets whose confidence is larger than 0.900000:
+[department of housing preservation and development] --> [residential building] (Conf: 100.0%, Supp: 18.0%)
+[department of housing preservation and development,unspecified] --> [residential building] (Conf: 100.0%, Supp: 17.9%)
+[residential building,unspecified] --> [department of housing preservation and development] (Conf: 100.0%, Supp: 17.9%)
+[street sidewalk] --> [new york city police department] (Conf: 100.0%, Supp: 8.3%)
+[department of housing preservation and development,1] --> [residential building] (Conf: 100.0%, Supp: 6.6%)
+[residential building,1,unspecified] --> [department of housing preservation and development] (Conf: 100.0%, Supp: 6.5%)
+[department of housing preservation and development,1,unspecified] --> [residential building] (Conf: 100.0%, Supp: 6.5%)
+[general construction plumbing] --> [department of buildings] (Conf: 100.0%, Supp: 5.3%)
+[department of housing preservation and development,general construction] --> [residential building] (Conf: 100.0%, Supp: 5.0%)
+[general construction] --> [department of housing preservation and development] (Conf: 100.0%, Supp: 5.0%)
+[residential building,general construction] --> [department of housing preservation and development] (Conf: 100.0%, Supp: 5.0%)
+[general construction] --> [residential building] (Conf: 100.0%, Supp: 5.0%)
+[general construction,unspecified] --> [residential building] (Conf: 100.0%, Supp: 5.0%)
+[general construction,unspecified] --> [department of housing preservation and development] (Conf: 100.0%, Supp: 5.0%)
+[department of housing preservation and development,unspecified,general construction] --> [residential building] (Conf: 100.0%, Supp: 5.0%)
+[residential building,general construction,unspecified] --> [department of housing preservation and development] (Conf: 100.0%, Supp: 5.0%)
+[residential building,general construction] --> [unspecified] (Conf: 99.8%, Supp: 5.0%)
+[general construction] --> [unspecified] (Conf: 99.8%, Supp: 5.0%)
+[department of housing preservation and development,general construction] --> [unspecified] (Conf: 99.8%, Supp: 5.0%)
+[department of housing preservation and development,residential building,general construction] --> [unspecified] (Conf: 99.8%, Supp: 5.0%)
+[department of housing preservation and development,residential building] --> [unspecified] (Conf: 99.7%, Supp: 18.0%)
+[department of housing preservation and development] --> [unspecified] (Conf: 99.7%, Supp: 18.0%)
+[residential building] --> [department of housing preservation and development] (Conf: 99.3%, Supp: 18.1%)
+[2010 02,residential building] --> [department of housing preservation and development] (Conf: 99.2%, Supp: 5.0%)
+[department of housing preservation and development,1] --> [unspecified] (Conf: 99.1%, Supp: 6.6%)
+[residential building] --> [unspecified] (Conf: 99.0%, Supp: 18.1%)
+[2010 02,residential building] --> [unspecified] (Conf: 98.9%, Supp: 5.0%)
+[residential building,1] --> [department of housing preservation and development] (Conf: 98.6%, Supp: 6.7%)
+[residential building,1] --> [unspecified] (Conf: 97.7%, Supp: 6.7%)
+[unspecified] --> [department of housing preservation and development] (Conf: 95.8%, Supp: 18.7%)
+[unspecified] --> [residential building] (Conf: 95.8%, Supp: 18.7%)
+[2010 02,unspecified] --> [department of housing preservation and development] (Conf: 95.4%, Supp: 5.2%)
+[2010 02,unspecified] --> [residential building] (Conf: 95.4%, Supp: 5.2%)
+[1,unspecified] --> [residential building] (Conf: 93.0%, Supp: 7.0%)
+[1,unspecified] --> [department of housing preservation and development] (Conf: 93.0%, Supp: 7.0%)
