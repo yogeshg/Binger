@@ -1,0 +1,47 @@
+* we check the size of data, it has 14 million rows
+    $ wc -l data_311.csv
+    14099926
+
+* we want to create a kdb database for this csv, but the free version of kdb can only process 4GB data in RAM
+
+* we slpit the data in 10 parts, and try to load the data in kdb memory and then setting it on hard disk for queries
+    $ split -l 1400000 data_311.csv
+    $ wc -l t*
+     1400000 taa
+     1400000 tab
+     1400000 tac
+     1400000 tad
+     1400000 tae
+     1400000 taf
+     1400000 tag
+     1400000 tah
+     1400000 tai
+     1400000 taj
+       99926 tak
+    
+* This failed and we had to split the data into half the size which means 20 parts
+    $ du -sh ta*
+    459M	taa
+    437M	tab
+    451M	tac
+    443M	tad
+    437M	tae
+    459M	taf
+    457M	tag
+    416M	tah
+    406M	tai
+    452M	taj
+    458M	tak
+    449M	tal
+    457M	tam
+    441M	tan
+    457M	tao
+    445M	tap
+    449M	taq
+    454M	tar
+    438M	tas
+    458M	tat
+     65M	tau
+
+* Using nyc311.q, we write these split csv files to kdb format database
+
