@@ -1,0 +1,27 @@
+Itemsets whose support is larger than 0.200000:
+[NYPD], 31.3%
+[New York City Police Department], 31.2%
+[NYPD,New York City Police Department], 31.2%
+[BROOKLYN], 29.4%
+[HPD], 23.3%
+[Department of Housing Preservation and Development], 23.3%
+[HPD,Department of Housing Preservation and Development], 23.3%
+[RESIDENTIAL BUILDING], 23.2%
+[RESIDENTIAL BUILDING,HPD], 23.2%
+[RESIDENTIAL BUILDING,Department of Housing Preservation and Development], 23.2%
+[QUEENS], 22.3%
+[MANHATTAN], 21.5%
+
+
+Itemsets whose confidence is larger than 0.900000:
+[New York City Police Department] --> [NYPD] (Conf: 100.0%, Supp: 31.2%)
+[HPD] --> [Department of Housing Preservation and Development] (Conf: 100.0%, Supp: 23.3%)
+[Department of Housing Preservation and Development] --> [HPD] (Conf: 100.0%, Supp: 23.3%)
+[RESIDENTIAL BUILDING,Department of Housing Preservation and Development] --> [HPD] (Conf: 100.0%, Supp: 23.2%)
+[RESIDENTIAL BUILDING,HPD] --> [Department of Housing Preservation and Development] (Conf: 100.0%, Supp: 23.2%)
+[RESIDENTIAL BUILDING] --> [HPD] (Conf: 100.0%, Supp: 23.2%)
+[RESIDENTIAL BUILDING] --> [Department of Housing Preservation and Development] (Conf: 100.0%, Supp: 23.2%)
+[NYPD] --> [New York City Police Department] (Conf: 100.0%, Supp: 31.3%)
+[Department of Housing Preservation and Development] --> [RESIDENTIAL BUILDING] (Conf: 99.4%, Supp: 23.3%)
+[HPD,Department of Housing Preservation and Development] --> [RESIDENTIAL BUILDING] (Conf: 99.4%, Supp: 23.3%)
+[HPD] --> [RESIDENTIAL BUILDING] (Conf: 99.4%, Supp: 23.3%)

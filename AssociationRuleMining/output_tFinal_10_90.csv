@@ -1,0 +1,78 @@
+Itemsets whose support is larger than 0.100000:
+[NYPD], 31.3%
+[New York City Police Department], 31.2%
+[NYPD,New York City Police Department], 31.2%
+[BROOKLYN], 29.4%
+[HPD], 23.3%
+[Department of Housing Preservation and Development], 23.3%
+[HPD,Department of Housing Preservation and Development], 23.3%
+[RESIDENTIAL BUILDING], 23.2%
+[RESIDENTIAL BUILDING,Department of Housing Preservation and Development], 23.2%
+[RESIDENTIAL BUILDING,HPD], 23.2%
+[QUEENS], 22.3%
+[MANHATTAN], 21.5%
+[Street/Sidewalk], 18.7%
+[BRONX], 17.8%
+[NYPD,Street/Sidewalk], 17.7%
+[NYPD,Street/Sidewalk,New York City Police Department], 17.7%
+[Street/Sidewalk,New York City Police Department], 17.7%
+[Residential Building/House], 10.8%
+[DOT], 10.7%
+[Department of Transportation], 10.7%
+[DOT,Department of Transportation], 10.7%
+[NYPD,Residential Building/House], 10.7%
+[NYPD,Residential Building/House,New York City Police Department], 10.7%
+[New York City Police Department,Residential Building/House], 10.7%
+[Noise - Residential], 10.2%
+[NYPD,Noise - Residential], 10.2%
+[Noise - Residential,Residential Building/House], 10.2%
+[Noise - Residential,New York City Police Department,Residential Building/House], 10.2%
+[NYPD,Noise - Residential,New York City Police Department], 10.2%
+[Noise - Residential,New York City Police Department], 10.2%
+[Loud Music/Party], 10.1%
+[Loud Music/Party,NYPD], 10.1%
+[Loud Music/Party,NYPD,New York City Police Department], 10.1%
+[Loud Music/Party,New York City Police Department], 10.1%
+
+
+Itemsets whose confidence is larger than 0.900000:
+[New York City Police Department] --> [NYPD] (Conf: 100.0%, Supp: 31.2%)
+[Department of Housing Preservation and Development] --> [HPD] (Conf: 100.0%, Supp: 23.3%)
+[HPD] --> [Department of Housing Preservation and Development] (Conf: 100.0%, Supp: 23.3%)
+[RESIDENTIAL BUILDING,Department of Housing Preservation and Development] --> [HPD] (Conf: 100.0%, Supp: 23.2%)
+[RESIDENTIAL BUILDING] --> [Department of Housing Preservation and Development] (Conf: 100.0%, Supp: 23.2%)
+[RESIDENTIAL BUILDING] --> [HPD] (Conf: 100.0%, Supp: 23.2%)
+[RESIDENTIAL BUILDING,HPD] --> [Department of Housing Preservation and Development] (Conf: 100.0%, Supp: 23.2%)
+[Street/Sidewalk,New York City Police Department] --> [NYPD] (Conf: 100.0%, Supp: 17.7%)
+[Department of Transportation] --> [DOT] (Conf: 100.0%, Supp: 10.7%)
+[New York City Police Department,Residential Building/House] --> [NYPD] (Conf: 100.0%, Supp: 10.7%)
+[Noise - Residential] --> [NYPD] (Conf: 100.0%, Supp: 10.2%)
+[Noise - Residential,Residential Building/House] --> [NYPD] (Conf: 100.0%, Supp: 10.2%)
+[Noise - Residential] --> [Residential Building/House] (Conf: 100.0%, Supp: 10.2%)
+[NYPD,Noise - Residential] --> [Residential Building/House] (Conf: 100.0%, Supp: 10.2%)
+[NYPD,Noise - Residential,New York City Police Department] --> [Residential Building/House] (Conf: 100.0%, Supp: 10.2%)
+[Noise - Residential,New York City Police Department,Residential Building/House] --> [NYPD] (Conf: 100.0%, Supp: 10.2%)
+[Noise - Residential,New York City Police Department] --> [NYPD] (Conf: 100.0%, Supp: 10.2%)
+[Noise - Residential,New York City Police Department] --> [Residential Building/House] (Conf: 100.0%, Supp: 10.2%)
+[Loud Music/Party] --> [NYPD] (Conf: 100.0%, Supp: 10.1%)
+[Loud Music/Party,New York City Police Department] --> [NYPD] (Conf: 100.0%, Supp: 10.1%)
+[DOT] --> [Department of Transportation] (Conf: 100.0%, Supp: 10.7%)
+[NYPD,Residential Building/House] --> [New York City Police Department] (Conf: 100.0%, Supp: 10.7%)
+[NYPD,Street/Sidewalk] --> [New York City Police Department] (Conf: 100.0%, Supp: 17.7%)
+[Noise - Residential] --> [New York City Police Department] (Conf: 100.0%, Supp: 10.2%)
+[NYPD,Noise - Residential] --> [New York City Police Department] (Conf: 100.0%, Supp: 10.2%)
+[Noise - Residential,Residential Building/House] --> [New York City Police Department] (Conf: 100.0%, Supp: 10.2%)
+[Loud Music/Party,NYPD] --> [New York City Police Department] (Conf: 100.0%, Supp: 10.1%)
+[Loud Music/Party] --> [New York City Police Department] (Conf: 100.0%, Supp: 10.1%)
+[NYPD] --> [New York City Police Department] (Conf: 100.0%, Supp: 31.3%)
+[Department of Housing Preservation and Development] --> [RESIDENTIAL BUILDING] (Conf: 99.4%, Supp: 23.3%)
+[HPD,Department of Housing Preservation and Development] --> [RESIDENTIAL BUILDING] (Conf: 99.4%, Supp: 23.3%)
+[HPD] --> [RESIDENTIAL BUILDING] (Conf: 99.4%, Supp: 23.3%)
+[Residential Building/House] --> [NYPD] (Conf: 98.8%, Supp: 10.8%)
+[Residential Building/House] --> [New York City Police Department] (Conf: 98.8%, Supp: 10.8%)
+[NYPD,Residential Building/House] --> [Noise - Residential] (Conf: 95.3%, Supp: 10.7%)
+[New York City Police Department,Residential Building/House] --> [Noise - Residential] (Conf: 95.3%, Supp: 10.7%)
+[NYPD,Residential Building/House,New York City Police Department] --> [Noise - Residential] (Conf: 95.3%, Supp: 10.7%)
+[Street/Sidewalk] --> [NYPD] (Conf: 94.4%, Supp: 18.7%)
+[Street/Sidewalk] --> [New York City Police Department] (Conf: 94.4%, Supp: 18.7%)
+[Residential Building/House] --> [Noise - Residential] (Conf: 94.2%, Supp: 10.8%)

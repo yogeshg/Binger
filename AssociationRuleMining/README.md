@@ -1,36 +1,166 @@
 AssociationRuleMining
-======
+=====================
 
 Authors
 -------
-    Li Niu (ln2334) and Yogesh Garg (yg2482)
-    Project 3 Group 37
+
+This is the work of Group 37
+
+ * Li Niu (ln2334)
+ * Yogesh Garg (yg2482)
+
+for the Project 3 of Advanced Database Systems, COMS 611, fall 2016.
 
 Files
 -----
-    Association_Finder.py
-    INTEGRATED-DATASET
-    output.txt
-    xxxx
-    README.md
-    example-run.txt
 
-A detailed description
-----------
-    a. We are using <311 Service Requests from 2010 to Present> to generate INTEGRATED-DATASET.csv.
-    b. Yogesh’s work 
-    c. Yogesh’s work 
+    $ tree .
+    .                             # 
+    ├── Association_Finder.py     # This python file contains the code to
+    │                             #   process the dataset and algorithm
+    │                             #   described in one of the sections
+    ├── README.md                 # 
+    ├── Util.py                   # Utilities we no longer use (caching etc.)
+    ├── data                      # Subfolder containing datasets
+    │   ├── data_311.csv          # the actual dataset
+    │   ├── download.sh           # script to download the actual dataset
+    │   ├── nyc311.q              # q/kdb script to process csv chunks into hdb
+    │   ├── hdb1                  # kdb dataset is created here
+    │   ├── makeStatsTables.q     # this script is used create a cut of the
+    │   │                         #   data for our algorithm as discussed below
+    │   ├── download_final.sh     # script to download a copy of final dataset
+    │   ├── tFinal.csv            # the generated data
+    │   ├── tFinal_sample.csv     # sample of generated data
+    ├── output_tFinal_10_75.csv   # output for 10pc support and 75pc confidence
+    ├── output_tFinal_10_90.csv   # output for 10pc support and 90pc confidence
+    └── output_tFinal_20_90.csv   # output for 20pc support and 90pc confidence
 
-A clear description of how to run your program 
--------
-    Sample Command line: python association_rule.py <input_data> <min_sup> <min_conf>
-    e.g. python Association_Finder.py INTEGRATED-DATASET.csv 0.3 0.8
+Dataset (a detailed description)
+----------------------
 
-A clear description of the internal design of your project
------------
-    1. We just read all from cvs file and store it in memory
-    2. Then we iterate each row and generate the Set of large 1-itemset and filter it to get Set of candidate 1-itemset
-    3. Use Algorithm Apriori  to find all existed Set of large k-itemset & Set of candidate k-itemset (Here is the pseudo code for it, figure-1 in the paper)
+* we are using [nycdata311](nycdata311) to generate `tFinal.csv`
+* as described on the website, this dataset contains
+> All 311 Service Requests from 2010 to present. This information is automatically updated daily.
+* we check the size of data, it has 14 million rows
+```
+    $ wc -l data_311.csv
+     14099926
+
+    $ du -sh data_311.csv
+    8.8G    data_311.csv
+```
+* to view the distribution of columns and select the relevant ones, we want to
+  create a kdb database for this csv
+* this would require a file to be read in memory in chunks and written to a
+  file based database partitioned by date
+* the free version of kdb can only process 4GB data in RAM, so we decide to cut
+  the database in 10 parts
+```
+    $ split -l 1400000 data_311.csv
+    $ wc -l t*
+     1400000 taa
+     1400000 tab
+     1400000 tac
+     1400000 tad
+     1400000 tae
+     1400000 taf
+     1400000 tag
+     1400000 tah
+     1400000 tai
+     1400000 taj
+       99926 tak
+```
+* We still failed to fit each chunk into memory and we had to split the data
+  into half the size which means 20 parts
+```
+    $ du -sh ta*
+    459M    taa
+    437M    tab
+    451M    tac
+    443M    tad
+    437M    tae
+    459M    taf
+    457M    tag
+    416M    tah
+    406M    tai
+    452M    taj
+    458M    tak
+    449M    tal
+    457M    tam
+    441M    tan
+    457M    tao
+    445M    tap
+    449M    taq
+    454M    tar
+    438M    tas
+    458M    tat
+     65M    tau
+```
+* Using [nyc311.q](nyc311_q), we write these split csv files to kdb format database
+* this allows us to write queries like following and run on the entire dataset
+```
+    q)t2: select count[i] by year:`year$date, borough from tCalls;
+    q)exec borough!numrows by year:year from 0!t2
+```
+year| BRONX  |BROOKLYN |MANHATTAN |QUEENS |STATEN ISLAND |Unspecified
+---:|-------:|--------:|---------:|------:|-------------:|----------:
+2010| 88356  |169632   |120473    |162046 |37770         |334178
+2011| 204332 |332209   |210145    |238468 |56911         |66228
+2012| 258597 |408595   |258915    |294427 |59381         |39439
+2013| 236392 |375026   |247907    |252290 |51057         |53422
+2014| 114816 |174184   |119113    |119138 |21266         |19629
+2015| 51250  |71428    |45711     |47714  |8384          |13960
+2016| 34694  |57456    |42059     |43633  |8909          |8549
+```
+    // for about agency that constituite 90% of the data
+    q)exec d1^(`$string year)!numrows by agency:agency from t3
+```
+agency                                            | 2010   |2011   |2012   |2013   |2014   |2015   |2016
+--------------------------------------------------| ------:|------:|------:|------:|------:|------:|----:
+BCC - Brooklyn South                              | 6540   |6646   |7965   |7876   |3904   |1487   |1754
+DHS Advantage Programs                            | 14162  |13943  |2833   |99     |5      |3      |2200
+Department for the Aging                          | 4656   |5891   |7882   |6721   |2366   |1075   |534
+Department of Buildings                           | 53028  |49644  |64847  |55092  |23782  |6573   |7446
+Department of Consumer Affairs                    | 10966  |12921  |17347  |13983  |5377   |1801   |1530
+Department of Environmental Protection            | 8613   |92499  |6113   |1841   |1178   |2367   |14310
+Department of Finance                             | 13757  |1828   |17009  |29004  |7060   |5286   |3446
+Department of Health and Mental Hygiene           | 21887  |26897  |37062  |32064  |13843  |4165   |4880
+Department of Housing Preservation and Development| 322044 |398137 |455989 |415038 |205966 |100416 |45525
+Department of Parks and Recreation                | 47416  |57559  |89967  |57958  |20916  |3816   |6637
+Department of Sanitation                          | 8813   |4492   |11271  |8965   |492    |1225   |1786
+Department of Transportation                      | 150559 |149289 |202465 |192250 |74209  |34810  |20930
+New York City Police Department                   | 172753 |178121 |246764 |262122 |149284 |46023  |61030
+Refunds and Adjustments                           | 4314   |5017   |7666   |6964   |3450   |1077   |568
+Senior Citizen Rent Increase Exemption Unit       | 4143   |8941   |12222  |5635   |2393   |853    |449
+Taxi and Limousine Commission                     | 13757  |14148  |18265  |14191  |6222   |1853   |2200
+
+* after looking at **many** cuts of data, we settle for the following view to create our integrated dataset:
+```
+    q) tFinal:.yo.wash select Agency, Agency_Name, Borough, Location_Type, Street_Name,
+                Complaint_Type, Descriptor, Incident_Zip from tCalls
+                where date within (2016.01.01; 2016.12.31);
+    q) save `:/tmp/tFinal.csv;
+    q) show count tFinal;
+```
+
+* we select the following columns and consider the created_date for 2016:
+  - Agency
+  - Agency_Name
+  - Borough
+  - Location_Type
+  - Street_Name
+  - Complaint_Type
+  - Descriptor
+  - Incident_Zip
+
+The Algorithm (internal design of your project)
+-----------------------------------------------
+* We just read all from cvs file and store it in memory
+* Then we iterate each row and generate the Set of large 1-itemset and filter
+  it to get Set of candidate 1-itemset
+* Use Algorithm Apriori  to find all existed Set of large k-itemset and Set of
+  candidate k-itemset (Here is the pseudo code for it, figure-1 in the
+  [paper](VLDB)
 ```
 	1)  L1 = {large 1-itemsets};
 	2)  for ( k = 2; Lk-1 # 0; k++ ) do begin
@@ -44,16 +174,28 @@ A clear description of the internal design of your project
 	10) end
 	11) Answer = Uk Lk;
 ```
-    4. We try to generate all possible association based on all Sets of candidate k-itemsets and keep those whose confidence is higher than threshold.
-    5. Finally, we write all of them to output.txt.
+* We try to generate all possible association based on all Sets of candidate
+  k-itemsets and keep those whose confidence is higher than threshold.
+* Finally, we write all of them to output.txt.
 
+how to run
+----------
+Sample Command line
 
+    usage: 
+        python association_rule.py <input_data> <min_sup> <min_conf>
 
-The command line specification of an interesting sample run
------------------------
-    xxx
+    $ python Association_Finder.py data/aggdata2.csv 0.05 0.9
+    $ python Association_Finder.py data/tFinal.csv 0.2 0.9 
 
-Additional Information
-----------------------
-    xxx
-python Association_Finder.py data/aggdata2.csv 0.05 0.9
+References
+----------
+* [assignment_description](http://www.cs.columbia.edu/~gravano/cs6111/proj3.html):
+    Assignment description.
+* [VLDB](http://www.cs.columbia.edu/~gravano/Qual/Papers/agrawal94.pdf):
+    Rakesh Agrawal and Ramakrishnan Srikant: Fast Algorithms for Mining Association Rules in Large Databases, VLDB 1994.
+* [nycdata311](https://data.cityofnewyork.us/Social-Services/311-Service-Requests-from-2010-to-Present/erm2-nwe9):
+    The source of original data.
+* [nyc311_q](https://github.com/yogeshg/DI/tree/master/nyc311):
+    The code used to generate kdb from csv is adapted from one of the author's
+    previous projects.
