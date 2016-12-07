@@ -203,6 +203,8 @@ How to Run
     usage: 
         python association_rule.py <input_data> <min_sup> <min_conf>
 
+    $ python Association_Finder.py data/tFinal_sample.csv 0.2 0.9
+    $ ./data/download_final.sh
     $ python Association_Finder.py data/tFinal.csv 0.2 0.9
     $ mv output.csv output_tFinal_20_90.csv
     $ python Association_Finder.py data/tFinal.csv 0.1 0.9
