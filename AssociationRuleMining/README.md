@@ -29,18 +29,21 @@ Files
     │   ├── makeStatsTables.q     # this script is used create a cut of the
     │   │                         #   data for our algorithm as discussed below
     │   ├── download_final.sh     # script to download a copy of final dataset
-    │   ├── tFinal.csv            # the generated data
+    │   ├── tFinal.csv            # the generated data, not included in the repo
+    │   │                         #   but it can be downloaded using the above
+    │   │                         #   script or following the steps described
     │   ├── tFinal_sample.csv     # sample of generated data
     ├── output_tFinal_10_75.csv   # output for 10pc support and 75pc confidence
     ├── output_tFinal_10_90.csv   # output for 10pc support and 90pc confidence
     └── output_tFinal_20_90.csv   # output for 20pc support and 90pc confidence
 
 Dataset (a detailed description)
-----------------------
+--------------------------------
 
 * we are using [nycdata311](nycdata311) to generate `tFinal.csv`
 * as described on the website, this dataset contains
-> All 311 Service Requests from 2010 to present. This information is automatically updated daily.
+  > All 311 Service Requests from 2010 to present. This information is automatically
+  > updated daily.
 * we check the size of data, it has 14 million rows
 ```
     $ wc -l data_311.csv
@@ -143,7 +146,7 @@ Taxi and Limousine Commission                     | 13757  |14148  |18265  |1419
     q) show count tFinal;
 ```
 
-* we select the following columns and consider the created_date for 2016:
+* we select the following columns and consider the **created_date for 2016**:
   - Agency
   - Agency_Name
   - Borough
@@ -152,9 +155,24 @@ Taxi and Limousine Commission                     | 13757  |14148  |18265  |1419
   - Complaint_Type
   - Descriptor
   - Incident_Zip
+* we chose this cut for analysis because
+  - This contains most relevant columns, some of which are correlated and some
+    un-correlated
+  - We delete many columns that contain very sparse data like school name, which
+    seems to be very specifically tailored to a specific type of call
+  - We use one year's worth of data, to ensure we do not miss out any artefact
+    that may arise due to season
 
-The Algorithm (internal design of your project)
------------------------------------------------
+* `data/tFinal.csv` contains 195300 records and ```data/tFinal_sample.csv```
+  contains 1999 records
+```
+    $ wc -l tFinal*.csv
+      195301 tFinal.csv
+        2000 tFinal_sample.csv
+```
+
+The Algorithm
+-------------
 * We just read all from cvs file and store it in memory
 * Then we iterate each row and generate the Set of large 1-itemset and filter
   it to get Set of candidate 1-itemset
@@ -178,15 +196,48 @@ The Algorithm (internal design of your project)
   k-itemsets and keep those whose confidence is higher than threshold.
 * Finally, we write all of them to output.txt.
 
-how to run
+How to Run
 ----------
-Sample Command line
-
+```
+    $ python Association_Finder.py
     usage: 
         python association_rule.py <input_data> <min_sup> <min_conf>
 
-    $ python Association_Finder.py data/aggdata2.csv 0.05 0.9
-    $ python Association_Finder.py data/tFinal.csv 0.2 0.9 
+    $ python Association_Finder.py data/tFinal.csv 0.2 0.9
+    $ mv output.csv output_tFinal_20_90.csv
+    $ python Association_Finder.py data/tFinal.csv 0.1 0.9
+    $ mv output.csv output_tFinal_10_90.csv
+    $ python Association_Finder.py data/tFinal.csv 0.1 0.75
+    $ mv output.csv output_tFinal_10_75.csv
+```
+
+Results
+-------
+* we get all proper nouns with 20pc support, for example
+```
+[NYPD,New York City Police Department], 31.2%
+[BROOKLYN], 29.4%
+[HPD], 23.3%
+```
+* We are able to find a few full forms in our dataset using this configuration
+```
+[New York City Police Department] --> [NYPD] (Conf: 100.0%, Supp: 31.2%)
+[HPD] --> [Department of Housing Preservation and Development] (Conf: 100.0%, Supp: 23.3%)
+[Department of Housing Preservation and Development] --> [HPD] (Conf: 100.0%, Supp: 23.3%)
+[Department of Housing Preservation and Development] --> [RESIDENTIAL BUILDING] (Conf: 99.4%, Supp: 23.3%)
+```
+* We also come up with some very simple rules like
+```
+[RESIDENTIAL BUILDING] --> [HPD] (Conf: 100.0%, Supp: 23.2%)
+```
+* By using 10 pc support, we get a few more interesting lines 
+```
++[Noise - Residential,Residential Building/House] --> [NYPD] (Conf: 100.0%, Supp: 10.2%)
++[Loud Music/Party] --> [New York City Police Department] (Conf: 100.0%, Supp: 10.1%)
++[Street/Sidewalk] --> [NYPD] (Conf: 94.4%, Supp: 18.7%)
+```
+* we are able to learn that NYPD is called to deal with Loud Music, Parties or Residential Noise
+* Department of Housing Preservation and Development is associated with complains in Residential Buildings 
 
 References
 ----------
