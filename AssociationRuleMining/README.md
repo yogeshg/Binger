@@ -216,53 +216,49 @@ How to Run
 Results
 -------
 * we get all proper nouns with 20pc support, for example
-
-  ```
-  [NYPD,New York City Police Department], 31.2%
-  [BROOKLYN], 29.4%
-  [HPD], 23.3%
-  ```
-
+    ```
+    [NYPD,New York City Police Department], 31.2%
+    [BROOKLYN], 29.4%
+    [HPD], 23.3%
+    ```
 * We are able to find a few full forms in our dataset using this configuration
-
     ```
     [New York City Police Department] --> [NYPD] (Conf: 100.0%, Supp: 31.2%)
     [HPD] --> [Department of Housing Preservation and Development] (Conf: 100.0%, Supp: 23.3%)
     [Department of Housing Preservation and Development] --> [HPD] (Conf: 100.0%, Supp: 23.3%)
     [Department of Housing Preservation and Development] --> [RESIDENTIAL BUILDING] (Conf: 99.4%, Supp: 23.3%)
     ```
-
 * We also come up with some very simple rules like
     ```
     [RESIDENTIAL BUILDING] --> [HPD] (Conf: 100.0%, Supp: 23.2%)
     ```
 * By using 10 pc support, we get a few more interesting lines 
-  ```
-  +[Noise - Residential,Residential Building/House] --> [NYPD] (Conf: 100.0%, Supp: 10.2%)
-  +[Loud Music/Party] --> [New York City Police Department] (Conf: 100.0%, Supp: 10.1%)
-  +[Street/Sidewalk] --> [NYPD] (Conf: 94.4%, Supp: 18.7%)
-  ```
+    ```
+    +[Noise - Residential,Residential Building/House] --> [NYPD] (Conf: 100.0%, Supp: 10.2%)
+    +[Loud Music/Party] --> [New York City Police Department] (Conf: 100.0%, Supp: 10.1%)
+    +[Street/Sidewalk] --> [NYPD] (Conf: 94.4%, Supp: 18.7%)
+    ```
 * We incrementally decrease support and look at some interesting rules we received with 5pc support
-  ```
-  +[HEAT/HOT WATER] --> [Department of Housing Preservation and Development] (Conf: 100.0%, Supp: 8.0%)
-  +[Department of Environmental Protection] --> [DEP] (Conf: 100.0%, Supp: 7.3%)
-  +[Blocked Driveway] --> [NYPD] (Conf: 100.0%, Supp: 5.9%)
-  +[Illegal Parking] --> [NYPD] (Conf: 100.0%, Supp: 5.7%)
-  +[DEP] --> [Department of Environmental Protection] (Conf: 99.8%, Supp: 7.3%)
-  ```
+    ```
+    +[HEAT/HOT WATER] --> [Department of Housing Preservation and Development] (Conf: 100.0%, Supp: 8.0%)
+    +[Department of Environmental Protection] --> [DEP] (Conf: 100.0%, Supp: 7.3%)
+    +[Blocked Driveway] --> [NYPD] (Conf: 100.0%, Supp: 5.9%)
+    +[Illegal Parking] --> [NYPD] (Conf: 100.0%, Supp: 5.7%)
+    +[DEP] --> [Department of Environmental Protection] (Conf: 99.8%, Supp: 7.3%)
+    ```
 * with 2pc support,
-  ```
-  +[No Access,NYPD] --> [Blocked Driveway] (Conf: 100.0%, Supp: 4.3%)
-  +[DOB] --> [Department of Buildings] (Conf: 100.0%, Supp: 3.8%)
-  +[Street Light Out] --> [DOT] (Conf: 100.0%, Supp: 2.9%)
-  ```
+    ```
+    +[No Access,NYPD] --> [Blocked Driveway] (Conf: 100.0%, Supp: 4.3%)
+    +[DOB] --> [Department of Buildings] (Conf: 100.0%, Supp: 3.8%)
+    +[Street Light Out] --> [DOT] (Conf: 100.0%, Supp: 2.9%)
+    ```
 * with 1pc support,
-  ```
-  +[PESTS] --> [HPD] (Conf: 100.0%, Supp: 1.8%)
-  +[Pothole] --> [DOT] (Conf: 100.0%, Supp: 1.7%)
-  +[Traffic Signal Condition] --> [DOT] (Conf: 100.0%, Supp: 1.5%)
-  +[Benefit Card Replacement] --> [HRA] (Conf: 100.0%, Supp: 1.2%)
-  ```
+    ```
+    +[PESTS] --> [HPD] (Conf: 100.0%, Supp: 1.8%)
+    +[Pothole] --> [DOT] (Conf: 100.0%, Supp: 1.7%)
+    +[Traffic Signal Condition] --> [DOT] (Conf: 100.0%, Supp: 1.5%)
+    +[Benefit Card Replacement] --> [HRA] (Conf: 100.0%, Supp: 1.2%)
+    ```
 
 Conclusions
 -----------
