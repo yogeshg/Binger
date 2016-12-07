@@ -1,4 +1,7 @@
 *.pyc
 archives/
 APIKEY.txt
+*.swp
+QProber/*.txt
+*.zip
 

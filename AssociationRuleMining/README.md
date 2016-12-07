@@ -22,10 +22,9 @@ Files
     ├── README.md                 # 
     ├── Util.py                   # Utilities we no longer use (caching etc.)
     ├── data                      # Subfolder containing datasets
-    │   ├── data_311.csv          # the actual dataset
+    │   ├── data_311.csv          # the actual dataset (not included)
     │   ├── download.sh           # script to download the actual dataset
     │   ├── nyc311.q              # q/kdb script to process csv chunks into hdb
-    │   ├── hdb1                  # kdb dataset is created here
     │   ├── makeStatsTables.q     # this script is used create a cut of the
     │   │                         #   data for our algorithm as discussed below
     │   ├── download_final.sh     # script to download a copy of final dataset
@@ -33,9 +32,10 @@ Files
     │   │                         #   but it can be downloaded using the above
     │   │                         #   script or following the steps described
     │   ├── tFinal_sample.csv     # sample of generated data
-    ├── output_tFinal_10_75.csv   # output for 10pc support and 75pc confidence
-    ├── output_tFinal_10_90.csv   # output for 10pc support and 90pc confidence
-    └── output_tFinal_20_90.csv   # output for 20pc support and 90pc confidence
+    ├── output.txt                # output file is created here
+    ├── output_tFinal_10_75.txt   # output for 10pc support and 75pc confidence
+    ├── output_tFinal_10_90.txt   # output for 10pc support and 90pc confidence
+    └── output_tFinal_20_90.txt   # output for 20pc support and 90pc confidence
 
 Dataset (a detailed description)
 --------------------------------
