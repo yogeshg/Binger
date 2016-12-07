@@ -216,22 +216,26 @@ How to Run
 Results
 -------
 * we get all proper nouns with 20pc support, for example
+
   ```
   [NYPD,New York City Police Department], 31.2%
   [BROOKLYN], 29.4%
   [HPD], 23.3%
   ```
+
 * We are able to find a few full forms in our dataset using this configuration
-  ```
-  [New York City Police Department] --> [NYPD] (Conf: 100.0%, Supp: 31.2%)
-  [HPD] --> [Department of Housing Preservation and Development] (Conf: 100.0%, Supp: 23.3%)
-  [Department of Housing Preservation and Development] --> [HPD] (Conf: 100.0%, Supp: 23.3%)
-  [Department of Housing Preservation and Development] --> [RESIDENTIAL BUILDING] (Conf: 99.4%, Supp: 23.3%)
-  ```
+
+    ```
+    [New York City Police Department] --> [NYPD] (Conf: 100.0%, Supp: 31.2%)
+    [HPD] --> [Department of Housing Preservation and Development] (Conf: 100.0%, Supp: 23.3%)
+    [Department of Housing Preservation and Development] --> [HPD] (Conf: 100.0%, Supp: 23.3%)
+    [Department of Housing Preservation and Development] --> [RESIDENTIAL BUILDING] (Conf: 99.4%, Supp: 23.3%)
+    ```
+
 * We also come up with some very simple rules like
-  ```
-  [RESIDENTIAL BUILDING] --> [HPD] (Conf: 100.0%, Supp: 23.2%)
-  ```
+    ```
+    [RESIDENTIAL BUILDING] --> [HPD] (Conf: 100.0%, Supp: 23.2%)
+    ```
 * By using 10 pc support, we get a few more interesting lines 
   ```
   +[Noise - Residential,Residential Building/House] --> [NYPD] (Conf: 100.0%, Supp: 10.2%)
