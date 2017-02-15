@@ -1,0 +1,1854 @@
+Itemsets whose support is larger than 0.010000:
+[NYPD], 31.3%
+[New York City Police Department], 31.2%
+[New York City Police Department,NYPD], 31.2%
+[BROOKLYN], 29.4%
+[Department of Housing Preservation and Development], 23.3%
+[HPD], 23.3%
+[Department of Housing Preservation and Development,HPD], 23.3%
+[RESIDENTIAL BUILDING], 23.2%
+[Department of Housing Preservation and Development,RESIDENTIAL BUILDING], 23.2%
+[HPD,RESIDENTIAL BUILDING], 23.2%
+[QUEENS], 22.3%
+[MANHATTAN], 21.5%
+[Street/Sidewalk], 18.7%
+[BRONX], 17.8%
+[NYPD,Street/Sidewalk], 17.7%
+[New York City Police Department,NYPD,Street/Sidewalk], 17.7%
+[New York City Police Department,Street/Sidewalk], 17.7%
+[Residential Building/House], 10.8%
+[DOT], 10.7%
+[Department of Transportation], 10.7%
+[DOT,Department of Transportation], 10.7%
+[NYPD,Residential Building/House], 10.7%
+[New York City Police Department,NYPD,Residential Building/House], 10.7%
+[New York City Police Department,Residential Building/House], 10.7%
+[Noise - Residential], 10.2%
+[Noise - Residential,NYPD,Residential Building/House], 10.2%
+[Noise - Residential,Residential Building/House], 10.2%
+[Noise - Residential,NYPD], 10.2%
+[Noise - Residential,New York City Police Department,NYPD], 10.2%
+[Noise - Residential,New York City Police Department,Residential Building/House], 10.2%
+[Noise - Residential,New York City Police Department], 10.2%
+[Noise - Residential,New York City Police Department,NYPD,Residential Building/House], 10.2%
+[Loud Music/Party], 10.1%
+[Loud Music/Party,NYPD], 10.1%
+[New York City Police Department,Loud Music/Party], 10.1%
+[BROOKLYN,NYPD], 9.9%
+[New York City Police Department,BROOKLYN], 9.9%
+[Street], 8.5%
+[HEAT/HOT WATER], 8.0%
+[Department of Housing Preservation and Development,HPD,HEAT/HOT WATER], 8.0%
+[Department of Housing Preservation and Development,RESIDENTIAL BUILDING,HEAT/HOT WATER], 8.0%
+[HPD,RESIDENTIAL BUILDING,HEAT/HOT WATER], 8.0%
+[Department of Housing Preservation and Development,HEAT/HOT WATER], 8.0%
+[RESIDENTIAL BUILDING,HEAT/HOT WATER], 8.0%
+[HPD,HEAT/HOT WATER], 8.0%
+[QUEENS,NYPD], 7.8%
+[New York City Police Department,NYPD,QUEENS], 7.8%
+[New York City Police Department,QUEENS], 7.8%
+[DSNY], 7.7%
+[Department of Housing Preservation and Development,BROOKLYN,HPD], 7.6%
+[BROOKLYN,HPD,RESIDENTIAL BUILDING], 7.6%
+[Department of Housing Preservation and Development,RESIDENTIAL BUILDING,BROOKLYN], 7.6%
+[BROOKLYN,HPD], 7.6%
+[BROOKLYN,RESIDENTIAL BUILDING], 7.6%
+[Department of Housing Preservation and Development,BROOKLYN], 7.6%
+[DEP], 7.3%
+[Department of Environmental Protection], 7.3%
+[Department of Environmental Protection,DEP], 7.3%
+[Department of Housing Preservation and Development,RESIDENTIAL BUILDING,BRONX], 7.3%
+[Department of Housing Preservation and Development,BRONX,HPD], 7.3%
+[BRONX,RESIDENTIAL BUILDING], 7.3%
+[BRONX,HPD], 7.3%
+[Department of Housing Preservation and Development,BRONX], 7.3%
+[MANHATTAN,NYPD], 6.7%
+[New York City Police Department,MANHATTAN], 6.7%
+[Loud Music/Party,NYPD,Residential Building/House], 6.4%
+[Noise - Residential,Loud Music/Party], 6.4%
+[Loud Music/Party,Residential Building/House], 6.4%
+[Noise - Residential,New York City Police Department,Loud Music/Party], 6.4%
+[New York City Police Department,Loud Music/Party,Residential Building/House], 6.4%
+[Noise - Residential,New York City Police Department,Loud Music/Party,Residential Building/House,NYPD], 6.4%
+[Noise - Residential,New York City Police Department,Loud Music/Party,Residential Building/House], 6.4%
+[Noise - Residential,New York City Police Department,Loud Music/Party,NYPD], 6.4%
+[BROOKLYN,Street/Sidewalk], 6.1%
+[New York City Police Department,Street/Sidewalk,BROOKLYN], 6.0%
+[Blocked Driveway], 5.9%
+[NYPD,Street/Sidewalk,Blocked Driveway], 5.9%
+[NYPD,Blocked Driveway], 5.9%
+[Street/Sidewalk,Blocked Driveway], 5.9%
+[New York City Police Department,Blocked Driveway,Street/Sidewalk], 5.9%
+[New York City Police Department,NYPD,Blocked Driveway], 5.9%
+[New York City Police Department,Blocked Driveway], 5.9%
+[Illegal Parking], 5.7%
+[Illegal Parking,Street/Sidewalk], 5.7%
+[Illegal Parking,NYPD], 5.7%
+[Illegal Parking,Street/Sidewalk,New York City Police Department], 5.7%
+[Illegal Parking,New York City Police Department], 5.7%
+[BRONX,NYPD], 5.5%
+[New York City Police Department,BRONX], 5.5%
+[ENTIRE BUILDING], 5.4%
+[ENTIRE BUILDING,HPD,Department of Housing Preservation and Development], 5.4%
+[ENTIRE BUILDING,HPD,HEAT/HOT WATER], 5.4%
+[ENTIRE BUILDING,RESIDENTIAL BUILDING,HEAT/HOT WATER], 5.4%
+[ENTIRE BUILDING,RESIDENTIAL BUILDING,Department of Housing Preservation and Development], 5.4%
+[ENTIRE BUILDING,RESIDENTIAL BUILDING], 5.4%
+[ENTIRE BUILDING,HEAT/HOT WATER], 5.4%
+[ENTIRE BUILDING,HPD], 5.4%
+[ENTIRE BUILDING,Department of Housing Preservation and Development], 5.4%
+[QUEENS,Street/Sidewalk], 5.3%
+[QUEENS,NYPD,Street/Sidewalk], 5.3%
+[New York City Police Department,QUEENS,Street/Sidewalk], 5.3%
+[MANHATTAN,RESIDENTIAL BUILDING,Department of Housing Preservation and Development], 4.9%
+[MANHATTAN,RESIDENTIAL BUILDING,HPD], 4.9%
+[MANHATTAN,HPD,Department of Housing Preservation and Development], 4.9%
+[MANHATTAN,HPD], 4.9%
+[MANHATTAN,RESIDENTIAL BUILDING], 4.9%
+[MANHATTAN,Department of Housing Preservation and Development], 4.9%
+[MANHATTAN,RESIDENTIAL BUILDING,HPD,Department of Housing Preservation and Development], 4.9%
+[STATEN ISLAND], 4.6%
+[Sidewalk], 4.5%
+[Unspecified], 4.4%
+[No Access], 4.3%
+[No Access,Blocked Driveway,Street/Sidewalk], 4.3%
+[No Access,Blocked Driveway,NYPD], 4.3%
+[No Access,Street/Sidewalk], 4.3%
+[No Access,Blocked Driveway], 4.3%
+[No Access,NYPD], 4.3%
+[No Access,Blocked Driveway,NYPD,Street/Sidewalk], 4.3%
+[New York City Police Department,NYPD,No Access], 4.3%
+[New York City Police Department,Blocked Driveway,No Access], 4.3%
+[New York City Police Department,No Access], 4.3%
+[New York City Police Department,Blocked Driveway,No Access,Street/Sidewalk], 4.3%
+[Sidewalk,DSNY], 4.2%
+[MANHATTAN,Street/Sidewalk], 3.9%
+[Department of Buildings], 3.8%
+[DOB], 3.8%
+[Department of Buildings,DOB], 3.8%
+[Street Light Condition], 3.8%
+[DOT,Street Light Condition,Department of Transportation], 3.8%
+[DOT,Street Light Condition], 3.8%
+[Street Light Condition,Department of Transportation], 3.8%
+[DOF], 3.7%
+[DPR], 3.4%
+[Department of Parks and Recreation], 3.4%
+[DPR,Department of Parks and Recreation], 3.4%
+[UNSANITARY CONDITION], 3.4%
+[UNSANITARY CONDITION,HPD,RESIDENTIAL BUILDING], 3.4%
+[Department of Housing Preservation and Development,UNSANITARY CONDITION,HPD], 3.4%
+[UNSANITARY CONDITION,HPD], 3.4%
+[UNSANITARY CONDITION,RESIDENTIAL BUILDING], 3.4%
+[Department of Housing Preservation and Development,UNSANITARY CONDITION], 3.4%
+[QUEENS,DOT,Department of Transportation], 3.2%
+[QUEENS,DOT], 3.2%
+[QUEENS,Department of Transportation], 3.2%
+[MANHATTAN,Loud Music/Party,NYPD], 3.1%
+[MANHATTAN,Loud Music/Party], 3.1%
+[New York City Police Department,Loud Music/Party,MANHATTAN], 3.1%
+[Street Condition], 3.0%
+[Street Condition,Department of Transportation], 3.0%
+[DOT,Street Condition], 3.0%
+[Banging/Pounding], 3.0%
+[New York City Police Department,NYPD,Banging/Pounding], 3.0%
+[NYPD,Banging/Pounding], 3.0%
+[New York City Police Department,Banging/Pounding], 3.0%
+[QUEENS,HPD,RESIDENTIAL BUILDING], 3.0%
+[QUEENS,Department of Housing Preservation and Development], 3.0%
+[QUEENS,HPD], 3.0%
+[QUEENS,RESIDENTIAL BUILDING], 3.0%
+[BROOKLYN,Residential Building/House], 3.0%
+[New York City Police Department,Residential Building/House,BROOKLYN], 3.0%
+[New York City Police Department,Street/Sidewalk,MANHATTAN], 3.0%
+[DOT,BROOKLYN,Department of Transportation], 3.0%
+[DOT,BROOKLYN], 3.0%
+[BROOKLYN,Department of Transportation], 3.0%
+[Street Light Out], 2.9%
+[Street Light Out,Street Light Condition,Department of Transportation], 2.9%
+[DOT,Street Light Out,Street Light Condition], 2.9%
+[DOT,Street Light Out,Department of Transportation], 2.9%
+[DOT,Street Light Out], 2.9%
+[Street Light Out,Department of Transportation], 2.9%
+[Street Light Out,Street Light Condition], 2.9%
+[DOT,Street Light Out,Street Light Condition,Department of Transportation], 2.9%
+[Street,DOT,Department of Transportation], 2.9%
+[Street,Department of Transportation], 2.9%
+[Street,DOT], 2.9%
+[Street,BROOKLYN], 2.9%
+[Noise - Residential,BROOKLYN,Residential Building/House], 2.9%
+[Noise - Residential,BROOKLYN], 2.9%
+[Noise - Residential,New York City Police Department,BROOKLYN], 2.9%
+[Noise - Residential,New York City Police Department,BROOKLYN,NYPD], 2.9%
+[Noise - Residential,New York City Police Department,BROOKLYN,Residential Building/House], 2.9%
+[Street,QUEENS], 2.9%
+[Loud Music/Party,NYPD,BROOKLYN], 2.8%
+[Loud Music/Party,BROOKLYN], 2.8%
+[New York City Police Department,Loud Music/Party,BROOKLYN], 2.8%
+[BROOKLYN,DSNY], 2.8%
+[Noise - Residential,NYPD,Banging/Pounding], 2.8%
+[NYPD,Banging/Pounding,Residential Building/House], 2.8%
+[Noise - Residential,New York City Police Department,Banging/Pounding], 2.8%
+[New York City Police Department,Residential Building/House,Banging/Pounding], 2.8%
+[Residential Building/House,Banging/Pounding], 2.8%
+[Noise - Residential,Banging/Pounding], 2.8%
+[Noise - Residential,New York City Police Department,NYPD,Banging/Pounding], 2.8%
+[Noise - Residential,NYPD,Residential Building/House,Banging/Pounding], 2.8%
+[BRONX,Residential Building/House], 2.7%
+[Noise - Street/Sidewalk], 2.6%
+[Noise - Street/Sidewalk,Street/Sidewalk], 2.6%
+[New York City Police Department,Noise - Street/Sidewalk,Street/Sidewalk], 2.6%
+[New York City Police Department,Noise - Street/Sidewalk,NYPD], 2.6%
+[NYPD,Noise - Street/Sidewalk], 2.6%
+[New York City Police Department,Noise - Street/Sidewalk], 2.6%
+[Noise - Residential,NYPD,BRONX], 2.6%
+[Noise - Residential,New York City Police Department,BRONX], 2.6%
+[Noise - Residential,Residential Building/House,BRONX], 2.6%
+[Noise - Residential,BRONX], 2.6%
+[MANHATTAN,Residential Building/House], 2.6%
+[Street,DSNY], 2.6%
+[APARTMENT ONLY], 2.6%
+[APARTMENT ONLY,HPD,HEAT/HOT WATER], 2.6%
+[APARTMENT ONLY,Department of Housing Preservation and Development,HEAT/HOT WATER], 2.6%
+[APARTMENT ONLY,HPD,RESIDENTIAL BUILDING], 2.6%
+[APARTMENT ONLY,Department of Housing Preservation and Development,RESIDENTIAL BUILDING], 2.6%
+[APARTMENT ONLY,Department of Housing Preservation and Development,HPD], 2.6%
+[APARTMENT ONLY,RESIDENTIAL BUILDING], 2.6%
+[APARTMENT ONLY,Department of Housing Preservation and Development], 2.6%
+[APARTMENT ONLY,HPD], 2.6%
+[APARTMENT ONLY,HEAT/HOT WATER], 2.6%
+[APARTMENT ONLY,Department of Housing Preservation and Development,RESIDENTIAL BUILDING,HEAT/HOT WATER], 2.6%
+[APARTMENT ONLY,Department of Housing Preservation and Development,HPD,HEAT/HOT WATER], 2.6%
+[DOHMH], 2.6%
+[BRONX,Street/Sidewalk], 2.5%
+[Department of Housing Preservation and Development,BROOKLYN,HEAT/HOT WATER], 2.5%
+[BROOKLYN,HEAT/HOT WATER,HPD], 2.5%
+[BROOKLYN,HEAT/HOT WATER], 2.5%
+[Department of Housing Preservation and Development,BROOKLYN,HPD,HEAT/HOT WATER], 2.5%
+[PAINT/PLASTER], 2.5%
+[HPD,PAINT/PLASTER,RESIDENTIAL BUILDING], 2.5%
+[Department of Housing Preservation and Development,PAINT/PLASTER,HPD], 2.5%
+[Department of Housing Preservation and Development,PAINT/PLASTER], 2.5%
+[PAINT/PLASTER,RESIDENTIAL BUILDING], 2.5%
+[HPD,PAINT/PLASTER], 2.5%
+[MANHATTAN,Residential Building/House,NYPD], 2.5%
+[New York City Police Department,Residential Building/House,MANHATTAN], 2.5%
+[BRONX,NYPD,Street/Sidewalk], 2.5%
+[Department of Health and Mental Hygiene], 2.5%
+[Department of Health and Mental Hygiene,DOHMH], 2.5%
+[Water System], 2.5%
+[Department of Environmental Protection,Water System], 2.5%
+[DEP,Water System], 2.5%
+[DPR,Street], 2.5%
+[Street,Department of Parks and Recreation], 2.5%
+[Noise - Commercial], 2.4%
+[New York City Police Department,NYPD,Noise - Commercial], 2.4%
+[Noise - Residential,MANHATTAN], 2.4%
+[New York City Police Department,Noise - Commercial], 2.4%
+[NYPD,Noise - Commercial], 2.4%
+[Noise - Residential,New York City Police Department,MANHATTAN], 2.4%
+[Noise], 2.4%
+[Noise,Department of Environmental Protection,DEP], 2.4%
+[Noise,Department of Environmental Protection], 2.4%
+[Noise,DEP], 2.4%
+[Department of Housing Preservation and Development,BRONX,HEAT/HOT WATER], 2.4%
+[BRONX,RESIDENTIAL BUILDING,HEAT/HOT WATER], 2.4%
+[BRONX,HPD,HEAT/HOT WATER], 2.4%
+[BRONX,HEAT/HOT WATER], 2.4%
+[Department of Housing Preservation and Development,BRONX,HPD,HEAT/HOT WATER], 2.4%
+[Department of Housing Preservation and Development,RESIDENTIAL BUILDING,BRONX,HEAT/HOT WATER], 2.4%
+[QUEENS,Street/Sidewalk,Blocked Driveway], 2.3%
+[QUEENS,NYPD,Blocked Driveway], 2.3%
+[QUEENS,Blocked Driveway], 2.3%
+[QUEENS,NYPD,Blocked Driveway,Street/Sidewalk], 2.3%
+[QUEENS,DSNY], 2.3%
+[Illegal Parking,BROOKLYN,NYPD], 2.2%
+[Illegal Parking,BROOKLYN,Street/Sidewalk], 2.2%
+[Illegal Parking,BROOKLYN], 2.2%
+[BROOKLYN,Street/Sidewalk,Blocked Driveway], 2.2%
+[BROOKLYN,Blocked Driveway], 2.2%
+[PLUMBING], 2.2%
+[Department of Housing Preservation and Development,RESIDENTIAL BUILDING,PLUMBING], 2.2%
+[PLUMBING,RESIDENTIAL BUILDING], 2.2%
+[Department of Housing Preservation and Development,PLUMBING], 2.2%
+[HPD,PLUMBING], 2.2%
+[MANHATTAN,Department of Environmental Protection,DEP], 2.1%
+[MANHATTAN,DEP], 2.1%
+[MANHATTAN,Department of Environmental Protection], 2.1%
+[New York City Police Department,Loud Music/Party,BRONX], 2.1%
+[Loud Music/Party,BRONX], 2.1%
+[QUEENS,Residential Building/House], 2.1%
+[QUEENS,NYPD,Residential Building/House], 2.1%
+[New York City Police Department,QUEENS,Residential Building/House], 2.1%
+[New York City Police Department,NYPD,QUEENS,Residential Building/House], 2.1%
+[Department of Environmental Protection,BROOKLYN,DEP], 2.0%
+[BROOKLYN,DEP], 2.0%
+[Department of Environmental Protection,BROOKLYN], 2.0%
+[DOF,Unspecified], 2.0%
+[DHS], 2.0%
+[Homeless Person Assistance], 2.0%
+[Operations Unit - Department of Homeless Services], 2.0%
+[Homeless Person Assistance,DHS,Operations Unit - Department of Homeless Services], 2.0%
+[Homeless Person Assistance,Operations Unit - Department of Homeless Services], 2.0%
+[Operations Unit - Department of Homeless Services,DHS], 2.0%
+[Homeless Person Assistance,DHS], 2.0%
+[Loud Talking], 2.0%
+[Loud Talking,NYPD], 2.0%
+[Loud Talking,New York City Police Department], 2.0%
+[MANHATTAN,DOT], 2.0%
+[MANHATTAN,Department of Transportation], 2.0%
+[Noise - Residential,QUEENS,Residential Building/House], 2.0%
+[Noise - Residential,QUEENS], 2.0%
+[Noise - Residential,New York City Police Department,QUEENS], 2.0%
+[Noise - Residential,New York City Police Department,QUEENS,NYPD,Residential Building/House], 2.0%
+[Noise - Residential,New York City Police Department,QUEENS,NYPD], 2.0%
+[Noise - Residential,New York City Police Department,QUEENS,Residential Building/House], 2.0%
+[Department of Environmental Protection,QUEENS,DEP], 1.9%
+[Department of Environmental Protection,QUEENS], 1.9%
+[QUEENS,DEP], 1.9%
+[Store/Commercial], 1.9%
+[MANHATTAN,HPD,HEAT/HOT WATER], 1.9%
+[MANHATTAN,RESIDENTIAL BUILDING,HEAT/HOT WATER], 1.9%
+[MANHATTAN,HEAT/HOT WATER], 1.9%
+[MANHATTAN,RESIDENTIAL BUILDING,HEAT/HOT WATER,Department of Housing Preservation and Development], 1.9%
+[MANHATTAN,HPD,HEAT/HOT WATER,Department of Housing Preservation and Development], 1.9%
+[New York City Police Department,Loud Music/Party,Noise - Commercial], 1.9%
+[Loud Music/Party,NYPD,Noise - Commercial], 1.9%
+[Loud Music/Party,Noise - Commercial], 1.9%
+[PESTS], 1.8%
+[Department of Housing Preservation and Development,PESTS,HPD], 1.8%
+[PESTS,HPD], 1.8%
+[Department of Housing Preservation and Development,PESTS], 1.8%
+[PESTS,RESIDENTIAL BUILDING], 1.8%
+[UNSANITARY CONDITION,PESTS], 1.8%
+[QUEENS,Loud Music/Party], 1.8%
+[New York City Police Department,Loud Music/Party,QUEENS], 1.8%
+[DOF Literature Request], 1.8%
+[Department of Finance], 1.8%
+[DOF,DOF Literature Request,Department of Finance], 1.8%
+[DOF,Unspecified,Department of Finance], 1.8%
+[DOF,Unspecified,DOF Literature Request], 1.8%
+[DOF Literature Request,Department of Finance,Unspecified], 1.8%
+[Unspecified,Department of Finance], 1.8%
+[DOF Literature Request,Unspecified], 1.8%
+[DOF,Department of Finance], 1.8%
+[DOF,DOF Literature Request], 1.8%
+[DOF Literature Request,Department of Finance], 1.8%
+[DOF,Unspecified,DOF Literature Request,Department of Finance], 1.8%
+[Loud Music/Party,NYPD,Street/Sidewalk], 1.7%
+[New York City Police Department,Loud Music/Party,Street/Sidewalk], 1.7%
+[Loud Music/Party,NYPD,Noise - Street/Sidewalk], 1.7%
+[Loud Music/Party,Noise - Street/Sidewalk], 1.7%
+[Loud Music/Party,Street/Sidewalk], 1.7%
+[New York City Police Department,Loud Music/Party,Residential Building/House,BROOKLYN], 1.7%
+[Loud Music/Party,Residential Building/House,BRONX], 1.7%
+[New York City Police Department,Loud Music/Party,BRONX,Residential Building/House], 1.7%
+[Pothole], 1.7%
+[DOT,Department of Transportation,Pothole], 1.7%
+[DOT,Pothole], 1.7%
+[Department of Transportation,Pothole], 1.7%
+[DOT,Pothole,Street Condition], 1.7%
+[MANHATTAN,Homeless Person Assistance], 1.7%
+[Street Condition,Pothole], 1.7%
+[MANHATTAN,Operations Unit - Department of Homeless Services,DHS], 1.7%
+[MANHATTAN,DHS,Homeless Person Assistance], 1.7%
+[MANHATTAN,DHS], 1.7%
+[MANHATTAN,Operations Unit - Department of Homeless Services], 1.7%
+[Sanitation Condition], 1.7%
+[DSNY,Sanitation Condition], 1.7%
+[ENTIRE BUILDING,BRONX,HEAT/HOT WATER], 1.7%
+[ENTIRE BUILDING,BRONX,Department of Housing Preservation and Development], 1.7%
+[ENTIRE BUILDING,BRONX,HPD], 1.7%
+[ENTIRE BUILDING,RESIDENTIAL BUILDING,BRONX], 1.7%
+[ENTIRE BUILDING,BRONX], 1.7%
+[ENTIRE BUILDING,BRONX,HEAT/HOT WATER,HPD], 1.7%
+[ENTIRE BUILDING,RESIDENTIAL BUILDING,BRONX,Department of Housing Preservation and Development], 1.7%
+[ENTIRE BUILDING,BRONX,HPD,Department of Housing Preservation and Development], 1.7%
+[QUEENS,NYPD,No Access], 1.7%
+[QUEENS,No Access,Blocked Driveway], 1.7%
+[New York City Police Department,QUEENS,No Access], 1.7%
+[QUEENS,No Access], 1.7%
+[New York City Police Department,NYPD,No Access,QUEENS], 1.7%
+[Illegal Parking,QUEENS,NYPD], 1.6%
+[Illegal Parking,QUEENS,Street/Sidewalk], 1.6%
+[Illegal Parking,QUEENS], 1.6%
+[Illegal Parking,QUEENS,NYPD,Street/Sidewalk], 1.6%
+[ENTIRE BUILDING,HEAT/HOT WATER,BROOKLYN], 1.6%
+[ENTIRE BUILDING,BROOKLYN], 1.6%
+[No Access,BROOKLYN,NYPD], 1.6%
+[No Access,Street/Sidewalk,BROOKLYN], 1.6%
+[New York City Police Department,BROOKLYN,No Access], 1.6%
+[No Access,BROOKLYN], 1.6%
+[Posted Parking Sign Violation], 1.6%
+[Illegal Parking,Street/Sidewalk,Posted Parking Sign Violation], 1.6%
+[NYPD,Street/Sidewalk,Posted Parking Sign Violation], 1.6%
+[Illegal Parking,Posted Parking Sign Violation], 1.6%
+[NYPD,Posted Parking Sign Violation], 1.6%
+[Street/Sidewalk,Posted Parking Sign Violation], 1.6%
+[New York City Police Department,NYPD,Posted Parking Sign Violation], 1.6%
+[Illegal Parking,Posted Parking Sign Violation,New York City Police Department], 1.6%
+[New York City Police Department,Posted Parking Sign Violation], 1.6%
+[New York City Police Department,NYPD,Posted Parking Sign Violation,Street/Sidewalk], 1.6%
+[11226], 1.6%
+[11226,BROOKLYN], 1.6%
+[Blocked Hydrant], 1.6%
+[Illegal Parking,Blocked Hydrant,Street/Sidewalk], 1.6%
+[Illegal Parking,Blocked Hydrant,NYPD], 1.6%
+[NYPD,Street/Sidewalk,Blocked Hydrant], 1.6%
+[Blocked Hydrant,Street/Sidewalk], 1.6%
+[NYPD,Blocked Hydrant], 1.6%
+[Illegal Parking,Blocked Hydrant], 1.6%
+[New York City Police Department,NYPD,Blocked Hydrant], 1.6%
+[New York City Police Department,Blocked Hydrant,Street/Sidewalk], 1.6%
+[BRONX,DOT,Department of Transportation], 1.6%
+[BRONX,Department of Transportation], 1.6%
+[BRONX,DOT], 1.6%
+[New York City Police Department,Blocked Hydrant], 1.6%
+[New York City Police Department,NYPD,Blocked Hydrant,Street/Sidewalk], 1.6%
+[Partial Access], 1.6%
+[New York City Police Department,Partial Access,NYPD], 1.6%
+[NYPD,Street/Sidewalk,Partial Access], 1.6%
+[Street/Sidewalk,Blocked Driveway,Partial Access], 1.6%
+[New York City Police Department,Partial Access,Blocked Driveway], 1.6%
+[NYPD,Blocked Driveway,Partial Access], 1.6%
+[Blocked Driveway,Partial Access], 1.6%
+[NYPD,Partial Access], 1.6%
+[New York City Police Department,Partial Access], 1.6%
+[Street/Sidewalk,Partial Access], 1.6%
+[New York City Police Department,Partial Access,NYPD,Blocked Driveway], 1.6%
+[NYPD,Street/Sidewalk,Partial Access,Blocked Driveway], 1.6%
+[Noise - Residential,MANHATTAN,Loud Music/Party], 1.5%
+[MANHATTAN,Residential Building/House,Loud Music/Party], 1.5%
+[MANHATTAN,Residential Building/House,Loud Music/Party,NYPD], 1.5%
+[Dirty Conditions], 1.5%
+[DSNY,Dirty Conditions], 1.5%
+[Traffic Signal Condition], 1.5%
+[Traffic Signal Condition,DOT,Department of Transportation], 1.5%
+[Traffic Signal Condition,Department of Transportation], 1.5%
+[Traffic Signal Condition,DOT], 1.5%
+[DOOR/WINDOW], 1.5%
+[Department of Housing Preservation and Development,RESIDENTIAL BUILDING,DOOR/WINDOW], 1.5%
+[DOOR/WINDOW,HPD,RESIDENTIAL BUILDING], 1.5%
+[Department of Housing Preservation and Development,HPD,DOOR/WINDOW], 1.5%
+[Department of Housing Preservation and Development,DOOR/WINDOW], 1.5%
+[DOOR/WINDOW,HPD], 1.5%
+[DOOR/WINDOW,RESIDENTIAL BUILDING], 1.5%
+[Sewer], 1.5%
+[Department of Environmental Protection,Sewer], 1.5%
+[Sewer,DEP], 1.5%
+[Missed Collection (All Materials)], 1.5%
+[Missed Collection (All Materials),DSNY], 1.5%
+[New York City Police Department,NYPD,Store/Commercial], 1.5%
+[New York City Police Department,Store/Commercial], 1.5%
+[Store/Commercial,NYPD], 1.5%
+[Sidewalk,Missed Collection (All Materials)], 1.4%
+[Sidewalk,BROOKLYN], 1.4%
+[MANHATTAN,RESIDENTIAL BUILDING,ENTIRE BUILDING], 1.4%
+[MANHATTAN,ENTIRE BUILDING,Department of Housing Preservation and Development], 1.4%
+[MANHATTAN,HPD,ENTIRE BUILDING], 1.4%
+[MANHATTAN,ENTIRE BUILDING], 1.4%
+[MANHATTAN,Street], 1.4%
+[14 Derelict Vehicles], 1.4%
+[Derelict Vehicles], 1.4%
+[14 Derelict Vehicles,DSNY,Derelict Vehicles], 1.4%
+[14 Derelict Vehicles,Street,Derelict Vehicles], 1.4%
+[14 Derelict Vehicles,Street,DSNY], 1.4%
+[14 Derelict Vehicles,Street], 1.4%
+[14 Derelict Vehicles,Derelict Vehicles], 1.4%
+[14 Derelict Vehicles,DSNY], 1.4%
+[Derelict Vehicles,DSNY], 1.4%
+[Street,Derelict Vehicles], 1.4%
+[14 Derelict Vehicles,Street,Derelict Vehicles,DSNY], 1.4%
+[WATER LEAK], 1.3%
+[WATER LEAK,RESIDENTIAL BUILDING,HPD], 1.3%
+[WATER LEAK,HPD,Department of Housing Preservation and Development], 1.3%
+[WATER LEAK,HPD], 1.3%
+[WATER LEAK,RESIDENTIAL BUILDING], 1.3%
+[WATER LEAK,Department of Housing Preservation and Development], 1.3%
+[Store/Commercial,Noise - Commercial], 1.3%
+[New York City Police Department,NYPD,Store/Commercial,Noise - Commercial], 1.3%
+[Rodent], 1.3%
+[Department of Health and Mental Hygiene,DOHMH,Rodent], 1.3%
+[DOHMH,Rodent], 1.3%
+[Department of Health and Mental Hygiene,Rodent], 1.3%
+[Sidewalk,QUEENS], 1.3%
+[DPR,Department of Parks and Recreation,QUEENS], 1.3%
+[DPR,QUEENS], 1.3%
+[QUEENS,Department of Parks and Recreation], 1.3%
+[Street,Street Condition,Department of Transportation], 1.3%
+[Street,DOT,Street Condition], 1.3%
+[Street,Street Condition], 1.3%
+[11385], 1.3%
+[QUEENS,11385], 1.3%
+[With License Plate], 1.3%
+[Derelict Vehicle], 1.3%
+[With License Plate,NYPD,Derelict Vehicle], 1.3%
+[NYPD,Derelict Vehicle], 1.3%
+[With License Plate,NYPD], 1.3%
+[With License Plate,Derelict Vehicle], 1.3%
+[New York City Police Department,With License Plate,Derelict Vehicle], 1.3%
+[New York City Police Department,NYPD,Derelict Vehicle], 1.3%
+[New York City Police Department,With License Plate], 1.3%
+[New York City Police Department,Derelict Vehicle], 1.3%
+[Noise - Residential,QUEENS,Loud Music/Party], 1.3%
+[Noise - Residential,New York City Police Department,QUEENS,Loud Music/Party,Residential Building/House], 1.3%
+[Noise - Residential,New York City Police Department,QUEENS,Loud Music/Party], 1.3%
+[Building/Use], 1.3%
+[Department of Buildings,Building/Use,DOB], 1.3%
+[Department of Buildings,Building/Use], 1.3%
+[Building/Use,DOB], 1.3%
+[With License Plate,Street/Sidewalk,Derelict Vehicle], 1.3%
+[NYPD,Street/Sidewalk,Derelict Vehicle], 1.3%
+[With License Plate,NYPD,Street/Sidewalk], 1.3%
+[Street/Sidewalk,Derelict Vehicle], 1.3%
+[With License Plate,Street/Sidewalk], 1.3%
+[With License Plate,NYPD,Derelict Vehicle,Street/Sidewalk], 1.3%
+[New York City Police Department,Derelict Vehicle,Street/Sidewalk], 1.3%
+[New York City Police Department,With License Plate,Street/Sidewalk], 1.3%
+[New York City Police Department,NYPD,Derelict Vehicle,Street/Sidewalk], 1.3%
+[Sidewalk,QUEENS,DSNY], 1.3%
+[Sidewalk,DSNY,Dirty Conditions], 1.2%
+[Sidewalk,Dirty Conditions], 1.2%
+[General Construction/Plumbing], 1.2%
+[General Construction/Plumbing,DOB], 1.2%
+[Department of Buildings,General Construction/Plumbing], 1.2%
+[WALL], 1.2%
+[WALL,PAINT/PLASTER,RESIDENTIAL BUILDING], 1.2%
+[Department of Housing Preservation and Development,PAINT/PLASTER,WALL], 1.2%
+[WALL,HPD,RESIDENTIAL BUILDING], 1.2%
+[WALL,HPD], 1.2%
+[WALL,PAINT/PLASTER], 1.2%
+[Department of Housing Preservation and Development,WALL], 1.2%
+[WALL,RESIDENTIAL BUILDING], 1.2%
+[Department of Housing Preservation and Development,PAINT/PLASTER,HPD,WALL], 1.2%
+[HRA], 1.2%
+[HRA,Unspecified], 1.2%
+[10467], 1.2%
+[10467,BRONX], 1.2%
+[Benefit Card Replacement], 1.2%
+[HRA Benefit Card Replacement], 1.2%
+[HRA,Unspecified,HRA Benefit Card Replacement], 1.2%
+[HRA,Benefit Card Replacement,HRA Benefit Card Replacement], 1.2%
+[HRA,Benefit Card Replacement,Unspecified], 1.2%
+[Benefit Card Replacement,HRA Benefit Card Replacement], 1.2%
+[Unspecified,HRA Benefit Card Replacement], 1.2%
+[HRA,HRA Benefit Card Replacement], 1.2%
+[Benefit Card Replacement,Unspecified], 1.2%
+[HRA,Benefit Card Replacement], 1.2%
+[Noise: Construction Before/After Hours (NM1)], 1.2%
+[Noise: Construction Before/After Hours (NM1),Noise,DEP], 1.2%
+[Noise: Construction Before/After Hours (NM1),Department of Environmental Protection,DEP], 1.2%
+[Noise: Construction Before/After Hours (NM1),Noise,Department of Environmental Protection], 1.2%
+[Noise: Construction Before/After Hours (NM1),Department of Environmental Protection], 1.2%
+[Noise: Construction Before/After Hours (NM1),Noise], 1.2%
+[Noise: Construction Before/After Hours (NM1),DEP], 1.2%
+[Noise: Construction Before/After Hours (NM1),Noise,Department of Environmental Protection,DEP], 1.2%
+[10453], 1.2%
+[10453,BRONX], 1.2%
+[Department of Buildings,QUEENS,DOB], 1.2%
+[Department of Buildings,QUEENS], 1.2%
+[QUEENS,DOB], 1.2%
+[CEILING], 1.2%
+[CEILING,PAINT/PLASTER,Department of Housing Preservation and Development], 1.2%
+[CEILING,RESIDENTIAL BUILDING,HPD], 1.2%
+[CEILING,HPD,Department of Housing Preservation and Development], 1.2%
+[CEILING,RESIDENTIAL BUILDING], 1.2%
+[CEILING,PAINT/PLASTER], 1.2%
+[CEILING,Department of Housing Preservation and Development], 1.2%
+[CEILING,HPD], 1.2%
+[11207], 1.2%
+[BROOKLYN,11207], 1.2%
+[QUEENS,Department of Transportation,Street Light Condition], 1.2%
+[QUEENS,DOT,Street Light Condition], 1.2%
+[QUEENS,Street Light Condition], 1.2%
+[QUEENS,DOT,Street Light Condition,Department of Transportation], 1.2%
+[GENERAL], 1.2%
+[HPD,RESIDENTIAL BUILDING,GENERAL], 1.2%
+[Department of Housing Preservation and Development,GENERAL,HPD], 1.2%
+[GENERAL,RESIDENTIAL BUILDING], 1.2%
+[HPD,GENERAL], 1.2%
+[Department of Housing Preservation and Development,GENERAL], 1.2%
+[10458], 1.2%
+[BRONX,10458], 1.2%
+[MANHATTAN,Noise,DEP], 1.2%
+[MANHATTAN,Department of Environmental Protection,Noise], 1.2%
+[MANHATTAN,Noise], 1.2%
+[Noise - Vehicle], 1.2%
+[New York City Police Department,Noise - Vehicle,Street/Sidewalk], 1.2%
+[Noise - Vehicle,NYPD,Street/Sidewalk], 1.2%
+[New York City Police Department,Noise - Vehicle], 1.2%
+[Noise - Vehicle,Street/Sidewalk], 1.2%
+[Noise - Vehicle,NYPD], 1.2%
+[Department of Buildings,DOB,BROOKLYN], 1.2%
+[BROOKLYN,DOB], 1.2%
+[Department of Buildings,BROOKLYN], 1.2%
+[BROADWAY], 1.2%
+[New York City Police Department,NYPD,STATEN ISLAND], 1.2%
+[NYPD,STATEN ISLAND], 1.2%
+[New York City Police Department,STATEN ISLAND], 1.2%
+[10452], 1.2%
+[UNSANITARY CONDITION,RESIDENTIAL BUILDING,BROOKLYN], 1.2%
+[Department of Housing Preservation and Development,BROOKLYN,UNSANITARY CONDITION], 1.2%
+[UNSANITARY CONDITION,HPD,BROOKLYN], 1.2%
+[UNSANITARY CONDITION,BROOKLYN], 1.2%
+[10452,BRONX], 1.2%
+[UNSANITARY CONDITION,HPD,RESIDENTIAL BUILDING,BROOKLYN], 1.2%
+[TLC], 1.1%
+[Club/Bar/Restaurant], 1.1%
+[New York City Police Department,NYPD,Club/Bar/Restaurant], 1.1%
+[New York City Police Department,Club/Bar/Restaurant], 1.1%
+[NYPD,Club/Bar/Restaurant], 1.1%
+[Taxi and Limousine Commission], 1.1%
+[TLC,Taxi and Limousine Commission], 1.1%
+[ELECTRIC], 1.1%
+[ELECTRIC,RESIDENTIAL BUILDING,HPD], 1.1%
+[Department of Housing Preservation and Development,RESIDENTIAL BUILDING,ELECTRIC], 1.1%
+[Department of Housing Preservation and Development,ELECTRIC,HPD], 1.1%
+[ELECTRIC,RESIDENTIAL BUILDING], 1.1%
+[Department of Housing Preservation and Development,ELECTRIC], 1.1%
+[ELECTRIC,HPD], 1.1%
+[10456], 1.1%
+[BRONX,10456], 1.1%
+[NYPD,Noise - Commercial,Club/Bar/Restaurant], 1.1%
+[New York City Police Department,Club/Bar/Restaurant,Noise - Commercial], 1.1%
+[Club/Bar/Restaurant,Noise - Commercial], 1.1%
+[New York City Police Department,NYPD,Club/Bar/Restaurant,Noise - Commercial], 1.1%
+[QUEENS,RESIDENTIAL BUILDING,HEAT/HOT WATER], 1.1%
+[QUEENS,HPD,HEAT/HOT WATER], 1.1%
+[QUEENS,HEAT/HOT WATER,Department of Housing Preservation and Development], 1.1%
+[QUEENS,HEAT/HOT WATER], 1.1%
+[QUEENS,HPD,RESIDENTIAL BUILDING,HEAT/HOT WATER], 1.1%
+[11208], 1.1%
+[Street,DSNY,BROOKLYN], 1.1%
+[MANHATTAN,Street/Sidewalk,Noise - Street/Sidewalk], 1.1%
+[MANHATTAN,NYPD,Noise - Street/Sidewalk], 1.1%
+[MANHATTAN,Noise - Street/Sidewalk], 1.1%
+[BROOKLYN,11208], 1.1%
+[15 Street Cond/Dump-Out/Drop-Off], 1.1%
+[Street,DSNY,Sanitation Condition], 1.1%
+[Street,15 Street Cond/Dump-Out/Drop-Off], 1.1%
+[15 Street Cond/Dump-Out/Drop-Off,DSNY], 1.1%
+[Street,Sanitation Condition], 1.1%
+[15 Street Cond/Dump-Out/Drop-Off,Sanitation Condition], 1.1%
+[NYC Street Address], 1.1%
+[Unspecified,HRA Benefit Card Replacement,NYC Street Address], 1.1%
+[HRA,HRA Benefit Card Replacement,NYC Street Address], 1.1%
+[HRA,Benefit Card Replacement,NYC Street Address], 1.1%
+[Benefit Card Replacement,NYC Street Address,HRA Benefit Card Replacement], 1.1%
+[HRA,Unspecified,NYC Street Address], 1.1%
+[HRA Benefit Card Replacement,NYC Street Address], 1.1%
+[Benefit Card Replacement,NYC Street Address], 1.1%
+[Unspecified,NYC Street Address], 1.1%
+[HRA,NYC Street Address], 1.1%
+[HRA,Benefit Card Replacement,HRA Benefit Card Replacement,NYC Street Address], 1.1%
+[HRA,Unspecified,NYC Street Address,HRA Benefit Card Replacement], 1.1%
+[Department of Parks and Recreation,BROOKLYN], 1.1%
+[DPR,BROOKLYN], 1.1%
+[11221], 1.1%
+[11221,BROOKLYN], 1.1%
+[10457], 1.1%
+[BRONX,10457], 1.1%
+[Operations Unit - Department of Homeless Services,Street/Sidewalk,DHS], 1.0%
+[Homeless Person Assistance,Street/Sidewalk,DHS], 1.0%
+[Street/Sidewalk,DHS], 1.0%
+[Homeless Person Assistance,Street/Sidewalk], 1.0%
+[Operations Unit - Department of Homeless Services,Street/Sidewalk], 1.0%
+[10472], 1.0%
+[10472,BRONX], 1.0%
+[DPR,Street,QUEENS], 1.0%
+[Street,Department of Parks and Recreation,QUEENS], 1.0%
+[DSNY,STATEN ISLAND], 1.0%
+[BRONX,Blocked Driveway,Street/Sidewalk], 1.0%
+[New York City Police Department,Blocked Driveway,BRONX], 1.0%
+[BRONX,Blocked Driveway], 1.0%
+[MANHATTAN,Noise - Commercial,NYPD], 1.0%
+[New York City Police Department,Noise - Commercial,MANHATTAN], 1.0%
+[MANHATTAN,Noise - Commercial], 1.0%
+[10468], 1.0%
+[BRONX,10468], 1.0%
+[10031], 1.0%
+[MANHATTAN,10031], 1.0%
+[MANHATTAN,Store/Commercial], 1.0%
+
+
+Itemsets whose confidence is larger than 0.750000:
+[New York City Police Department] --> [NYPD] (Conf: 100.0%, Supp: 31.2%)
+[HPD] --> [Department of Housing Preservation and Development] (Conf: 100.0%, Supp: 23.3%)
+[Department of Housing Preservation and Development] --> [HPD] (Conf: 100.0%, Supp: 23.3%)
+[Department of Housing Preservation and Development,RESIDENTIAL BUILDING] --> [HPD] (Conf: 100.0%, Supp: 23.2%)
+[HPD,RESIDENTIAL BUILDING] --> [Department of Housing Preservation and Development] (Conf: 100.0%, Supp: 23.2%)
+[RESIDENTIAL BUILDING] --> [HPD] (Conf: 100.0%, Supp: 23.2%)
+[RESIDENTIAL BUILDING] --> [Department of Housing Preservation and Development] (Conf: 100.0%, Supp: 23.2%)
+[New York City Police Department,Street/Sidewalk] --> [NYPD] (Conf: 100.0%, Supp: 17.7%)
+[Department of Transportation] --> [DOT] (Conf: 100.0%, Supp: 10.7%)
+[New York City Police Department,Residential Building/House] --> [NYPD] (Conf: 100.0%, Supp: 10.7%)
+[Noise - Residential] --> [Residential Building/House] (Conf: 100.0%, Supp: 10.2%)
+[Noise - Residential,Residential Building/House] --> [NYPD] (Conf: 100.0%, Supp: 10.2%)
+[Noise - Residential,NYPD] --> [Residential Building/House] (Conf: 100.0%, Supp: 10.2%)
+[Noise - Residential] --> [NYPD] (Conf: 100.0%, Supp: 10.2%)
+[Noise - Residential,New York City Police Department,Residential Building/House] --> [NYPD] (Conf: 100.0%, Supp: 10.2%)
+[Noise - Residential,New York City Police Department,NYPD] --> [Residential Building/House] (Conf: 100.0%, Supp: 10.2%)
+[Noise - Residential,New York City Police Department] --> [NYPD] (Conf: 100.0%, Supp: 10.2%)
+[Noise - Residential,New York City Police Department] --> [Residential Building/House] (Conf: 100.0%, Supp: 10.2%)
+[Loud Music/Party] --> [NYPD] (Conf: 100.0%, Supp: 10.1%)
+[New York City Police Department,Loud Music/Party] --> [NYPD] (Conf: 100.0%, Supp: 10.1%)
+[New York City Police Department,BROOKLYN] --> [NYPD] (Conf: 100.0%, Supp: 9.9%)
+[HPD,RESIDENTIAL BUILDING,HEAT/HOT WATER] --> [Department of Housing Preservation and Development] (Conf: 100.0%, Supp: 8.0%)
+[Department of Housing Preservation and Development,RESIDENTIAL BUILDING,HEAT/HOT WATER] --> [HPD] (Conf: 100.0%, Supp: 8.0%)
+[RESIDENTIAL BUILDING,HEAT/HOT WATER] --> [Department of Housing Preservation and Development] (Conf: 100.0%, Supp: 8.0%)
+[HEAT/HOT WATER] --> [Department of Housing Preservation and Development] (Conf: 100.0%, Supp: 8.0%)
+[HEAT/HOT WATER] --> [HPD] (Conf: 100.0%, Supp: 8.0%)
+[HPD,HEAT/HOT WATER] --> [Department of Housing Preservation and Development] (Conf: 100.0%, Supp: 8.0%)
+[HPD,HEAT/HOT WATER] --> [RESIDENTIAL BUILDING] (Conf: 100.0%, Supp: 8.0%)
+[RESIDENTIAL BUILDING,HEAT/HOT WATER] --> [HPD] (Conf: 100.0%, Supp: 8.0%)
+[Department of Housing Preservation and Development,HEAT/HOT WATER] --> [RESIDENTIAL BUILDING] (Conf: 100.0%, Supp: 8.0%)
+[Department of Housing Preservation and Development,HEAT/HOT WATER] --> [HPD] (Conf: 100.0%, Supp: 8.0%)
+[HEAT/HOT WATER] --> [RESIDENTIAL BUILDING] (Conf: 100.0%, Supp: 8.0%)
+[Department of Housing Preservation and Development,HPD,HEAT/HOT WATER] --> [RESIDENTIAL BUILDING] (Conf: 100.0%, Supp: 8.0%)
+[New York City Police Department,QUEENS] --> [NYPD] (Conf: 100.0%, Supp: 7.8%)
+[Department of Housing Preservation and Development,RESIDENTIAL BUILDING,BROOKLYN] --> [HPD] (Conf: 100.0%, Supp: 7.6%)
+[Department of Housing Preservation and Development,BROOKLYN] --> [HPD] (Conf: 100.0%, Supp: 7.6%)
+[BROOKLYN,RESIDENTIAL BUILDING] --> [Department of Housing Preservation and Development] (Conf: 100.0%, Supp: 7.6%)
+[BROOKLYN,HPD] --> [RESIDENTIAL BUILDING] (Conf: 100.0%, Supp: 7.6%)
+[BROOKLYN,HPD,RESIDENTIAL BUILDING] --> [Department of Housing Preservation and Development] (Conf: 100.0%, Supp: 7.6%)
+[Department of Housing Preservation and Development,BROOKLYN] --> [RESIDENTIAL BUILDING] (Conf: 100.0%, Supp: 7.6%)
+[Department of Housing Preservation and Development,BROOKLYN,HPD] --> [RESIDENTIAL BUILDING] (Conf: 100.0%, Supp: 7.6%)
+[BROOKLYN,RESIDENTIAL BUILDING] --> [HPD] (Conf: 100.0%, Supp: 7.6%)
+[BROOKLYN,HPD] --> [Department of Housing Preservation and Development] (Conf: 100.0%, Supp: 7.6%)
+[Department of Environmental Protection] --> [DEP] (Conf: 100.0%, Supp: 7.3%)
+[BRONX,RESIDENTIAL BUILDING] --> [Department of Housing Preservation and Development] (Conf: 100.0%, Supp: 7.3%)
+[Department of Housing Preservation and Development,BRONX] --> [RESIDENTIAL BUILDING] (Conf: 100.0%, Supp: 7.3%)
+[BRONX,HPD] --> [RESIDENTIAL BUILDING] (Conf: 100.0%, Supp: 7.3%)
+[Department of Housing Preservation and Development,RESIDENTIAL BUILDING,BRONX] --> [HPD] (Conf: 100.0%, Supp: 7.3%)
+[Department of Housing Preservation and Development,BRONX,HPD] --> [RESIDENTIAL BUILDING] (Conf: 100.0%, Supp: 7.3%)
+[Department of Housing Preservation and Development,BRONX] --> [HPD] (Conf: 100.0%, Supp: 7.3%)
+[BRONX,HPD] --> [Department of Housing Preservation and Development] (Conf: 100.0%, Supp: 7.3%)
+[BRONX,RESIDENTIAL BUILDING] --> [HPD] (Conf: 100.0%, Supp: 7.3%)
+[New York City Police Department,MANHATTAN] --> [NYPD] (Conf: 100.0%, Supp: 6.7%)
+[Noise - Residential,Loud Music/Party] --> [Residential Building/House] (Conf: 100.0%, Supp: 6.4%)
+[Loud Music/Party,NYPD,Residential Building/House] --> [Noise - Residential] (Conf: 100.0%, Supp: 6.4%)
+[Loud Music/Party,Residential Building/House] --> [Noise - Residential] (Conf: 100.0%, Supp: 6.4%)
+[Noise - Residential,Loud Music/Party] --> [NYPD] (Conf: 100.0%, Supp: 6.4%)
+[Loud Music/Party,Residential Building/House] --> [NYPD] (Conf: 100.0%, Supp: 6.4%)
+[Noise - Residential,New York City Police Department,Loud Music/Party] --> [NYPD] (Conf: 100.0%, Supp: 6.4%)
+[Noise - Residential,New York City Police Department,Loud Music/Party,NYPD] --> [Residential Building/House] (Conf: 100.0%, Supp: 6.4%)
+[Noise - Residential,New York City Police Department,Loud Music/Party,Residential Building/House] --> [NYPD] (Conf: 100.0%, Supp: 6.4%)
+[New York City Police Department,Loud Music/Party,Residential Building/House] --> [NYPD] (Conf: 100.0%, Supp: 6.4%)
+[New York City Police Department,Loud Music/Party,Residential Building/House] --> [Noise - Residential] (Conf: 100.0%, Supp: 6.4%)
+[Noise - Residential,New York City Police Department,Loud Music/Party] --> [Residential Building/House] (Conf: 100.0%, Supp: 6.4%)
+[New York City Police Department,Street/Sidewalk,BROOKLYN] --> [NYPD] (Conf: 100.0%, Supp: 6.0%)
+[Blocked Driveway] --> [NYPD] (Conf: 100.0%, Supp: 5.9%)
+[Street/Sidewalk,Blocked Driveway] --> [NYPD] (Conf: 100.0%, Supp: 5.9%)
+[Blocked Driveway] --> [Street/Sidewalk] (Conf: 100.0%, Supp: 5.9%)
+[NYPD,Blocked Driveway] --> [Street/Sidewalk] (Conf: 100.0%, Supp: 5.9%)
+[New York City Police Department,Blocked Driveway] --> [NYPD] (Conf: 100.0%, Supp: 5.9%)
+[New York City Police Department,Blocked Driveway] --> [Street/Sidewalk] (Conf: 100.0%, Supp: 5.9%)
+[New York City Police Department,Blocked Driveway,Street/Sidewalk] --> [NYPD] (Conf: 100.0%, Supp: 5.9%)
+[New York City Police Department,NYPD,Blocked Driveway] --> [Street/Sidewalk] (Conf: 100.0%, Supp: 5.9%)
+[Illegal Parking,NYPD] --> [Street/Sidewalk] (Conf: 100.0%, Supp: 5.7%)
+[Illegal Parking] --> [NYPD] (Conf: 100.0%, Supp: 5.7%)
+[Illegal Parking,Street/Sidewalk] --> [NYPD] (Conf: 100.0%, Supp: 5.7%)
+[Illegal Parking] --> [Street/Sidewalk] (Conf: 100.0%, Supp: 5.7%)
+[Illegal Parking,New York City Police Department] --> [NYPD] (Conf: 100.0%, Supp: 5.7%)
+[Illegal Parking,New York City Police Department] --> [Street/Sidewalk] (Conf: 100.0%, Supp: 5.7%)
+[Illegal Parking,Street/Sidewalk,New York City Police Department] --> [NYPD] (Conf: 100.0%, Supp: 5.7%)
+[New York City Police Department,BRONX] --> [NYPD] (Conf: 100.0%, Supp: 5.5%)
+[ENTIRE BUILDING,Department of Housing Preservation and Development] --> [RESIDENTIAL BUILDING] (Conf: 100.0%, Supp: 5.4%)
+[ENTIRE BUILDING] --> [HPD] (Conf: 100.0%, Supp: 5.4%)
+[ENTIRE BUILDING,HPD] --> [HEAT/HOT WATER] (Conf: 100.0%, Supp: 5.4%)
+[ENTIRE BUILDING,HPD] --> [Department of Housing Preservation and Development] (Conf: 100.0%, Supp: 5.4%)
+[ENTIRE BUILDING,HEAT/HOT WATER] --> [HPD] (Conf: 100.0%, Supp: 5.4%)
+[ENTIRE BUILDING,RESIDENTIAL BUILDING] --> [HPD] (Conf: 100.0%, Supp: 5.4%)
+[ENTIRE BUILDING,Department of Housing Preservation and Development] --> [HEAT/HOT WATER] (Conf: 100.0%, Supp: 5.4%)
+[ENTIRE BUILDING,HPD,Department of Housing Preservation and Development] --> [RESIDENTIAL BUILDING] (Conf: 100.0%, Supp: 5.4%)
+[ENTIRE BUILDING,RESIDENTIAL BUILDING,Department of Housing Preservation and Development] --> [HPD] (Conf: 100.0%, Supp: 5.4%)
+[ENTIRE BUILDING,RESIDENTIAL BUILDING,Department of Housing Preservation and Development] --> [HEAT/HOT WATER] (Conf: 100.0%, Supp: 5.4%)
+[ENTIRE BUILDING] --> [HEAT/HOT WATER] (Conf: 100.0%, Supp: 5.4%)
+[ENTIRE BUILDING,RESIDENTIAL BUILDING] --> [Department of Housing Preservation and Development] (Conf: 100.0%, Supp: 5.4%)
+[ENTIRE BUILDING,RESIDENTIAL BUILDING] --> [HEAT/HOT WATER] (Conf: 100.0%, Supp: 5.4%)
+[ENTIRE BUILDING] --> [Department of Housing Preservation and Development] (Conf: 100.0%, Supp: 5.4%)
+[ENTIRE BUILDING,HPD,HEAT/HOT WATER] --> [RESIDENTIAL BUILDING] (Conf: 100.0%, Supp: 5.4%)
+[ENTIRE BUILDING,Department of Housing Preservation and Development] --> [HPD] (Conf: 100.0%, Supp: 5.4%)
+[ENTIRE BUILDING,HEAT/HOT WATER] --> [Department of Housing Preservation and Development] (Conf: 100.0%, Supp: 5.4%)
+[ENTIRE BUILDING] --> [RESIDENTIAL BUILDING] (Conf: 100.0%, Supp: 5.4%)
+[ENTIRE BUILDING,RESIDENTIAL BUILDING,HEAT/HOT WATER] --> [Department of Housing Preservation and Development] (Conf: 100.0%, Supp: 5.4%)
+[ENTIRE BUILDING,HEAT/HOT WATER] --> [RESIDENTIAL BUILDING] (Conf: 100.0%, Supp: 5.4%)
+[ENTIRE BUILDING,HPD,HEAT/HOT WATER] --> [Department of Housing Preservation and Development] (Conf: 100.0%, Supp: 5.4%)
+[ENTIRE BUILDING,HPD,Department of Housing Preservation and Development] --> [HEAT/HOT WATER] (Conf: 100.0%, Supp: 5.4%)
+[ENTIRE BUILDING,RESIDENTIAL BUILDING,HEAT/HOT WATER] --> [HPD] (Conf: 100.0%, Supp: 5.4%)
+[ENTIRE BUILDING,HPD] --> [RESIDENTIAL BUILDING] (Conf: 100.0%, Supp: 5.4%)
+[QUEENS,NYPD,Street/Sidewalk] --> [New York City Police Department] (Conf: 100.0%, Supp: 5.3%)
+[New York City Police Department,QUEENS,Street/Sidewalk] --> [NYPD] (Conf: 100.0%, Supp: 5.3%)
+[MANHATTAN,Department of Housing Preservation and Development] --> [RESIDENTIAL BUILDING] (Conf: 100.0%, Supp: 4.9%)
+[MANHATTAN,RESIDENTIAL BUILDING,HPD] --> [Department of Housing Preservation and Development] (Conf: 100.0%, Supp: 4.9%)
+[MANHATTAN,HPD] --> [Department of Housing Preservation and Development] (Conf: 100.0%, Supp: 4.9%)
+[MANHATTAN,HPD] --> [RESIDENTIAL BUILDING] (Conf: 100.0%, Supp: 4.9%)
+[MANHATTAN,Department of Housing Preservation and Development] --> [HPD] (Conf: 100.0%, Supp: 4.9%)
+[MANHATTAN,RESIDENTIAL BUILDING,Department of Housing Preservation and Development] --> [HPD] (Conf: 100.0%, Supp: 4.9%)
+[MANHATTAN,HPD,Department of Housing Preservation and Development] --> [RESIDENTIAL BUILDING] (Conf: 100.0%, Supp: 4.9%)
+[MANHATTAN,RESIDENTIAL BUILDING] --> [HPD] (Conf: 100.0%, Supp: 4.9%)
+[MANHATTAN,RESIDENTIAL BUILDING] --> [Department of Housing Preservation and Development] (Conf: 100.0%, Supp: 4.9%)
+[No Access,NYPD] --> [Blocked Driveway] (Conf: 100.0%, Supp: 4.3%)
+[No Access,Street/Sidewalk] --> [Blocked Driveway] (Conf: 100.0%, Supp: 4.3%)
+[No Access,Blocked Driveway,NYPD] --> [Street/Sidewalk] (Conf: 100.0%, Supp: 4.3%)
+[No Access,NYPD] --> [Street/Sidewalk] (Conf: 100.0%, Supp: 4.3%)
+[No Access,Blocked Driveway,Street/Sidewalk] --> [NYPD] (Conf: 100.0%, Supp: 4.3%)
+[No Access] --> [Street/Sidewalk] (Conf: 100.0%, Supp: 4.3%)
+[No Access,Street/Sidewalk] --> [NYPD] (Conf: 100.0%, Supp: 4.3%)
+[No Access,Blocked Driveway] --> [Street/Sidewalk] (Conf: 100.0%, Supp: 4.3%)
+[No Access] --> [NYPD] (Conf: 100.0%, Supp: 4.3%)
+[No Access] --> [Blocked Driveway] (Conf: 100.0%, Supp: 4.3%)
+[No Access,Blocked Driveway] --> [NYPD] (Conf: 100.0%, Supp: 4.3%)
+[New York City Police Department,Blocked Driveway,No Access] --> [NYPD] (Conf: 100.0%, Supp: 4.3%)
+[New York City Police Department,Blocked Driveway,No Access] --> [Street/Sidewalk] (Conf: 100.0%, Supp: 4.3%)
+[New York City Police Department,NYPD,No Access] --> [Street/Sidewalk] (Conf: 100.0%, Supp: 4.3%)
+[New York City Police Department,No Access] --> [Blocked Driveway] (Conf: 100.0%, Supp: 4.3%)
+[New York City Police Department,No Access] --> [NYPD] (Conf: 100.0%, Supp: 4.3%)
+[New York City Police Department,Blocked Driveway,No Access,Street/Sidewalk] --> [NYPD] (Conf: 100.0%, Supp: 4.3%)
+[New York City Police Department,No Access] --> [Street/Sidewalk] (Conf: 100.0%, Supp: 4.3%)
+[New York City Police Department,NYPD,No Access] --> [Blocked Driveway] (Conf: 100.0%, Supp: 4.3%)
+[DOB] --> [Department of Buildings] (Conf: 100.0%, Supp: 3.8%)
+[Department of Buildings] --> [DOB] (Conf: 100.0%, Supp: 3.8%)
+[Street Light Condition,Department of Transportation] --> [DOT] (Conf: 100.0%, Supp: 3.8%)
+[Street Light Condition] --> [DOT] (Conf: 100.0%, Supp: 3.8%)
+[DOT,Street Light Condition] --> [Department of Transportation] (Conf: 100.0%, Supp: 3.8%)
+[Street Light Condition] --> [Department of Transportation] (Conf: 100.0%, Supp: 3.8%)
+[Department of Parks and Recreation] --> [DPR] (Conf: 100.0%, Supp: 3.4%)
+[Department of Housing Preservation and Development,UNSANITARY CONDITION] --> [RESIDENTIAL BUILDING] (Conf: 100.0%, Supp: 3.4%)
+[UNSANITARY CONDITION,HPD] --> [Department of Housing Preservation and Development] (Conf: 100.0%, Supp: 3.4%)
+[UNSANITARY CONDITION] --> [RESIDENTIAL BUILDING] (Conf: 100.0%, Supp: 3.4%)
+[UNSANITARY CONDITION,HPD,RESIDENTIAL BUILDING] --> [Department of Housing Preservation and Development] (Conf: 100.0%, Supp: 3.4%)
+[UNSANITARY CONDITION,RESIDENTIAL BUILDING] --> [HPD] (Conf: 100.0%, Supp: 3.4%)
+[Department of Housing Preservation and Development,UNSANITARY CONDITION,HPD] --> [RESIDENTIAL BUILDING] (Conf: 100.0%, Supp: 3.4%)
+[Department of Housing Preservation and Development,UNSANITARY CONDITION] --> [HPD] (Conf: 100.0%, Supp: 3.4%)
+[UNSANITARY CONDITION] --> [Department of Housing Preservation and Development] (Conf: 100.0%, Supp: 3.4%)
+[UNSANITARY CONDITION,HPD] --> [RESIDENTIAL BUILDING] (Conf: 100.0%, Supp: 3.4%)
+[UNSANITARY CONDITION] --> [HPD] (Conf: 100.0%, Supp: 3.4%)
+[UNSANITARY CONDITION,RESIDENTIAL BUILDING] --> [Department of Housing Preservation and Development] (Conf: 100.0%, Supp: 3.4%)
+[QUEENS,DOT] --> [Department of Transportation] (Conf: 100.0%, Supp: 3.2%)
+[QUEENS,Department of Transportation] --> [DOT] (Conf: 100.0%, Supp: 3.2%)
+[MANHATTAN,Loud Music/Party] --> [NYPD] (Conf: 100.0%, Supp: 3.1%)
+[New York City Police Department,Loud Music/Party,MANHATTAN] --> [NYPD] (Conf: 100.0%, Supp: 3.1%)
+[Street Condition,Department of Transportation] --> [DOT] (Conf: 100.0%, Supp: 3.0%)
+[DOT,Street Condition] --> [Department of Transportation] (Conf: 100.0%, Supp: 3.0%)
+[Street Condition] --> [DOT] (Conf: 100.0%, Supp: 3.0%)
+[Street Condition] --> [Department of Transportation] (Conf: 100.0%, Supp: 3.0%)
+[Banging/Pounding] --> [New York City Police Department] (Conf: 100.0%, Supp: 3.0%)
+[New York City Police Department,Banging/Pounding] --> [NYPD] (Conf: 100.0%, Supp: 3.0%)
+[Banging/Pounding] --> [NYPD] (Conf: 100.0%, Supp: 3.0%)
+[NYPD,Banging/Pounding] --> [New York City Police Department] (Conf: 100.0%, Supp: 3.0%)
+[QUEENS,HPD] --> [RESIDENTIAL BUILDING] (Conf: 100.0%, Supp: 3.0%)
+[QUEENS,HPD] --> [Department of Housing Preservation and Development] (Conf: 100.0%, Supp: 3.0%)
+[QUEENS,RESIDENTIAL BUILDING] --> [HPD] (Conf: 100.0%, Supp: 3.0%)
+[QUEENS,HPD,RESIDENTIAL BUILDING] --> [Department of Housing Preservation and Development] (Conf: 100.0%, Supp: 3.0%)
+[QUEENS,Department of Housing Preservation and Development] --> [HPD] (Conf: 100.0%, Supp: 3.0%)
+[QUEENS,RESIDENTIAL BUILDING] --> [Department of Housing Preservation and Development] (Conf: 100.0%, Supp: 3.0%)
+[QUEENS,Department of Housing Preservation and Development] --> [RESIDENTIAL BUILDING] (Conf: 100.0%, Supp: 3.0%)
+[New York City Police Department,Residential Building/House,BROOKLYN] --> [NYPD] (Conf: 100.0%, Supp: 3.0%)
+[New York City Police Department,Street/Sidewalk,MANHATTAN] --> [NYPD] (Conf: 100.0%, Supp: 3.0%)
+[BROOKLYN,Department of Transportation] --> [DOT] (Conf: 100.0%, Supp: 3.0%)
+[DOT,BROOKLYN] --> [Department of Transportation] (Conf: 100.0%, Supp: 3.0%)
+[Street Light Out] --> [DOT] (Conf: 100.0%, Supp: 2.9%)
+[Street Light Out,Street Light Condition,Department of Transportation] --> [DOT] (Conf: 100.0%, Supp: 2.9%)
+[DOT,Street Light Out,Street Light Condition] --> [Department of Transportation] (Conf: 100.0%, Supp: 2.9%)
+[Street Light Out,Department of Transportation] --> [DOT] (Conf: 100.0%, Supp: 2.9%)
+[DOT,Street Light Out] --> [Department of Transportation] (Conf: 100.0%, Supp: 2.9%)
+[Street Light Out,Department of Transportation] --> [Street Light Condition] (Conf: 100.0%, Supp: 2.9%)
+[Street Light Out] --> [Street Light Condition] (Conf: 100.0%, Supp: 2.9%)
+[DOT,Street Light Out,Department of Transportation] --> [Street Light Condition] (Conf: 100.0%, Supp: 2.9%)
+[Street Light Out,Street Light Condition] --> [Department of Transportation] (Conf: 100.0%, Supp: 2.9%)
+[Street Light Out] --> [Department of Transportation] (Conf: 100.0%, Supp: 2.9%)
+[Street Light Out,Street Light Condition] --> [DOT] (Conf: 100.0%, Supp: 2.9%)
+[DOT,Street Light Out] --> [Street Light Condition] (Conf: 100.0%, Supp: 2.9%)
+[Street,DOT] --> [Department of Transportation] (Conf: 100.0%, Supp: 2.9%)
+[Street,Department of Transportation] --> [DOT] (Conf: 100.0%, Supp: 2.9%)
+[Noise - Residential,BROOKLYN] --> [Residential Building/House] (Conf: 100.0%, Supp: 2.9%)
+[Noise - Residential,BROOKLYN] --> [NYPD] (Conf: 100.0%, Supp: 2.9%)
+[Noise - Residential,BROOKLYN,Residential Building/House] --> [NYPD] (Conf: 100.0%, Supp: 2.9%)
+[Noise - Residential,New York City Police Department,BROOKLYN,Residential Building/House] --> [NYPD] (Conf: 100.0%, Supp: 2.9%)
+[Noise - Residential,New York City Police Department,BROOKLYN] --> [Residential Building/House] (Conf: 100.0%, Supp: 2.9%)
+[Noise - Residential,New York City Police Department,BROOKLYN] --> [NYPD] (Conf: 100.0%, Supp: 2.9%)
+[Noise - Residential,New York City Police Department,BROOKLYN,NYPD] --> [Residential Building/House] (Conf: 100.0%, Supp: 2.9%)
+[Loud Music/Party,BROOKLYN] --> [NYPD] (Conf: 100.0%, Supp: 2.8%)
+[New York City Police Department,Loud Music/Party,BROOKLYN] --> [NYPD] (Conf: 100.0%, Supp: 2.8%)
+[Noise - Residential,New York City Police Department,Banging/Pounding] --> [Residential Building/House] (Conf: 100.0%, Supp: 2.8%)
+[Noise - Residential,NYPD,Banging/Pounding] --> [New York City Police Department] (Conf: 100.0%, Supp: 2.8%)
+[Noise - Residential,NYPD,Banging/Pounding] --> [Residential Building/House] (Conf: 100.0%, Supp: 2.8%)
+[Residential Building/House,Banging/Pounding] --> [NYPD] (Conf: 100.0%, Supp: 2.8%)
+[Noise - Residential,New York City Police Department,Banging/Pounding] --> [NYPD] (Conf: 100.0%, Supp: 2.8%)
+[Noise - Residential,New York City Police Department,NYPD,Banging/Pounding] --> [Residential Building/House] (Conf: 100.0%, Supp: 2.8%)
+[Noise - Residential,Banging/Pounding] --> [NYPD] (Conf: 100.0%, Supp: 2.8%)
+[Noise - Residential,NYPD,Residential Building/House,Banging/Pounding] --> [New York City Police Department] (Conf: 100.0%, Supp: 2.8%)
+[Noise - Residential,Banging/Pounding] --> [Residential Building/House] (Conf: 100.0%, Supp: 2.8%)
+[New York City Police Department,Residential Building/House,Banging/Pounding] --> [NYPD] (Conf: 100.0%, Supp: 2.8%)
+[NYPD,Banging/Pounding,Residential Building/House] --> [Noise - Residential] (Conf: 100.0%, Supp: 2.8%)
+[Noise - Residential,Banging/Pounding] --> [New York City Police Department] (Conf: 100.0%, Supp: 2.8%)
+[Residential Building/House,Banging/Pounding] --> [Noise - Residential] (Conf: 100.0%, Supp: 2.8%)
+[New York City Police Department,Residential Building/House,Banging/Pounding] --> [Noise - Residential] (Conf: 100.0%, Supp: 2.8%)
+[Residential Building/House,Banging/Pounding] --> [New York City Police Department] (Conf: 100.0%, Supp: 2.8%)
+[NYPD,Banging/Pounding,Residential Building/House] --> [New York City Police Department] (Conf: 100.0%, Supp: 2.8%)
+[Noise - Street/Sidewalk] --> [Street/Sidewalk] (Conf: 100.0%, Supp: 2.6%)
+[New York City Police Department,Noise - Street/Sidewalk] --> [Street/Sidewalk] (Conf: 100.0%, Supp: 2.6%)
+[New York City Police Department,Noise - Street/Sidewalk,NYPD] --> [Street/Sidewalk] (Conf: 100.0%, Supp: 2.6%)
+[NYPD,Noise - Street/Sidewalk] --> [Street/Sidewalk] (Conf: 100.0%, Supp: 2.6%)
+[New York City Police Department,Noise - Street/Sidewalk,Street/Sidewalk] --> [NYPD] (Conf: 100.0%, Supp: 2.6%)
+[NYPD,Noise - Street/Sidewalk] --> [New York City Police Department] (Conf: 100.0%, Supp: 2.6%)
+[New York City Police Department,Noise - Street/Sidewalk] --> [NYPD] (Conf: 100.0%, Supp: 2.6%)
+[Noise - Residential,BRONX] --> [New York City Police Department] (Conf: 100.0%, Supp: 2.6%)
+[Noise - Residential,New York City Police Department,BRONX] --> [Residential Building/House] (Conf: 100.0%, Supp: 2.6%)
+[Noise - Residential,BRONX] --> [NYPD] (Conf: 100.0%, Supp: 2.6%)
+[Noise - Residential,NYPD,BRONX] --> [Residential Building/House] (Conf: 100.0%, Supp: 2.6%)
+[Noise - Residential,Residential Building/House,BRONX] --> [New York City Police Department] (Conf: 100.0%, Supp: 2.6%)
+[Noise - Residential,NYPD,BRONX] --> [New York City Police Department] (Conf: 100.0%, Supp: 2.6%)
+[Noise - Residential,Residential Building/House,BRONX] --> [NYPD] (Conf: 100.0%, Supp: 2.6%)
+[Noise - Residential,New York City Police Department,BRONX] --> [NYPD] (Conf: 100.0%, Supp: 2.6%)
+[Noise - Residential,BRONX] --> [Residential Building/House] (Conf: 100.0%, Supp: 2.6%)
+[APARTMENT ONLY,HPD,HEAT/HOT WATER] --> [RESIDENTIAL BUILDING] (Conf: 100.0%, Supp: 2.6%)
+[APARTMENT ONLY,HEAT/HOT WATER] --> [RESIDENTIAL BUILDING] (Conf: 100.0%, Supp: 2.6%)
+[APARTMENT ONLY,HPD,RESIDENTIAL BUILDING] --> [Department of Housing Preservation and Development] (Conf: 100.0%, Supp: 2.6%)
+[APARTMENT ONLY,Department of Housing Preservation and Development,RESIDENTIAL BUILDING] --> [HEAT/HOT WATER] (Conf: 100.0%, Supp: 2.6%)
+[APARTMENT ONLY] --> [HEAT/HOT WATER] (Conf: 100.0%, Supp: 2.6%)
+[APARTMENT ONLY,HPD,RESIDENTIAL BUILDING] --> [HEAT/HOT WATER] (Conf: 100.0%, Supp: 2.6%)
+[APARTMENT ONLY,Department of Housing Preservation and Development,HEAT/HOT WATER] --> [HPD] (Conf: 100.0%, Supp: 2.6%)
+[APARTMENT ONLY,Department of Housing Preservation and Development,HPD,HEAT/HOT WATER] --> [RESIDENTIAL BUILDING] (Conf: 100.0%, Supp: 2.6%)
+[APARTMENT ONLY,Department of Housing Preservation and Development] --> [HPD] (Conf: 100.0%, Supp: 2.6%)
+[APARTMENT ONLY,HPD,HEAT/HOT WATER] --> [Department of Housing Preservation and Development] (Conf: 100.0%, Supp: 2.6%)
+[APARTMENT ONLY,HPD] --> [HEAT/HOT WATER] (Conf: 100.0%, Supp: 2.6%)
+[APARTMENT ONLY,HEAT/HOT WATER] --> [Department of Housing Preservation and Development] (Conf: 100.0%, Supp: 2.6%)
+[APARTMENT ONLY,HEAT/HOT WATER] --> [HPD] (Conf: 100.0%, Supp: 2.6%)
+[APARTMENT ONLY,Department of Housing Preservation and Development,RESIDENTIAL BUILDING] --> [HPD] (Conf: 100.0%, Supp: 2.6%)
+[APARTMENT ONLY,Department of Housing Preservation and Development] --> [RESIDENTIAL BUILDING] (Conf: 100.0%, Supp: 2.6%)
+[APARTMENT ONLY,HPD] --> [RESIDENTIAL BUILDING] (Conf: 100.0%, Supp: 2.6%)
+[APARTMENT ONLY] --> [RESIDENTIAL BUILDING] (Conf: 100.0%, Supp: 2.6%)
+[APARTMENT ONLY,RESIDENTIAL BUILDING] --> [HEAT/HOT WATER] (Conf: 100.0%, Supp: 2.6%)
+[APARTMENT ONLY,Department of Housing Preservation and Development,HPD] --> [RESIDENTIAL BUILDING] (Conf: 100.0%, Supp: 2.6%)
+[APARTMENT ONLY,Department of Housing Preservation and Development,HPD] --> [HEAT/HOT WATER] (Conf: 100.0%, Supp: 2.6%)
+[APARTMENT ONLY,RESIDENTIAL BUILDING] --> [HPD] (Conf: 100.0%, Supp: 2.6%)
+[APARTMENT ONLY,Department of Housing Preservation and Development,RESIDENTIAL BUILDING,HEAT/HOT WATER] --> [HPD] (Conf: 100.0%, Supp: 2.6%)
+[APARTMENT ONLY,Department of Housing Preservation and Development] --> [HEAT/HOT WATER] (Conf: 100.0%, Supp: 2.6%)
+[APARTMENT ONLY,RESIDENTIAL BUILDING] --> [Department of Housing Preservation and Development] (Conf: 100.0%, Supp: 2.6%)
+[APARTMENT ONLY] --> [Department of Housing Preservation and Development] (Conf: 100.0%, Supp: 2.6%)
+[APARTMENT ONLY] --> [HPD] (Conf: 100.0%, Supp: 2.6%)
+[APARTMENT ONLY,HPD] --> [Department of Housing Preservation and Development] (Conf: 100.0%, Supp: 2.6%)
+[APARTMENT ONLY,Department of Housing Preservation and Development,HEAT/HOT WATER] --> [RESIDENTIAL BUILDING] (Conf: 100.0%, Supp: 2.6%)
+[BROOKLYN,HEAT/HOT WATER,HPD] --> [RESIDENTIAL BUILDING] (Conf: 100.0%, Supp: 2.5%)
+[Department of Housing Preservation and Development,BROOKLYN,HPD,HEAT/HOT WATER] --> [RESIDENTIAL BUILDING] (Conf: 100.0%, Supp: 2.5%)
+[Department of Housing Preservation and Development,BROOKLYN,HEAT/HOT WATER] --> [RESIDENTIAL BUILDING] (Conf: 100.0%, Supp: 2.5%)
+[BROOKLYN,HEAT/HOT WATER] --> [HPD] (Conf: 100.0%, Supp: 2.5%)
+[BROOKLYN,HEAT/HOT WATER] --> [RESIDENTIAL BUILDING] (Conf: 100.0%, Supp: 2.5%)
+[BROOKLYN,HEAT/HOT WATER] --> [Department of Housing Preservation and Development] (Conf: 100.0%, Supp: 2.5%)
+[BROOKLYN,HEAT/HOT WATER,HPD] --> [Department of Housing Preservation and Development] (Conf: 100.0%, Supp: 2.5%)
+[Department of Housing Preservation and Development,BROOKLYN,HEAT/HOT WATER] --> [HPD] (Conf: 100.0%, Supp: 2.5%)
+[PAINT/PLASTER,RESIDENTIAL BUILDING] --> [Department of Housing Preservation and Development] (Conf: 100.0%, Supp: 2.5%)
+[HPD,PAINT/PLASTER] --> [Department of Housing Preservation and Development] (Conf: 100.0%, Supp: 2.5%)
+[PAINT/PLASTER,RESIDENTIAL BUILDING] --> [HPD] (Conf: 100.0%, Supp: 2.5%)
+[HPD,PAINT/PLASTER] --> [RESIDENTIAL BUILDING] (Conf: 100.0%, Supp: 2.5%)
+[Department of Housing Preservation and Development,PAINT/PLASTER] --> [HPD] (Conf: 100.0%, Supp: 2.5%)
+[PAINT/PLASTER] --> [HPD] (Conf: 100.0%, Supp: 2.5%)
+[PAINT/PLASTER] --> [RESIDENTIAL BUILDING] (Conf: 100.0%, Supp: 2.5%)
+[HPD,PAINT/PLASTER,RESIDENTIAL BUILDING] --> [Department of Housing Preservation and Development] (Conf: 100.0%, Supp: 2.5%)
+[Department of Housing Preservation and Development,PAINT/PLASTER] --> [RESIDENTIAL BUILDING] (Conf: 100.0%, Supp: 2.5%)
+[Department of Housing Preservation and Development,PAINT/PLASTER,HPD] --> [RESIDENTIAL BUILDING] (Conf: 100.0%, Supp: 2.5%)
+[PAINT/PLASTER] --> [Department of Housing Preservation and Development] (Conf: 100.0%, Supp: 2.5%)
+[New York City Police Department,Residential Building/House,MANHATTAN] --> [NYPD] (Conf: 100.0%, Supp: 2.5%)
+[BRONX,NYPD,Street/Sidewalk] --> [New York City Police Department] (Conf: 100.0%, Supp: 2.5%)
+[Department of Health and Mental Hygiene] --> [DOHMH] (Conf: 100.0%, Supp: 2.5%)
+[Water System] --> [Department of Environmental Protection] (Conf: 100.0%, Supp: 2.5%)
+[Department of Environmental Protection,Water System] --> [DEP] (Conf: 100.0%, Supp: 2.5%)
+[Water System] --> [DEP] (Conf: 100.0%, Supp: 2.5%)
+[DEP,Water System] --> [Department of Environmental Protection] (Conf: 100.0%, Supp: 2.5%)
+[DPR,Street] --> [Department of Parks and Recreation] (Conf: 100.0%, Supp: 2.5%)
+[Street,Department of Parks and Recreation] --> [DPR] (Conf: 100.0%, Supp: 2.5%)
+[New York City Police Department,Noise - Commercial] --> [NYPD] (Conf: 100.0%, Supp: 2.4%)
+[Noise - Commercial] --> [New York City Police Department] (Conf: 100.0%, Supp: 2.4%)
+[Noise - Residential,MANHATTAN] --> [NYPD] (Conf: 100.0%, Supp: 2.4%)
+[Noise - Residential,MANHATTAN] --> [Residential Building/House] (Conf: 100.0%, Supp: 2.4%)
+[NYPD,Noise - Commercial] --> [New York City Police Department] (Conf: 100.0%, Supp: 2.4%)
+[Noise - Commercial] --> [NYPD] (Conf: 100.0%, Supp: 2.4%)
+[Noise - Residential,New York City Police Department,MANHATTAN] --> [Residential Building/House] (Conf: 100.0%, Supp: 2.4%)
+[Noise - Residential,New York City Police Department,MANHATTAN] --> [NYPD] (Conf: 100.0%, Supp: 2.4%)
+[Noise] --> [Department of Environmental Protection] (Conf: 100.0%, Supp: 2.4%)
+[Noise,DEP] --> [Department of Environmental Protection] (Conf: 100.0%, Supp: 2.4%)
+[Noise,Department of Environmental Protection] --> [DEP] (Conf: 100.0%, Supp: 2.4%)
+[Noise] --> [DEP] (Conf: 100.0%, Supp: 2.4%)
+[BRONX,HEAT/HOT WATER] --> [Department of Housing Preservation and Development] (Conf: 100.0%, Supp: 2.4%)
+[Department of Housing Preservation and Development,BRONX,HEAT/HOT WATER] --> [HPD] (Conf: 100.0%, Supp: 2.4%)
+[Department of Housing Preservation and Development,BRONX,HEAT/HOT WATER] --> [RESIDENTIAL BUILDING] (Conf: 100.0%, Supp: 2.4%)
+[BRONX,HEAT/HOT WATER] --> [HPD] (Conf: 100.0%, Supp: 2.4%)
+[BRONX,RESIDENTIAL BUILDING,HEAT/HOT WATER] --> [HPD] (Conf: 100.0%, Supp: 2.4%)
+[BRONX,HPD,HEAT/HOT WATER] --> [RESIDENTIAL BUILDING] (Conf: 100.0%, Supp: 2.4%)
+[BRONX,HPD,HEAT/HOT WATER] --> [Department of Housing Preservation and Development] (Conf: 100.0%, Supp: 2.4%)
+[BRONX,RESIDENTIAL BUILDING,HEAT/HOT WATER] --> [Department of Housing Preservation and Development] (Conf: 100.0%, Supp: 2.4%)
+[Department of Housing Preservation and Development,RESIDENTIAL BUILDING,BRONX,HEAT/HOT WATER] --> [HPD] (Conf: 100.0%, Supp: 2.4%)
+[Department of Housing Preservation and Development,BRONX,HPD,HEAT/HOT WATER] --> [RESIDENTIAL BUILDING] (Conf: 100.0%, Supp: 2.4%)
+[BRONX,HEAT/HOT WATER] --> [RESIDENTIAL BUILDING] (Conf: 100.0%, Supp: 2.4%)
+[QUEENS,NYPD,Blocked Driveway] --> [New York City Police Department] (Conf: 100.0%, Supp: 2.3%)
+[QUEENS,Blocked Driveway] --> [NYPD] (Conf: 100.0%, Supp: 2.3%)
+[QUEENS,Street/Sidewalk,Blocked Driveway] --> [NYPD] (Conf: 100.0%, Supp: 2.3%)
+[QUEENS,NYPD,Blocked Driveway,Street/Sidewalk] --> [New York City Police Department] (Conf: 100.0%, Supp: 2.3%)
+[QUEENS,Blocked Driveway] --> [New York City Police Department] (Conf: 100.0%, Supp: 2.3%)
+[QUEENS,NYPD,Blocked Driveway] --> [Street/Sidewalk] (Conf: 100.0%, Supp: 2.3%)
+[QUEENS,Blocked Driveway] --> [Street/Sidewalk] (Conf: 100.0%, Supp: 2.3%)
+[QUEENS,Street/Sidewalk,Blocked Driveway] --> [New York City Police Department] (Conf: 100.0%, Supp: 2.3%)
+[Illegal Parking,BROOKLYN] --> [Street/Sidewalk] (Conf: 100.0%, Supp: 2.2%)
+[Illegal Parking,BROOKLYN] --> [NYPD] (Conf: 100.0%, Supp: 2.2%)
+[Illegal Parking,BROOKLYN,NYPD] --> [Street/Sidewalk] (Conf: 100.0%, Supp: 2.2%)
+[Illegal Parking,BROOKLYN,Street/Sidewalk] --> [NYPD] (Conf: 100.0%, Supp: 2.2%)
+[BROOKLYN,Street/Sidewalk,Blocked Driveway] --> [New York City Police Department] (Conf: 100.0%, Supp: 2.2%)
+[BROOKLYN,Blocked Driveway] --> [New York City Police Department] (Conf: 100.0%, Supp: 2.2%)
+[BROOKLYN,Blocked Driveway] --> [NYPD] (Conf: 100.0%, Supp: 2.2%)
+[BROOKLYN,Street/Sidewalk,Blocked Driveway] --> [NYPD] (Conf: 100.0%, Supp: 2.2%)
+[BROOKLYN,Blocked Driveway] --> [Street/Sidewalk] (Conf: 100.0%, Supp: 2.2%)
+[Department of Housing Preservation and Development,PLUMBING] --> [HPD] (Conf: 100.0%, Supp: 2.2%)
+[Department of Housing Preservation and Development,RESIDENTIAL BUILDING,PLUMBING] --> [HPD] (Conf: 100.0%, Supp: 2.2%)
+[HPD,PLUMBING] --> [Department of Housing Preservation and Development] (Conf: 100.0%, Supp: 2.2%)
+[PLUMBING,RESIDENTIAL BUILDING] --> [Department of Housing Preservation and Development] (Conf: 100.0%, Supp: 2.2%)
+[PLUMBING] --> [HPD] (Conf: 100.0%, Supp: 2.2%)
+[PLUMBING] --> [Department of Housing Preservation and Development] (Conf: 100.0%, Supp: 2.2%)
+[HPD,PLUMBING] --> [RESIDENTIAL BUILDING] (Conf: 100.0%, Supp: 2.2%)
+[PLUMBING] --> [RESIDENTIAL BUILDING] (Conf: 100.0%, Supp: 2.2%)
+[PLUMBING,RESIDENTIAL BUILDING] --> [HPD] (Conf: 100.0%, Supp: 2.2%)
+[Department of Housing Preservation and Development,PLUMBING] --> [RESIDENTIAL BUILDING] (Conf: 100.0%, Supp: 2.2%)
+[MANHATTAN,DEP] --> [Department of Environmental Protection] (Conf: 100.0%, Supp: 2.1%)
+[MANHATTAN,Department of Environmental Protection] --> [DEP] (Conf: 100.0%, Supp: 2.1%)
+[Loud Music/Party,BRONX] --> [New York City Police Department] (Conf: 100.0%, Supp: 2.1%)
+[Loud Music/Party,BRONX] --> [NYPD] (Conf: 100.0%, Supp: 2.1%)
+[New York City Police Department,Loud Music/Party,BRONX] --> [NYPD] (Conf: 100.0%, Supp: 2.1%)
+[New York City Police Department,QUEENS,Residential Building/House] --> [NYPD] (Conf: 100.0%, Supp: 2.1%)
+[BROOKLYN,DEP] --> [Department of Environmental Protection] (Conf: 100.0%, Supp: 2.0%)
+[Department of Environmental Protection,BROOKLYN] --> [DEP] (Conf: 100.0%, Supp: 2.0%)
+[Operations Unit - Department of Homeless Services,DHS] --> [Homeless Person Assistance] (Conf: 100.0%, Supp: 2.0%)
+[Operations Unit - Department of Homeless Services] --> [DHS] (Conf: 100.0%, Supp: 2.0%)
+[Homeless Person Assistance,DHS] --> [Operations Unit - Department of Homeless Services] (Conf: 100.0%, Supp: 2.0%)
+[Homeless Person Assistance,Operations Unit - Department of Homeless Services] --> [DHS] (Conf: 100.0%, Supp: 2.0%)
+[Operations Unit - Department of Homeless Services] --> [Homeless Person Assistance] (Conf: 100.0%, Supp: 2.0%)
+[Loud Talking,NYPD] --> [New York City Police Department] (Conf: 100.0%, Supp: 2.0%)
+[Loud Talking,New York City Police Department] --> [NYPD] (Conf: 100.0%, Supp: 2.0%)
+[MANHATTAN,DOT] --> [Department of Transportation] (Conf: 100.0%, Supp: 2.0%)
+[MANHATTAN,Department of Transportation] --> [DOT] (Conf: 100.0%, Supp: 2.0%)
+[Noise - Residential,QUEENS,Residential Building/House] --> [NYPD] (Conf: 100.0%, Supp: 2.0%)
+[Noise - Residential,QUEENS] --> [NYPD] (Conf: 100.0%, Supp: 2.0%)
+[Noise - Residential,QUEENS] --> [Residential Building/House] (Conf: 100.0%, Supp: 2.0%)
+[Noise - Residential,New York City Police Department,QUEENS] --> [Residential Building/House] (Conf: 100.0%, Supp: 2.0%)
+[Noise - Residential,New York City Police Department,QUEENS,Residential Building/House] --> [NYPD] (Conf: 100.0%, Supp: 2.0%)
+[Noise - Residential,New York City Police Department,QUEENS] --> [NYPD] (Conf: 100.0%, Supp: 2.0%)
+[Noise - Residential,New York City Police Department,QUEENS,NYPD] --> [Residential Building/House] (Conf: 100.0%, Supp: 2.0%)
+[QUEENS,DEP] --> [Department of Environmental Protection] (Conf: 100.0%, Supp: 1.9%)
+[Department of Environmental Protection,QUEENS] --> [DEP] (Conf: 100.0%, Supp: 1.9%)
+[MANHATTAN,HEAT/HOT WATER] --> [HPD] (Conf: 100.0%, Supp: 1.9%)
+[MANHATTAN,HEAT/HOT WATER] --> [Department of Housing Preservation and Development] (Conf: 100.0%, Supp: 1.9%)
+[MANHATTAN,HPD,HEAT/HOT WATER] --> [RESIDENTIAL BUILDING] (Conf: 100.0%, Supp: 1.9%)
+[MANHATTAN,HPD,HEAT/HOT WATER,Department of Housing Preservation and Development] --> [RESIDENTIAL BUILDING] (Conf: 100.0%, Supp: 1.9%)
+[MANHATTAN,HPD,HEAT/HOT WATER] --> [Department of Housing Preservation and Development] (Conf: 100.0%, Supp: 1.9%)
+[MANHATTAN,RESIDENTIAL BUILDING,HEAT/HOT WATER] --> [HPD] (Conf: 100.0%, Supp: 1.9%)
+[MANHATTAN,HEAT/HOT WATER] --> [RESIDENTIAL BUILDING] (Conf: 100.0%, Supp: 1.9%)
+[MANHATTAN,RESIDENTIAL BUILDING,HEAT/HOT WATER] --> [Department of Housing Preservation and Development] (Conf: 100.0%, Supp: 1.9%)
+[MANHATTAN,RESIDENTIAL BUILDING,HEAT/HOT WATER,Department of Housing Preservation and Development] --> [HPD] (Conf: 100.0%, Supp: 1.9%)
+[New York City Police Department,Loud Music/Party,Noise - Commercial] --> [NYPD] (Conf: 100.0%, Supp: 1.9%)
+[Loud Music/Party,NYPD,Noise - Commercial] --> [New York City Police Department] (Conf: 100.0%, Supp: 1.9%)
+[Loud Music/Party,Noise - Commercial] --> [New York City Police Department] (Conf: 100.0%, Supp: 1.9%)
+[Loud Music/Party,Noise - Commercial] --> [NYPD] (Conf: 100.0%, Supp: 1.9%)
+[PESTS,HPD] --> [RESIDENTIAL BUILDING] (Conf: 100.0%, Supp: 1.8%)
+[UNSANITARY CONDITION,PESTS] --> [HPD] (Conf: 100.0%, Supp: 1.8%)
+[PESTS,RESIDENTIAL BUILDING] --> [Department of Housing Preservation and Development] (Conf: 100.0%, Supp: 1.8%)
+[PESTS,RESIDENTIAL BUILDING] --> [HPD] (Conf: 100.0%, Supp: 1.8%)
+[PESTS] --> [UNSANITARY CONDITION] (Conf: 100.0%, Supp: 1.8%)
+[PESTS,HPD] --> [Department of Housing Preservation and Development] (Conf: 100.0%, Supp: 1.8%)
+[Department of Housing Preservation and Development,PESTS] --> [RESIDENTIAL BUILDING] (Conf: 100.0%, Supp: 1.8%)
+[Department of Housing Preservation and Development,PESTS,HPD] --> [RESIDENTIAL BUILDING] (Conf: 100.0%, Supp: 1.8%)
+[UNSANITARY CONDITION,PESTS] --> [Department of Housing Preservation and Development] (Conf: 100.0%, Supp: 1.8%)
+[PESTS,RESIDENTIAL BUILDING] --> [UNSANITARY CONDITION] (Conf: 100.0%, Supp: 1.8%)
+[UNSANITARY CONDITION,PESTS] --> [RESIDENTIAL BUILDING] (Conf: 100.0%, Supp: 1.8%)
+[PESTS] --> [RESIDENTIAL BUILDING] (Conf: 100.0%, Supp: 1.8%)
+[Department of Housing Preservation and Development,PESTS] --> [HPD] (Conf: 100.0%, Supp: 1.8%)
+[Department of Housing Preservation and Development,PESTS] --> [UNSANITARY CONDITION] (Conf: 100.0%, Supp: 1.8%)
+[PESTS,HPD] --> [UNSANITARY CONDITION] (Conf: 100.0%, Supp: 1.8%)
+[Department of Housing Preservation and Development,PESTS,HPD] --> [UNSANITARY CONDITION] (Conf: 100.0%, Supp: 1.8%)
+[PESTS] --> [Department of Housing Preservation and Development] (Conf: 100.0%, Supp: 1.8%)
+[PESTS] --> [HPD] (Conf: 100.0%, Supp: 1.8%)
+[QUEENS,Loud Music/Party] --> [NYPD] (Conf: 100.0%, Supp: 1.8%)
+[New York City Police Department,Loud Music/Party,QUEENS] --> [NYPD] (Conf: 100.0%, Supp: 1.8%)
+[DOF,DOF Literature Request] --> [Department of Finance] (Conf: 100.0%, Supp: 1.8%)
+[DOF,DOF Literature Request] --> [Unspecified] (Conf: 100.0%, Supp: 1.8%)
+[DOF Literature Request,Department of Finance,Unspecified] --> [DOF] (Conf: 100.0%, Supp: 1.8%)
+[DOF,Department of Finance] --> [Unspecified] (Conf: 100.0%, Supp: 1.8%)
+[Unspecified,Department of Finance] --> [DOF] (Conf: 100.0%, Supp: 1.8%)
+[DOF Literature Request,Department of Finance] --> [DOF] (Conf: 100.0%, Supp: 1.8%)
+[Department of Finance] --> [Unspecified] (Conf: 100.0%, Supp: 1.8%)
+[DOF Literature Request] --> [Unspecified] (Conf: 100.0%, Supp: 1.8%)
+[DOF Literature Request] --> [DOF] (Conf: 100.0%, Supp: 1.8%)
+[Department of Finance] --> [DOF Literature Request] (Conf: 100.0%, Supp: 1.8%)
+[Department of Finance] --> [DOF] (Conf: 100.0%, Supp: 1.8%)
+[DOF Literature Request,Department of Finance] --> [Unspecified] (Conf: 100.0%, Supp: 1.8%)
+[DOF,DOF Literature Request,Department of Finance] --> [Unspecified] (Conf: 100.0%, Supp: 1.8%)
+[DOF,Unspecified,Department of Finance] --> [DOF Literature Request] (Conf: 100.0%, Supp: 1.8%)
+[DOF Literature Request,Unspecified] --> [Department of Finance] (Conf: 100.0%, Supp: 1.8%)
+[DOF,Department of Finance] --> [DOF Literature Request] (Conf: 100.0%, Supp: 1.8%)
+[DOF,Unspecified,DOF Literature Request] --> [Department of Finance] (Conf: 100.0%, Supp: 1.8%)
+[Unspecified,Department of Finance] --> [DOF Literature Request] (Conf: 100.0%, Supp: 1.8%)
+[DOF Literature Request,Unspecified] --> [DOF] (Conf: 100.0%, Supp: 1.8%)
+[DOF Literature Request] --> [Department of Finance] (Conf: 100.0%, Supp: 1.8%)
+[Loud Music/Party,Noise - Street/Sidewalk] --> [New York City Police Department] (Conf: 100.0%, Supp: 1.7%)
+[Loud Music/Party,Noise - Street/Sidewalk] --> [Street/Sidewalk] (Conf: 100.0%, Supp: 1.7%)
+[New York City Police Department,Loud Music/Party,Street/Sidewalk] --> [Noise - Street/Sidewalk] (Conf: 100.0%, Supp: 1.7%)
+[Loud Music/Party,Street/Sidewalk] --> [NYPD] (Conf: 100.0%, Supp: 1.7%)
+[Loud Music/Party,NYPD,Street/Sidewalk] --> [Noise - Street/Sidewalk] (Conf: 100.0%, Supp: 1.7%)
+[Loud Music/Party,NYPD,Noise - Street/Sidewalk] --> [Street/Sidewalk] (Conf: 100.0%, Supp: 1.7%)
+[New York City Police Department,Loud Music/Party,Street/Sidewalk] --> [NYPD] (Conf: 100.0%, Supp: 1.7%)
+[Loud Music/Party,NYPD,Street/Sidewalk] --> [New York City Police Department] (Conf: 100.0%, Supp: 1.7%)
+[Loud Music/Party,Noise - Street/Sidewalk] --> [NYPD] (Conf: 100.0%, Supp: 1.7%)
+[Loud Music/Party,Street/Sidewalk] --> [New York City Police Department] (Conf: 100.0%, Supp: 1.7%)
+[Loud Music/Party,Street/Sidewalk] --> [Noise - Street/Sidewalk] (Conf: 100.0%, Supp: 1.7%)
+[Loud Music/Party,NYPD,Noise - Street/Sidewalk] --> [New York City Police Department] (Conf: 100.0%, Supp: 1.7%)
+[New York City Police Department,Loud Music/Party,Residential Building/House,BROOKLYN] --> [NYPD] (Conf: 100.0%, Supp: 1.7%)
+[New York City Police Department,Loud Music/Party,Residential Building/House,BROOKLYN] --> [Noise - Residential] (Conf: 100.0%, Supp: 1.7%)
+[New York City Police Department,Loud Music/Party,BRONX,Residential Building/House] --> [NYPD] (Conf: 100.0%, Supp: 1.7%)
+[Loud Music/Party,Residential Building/House,BRONX] --> [New York City Police Department] (Conf: 100.0%, Supp: 1.7%)
+[New York City Police Department,Loud Music/Party,BRONX,Residential Building/House] --> [Noise - Residential] (Conf: 100.0%, Supp: 1.7%)
+[Loud Music/Party,Residential Building/House,BRONX] --> [NYPD] (Conf: 100.0%, Supp: 1.7%)
+[Loud Music/Party,Residential Building/House,BRONX] --> [Noise - Residential] (Conf: 100.0%, Supp: 1.7%)
+[Pothole] --> [DOT] (Conf: 100.0%, Supp: 1.7%)
+[Pothole] --> [Department of Transportation] (Conf: 100.0%, Supp: 1.7%)
+[Department of Transportation,Pothole] --> [DOT] (Conf: 100.0%, Supp: 1.7%)
+[DOT,Pothole] --> [Department of Transportation] (Conf: 100.0%, Supp: 1.7%)
+[DOT,Pothole,Street Condition] --> [Department of Transportation] (Conf: 100.0%, Supp: 1.7%)
+[Street Condition,Pothole] --> [Department of Transportation] (Conf: 100.0%, Supp: 1.7%)
+[Street Condition,Pothole] --> [DOT] (Conf: 100.0%, Supp: 1.7%)
+[MANHATTAN,Operations Unit - Department of Homeless Services,DHS] --> [Homeless Person Assistance] (Conf: 100.0%, Supp: 1.7%)
+[MANHATTAN,Operations Unit - Department of Homeless Services] --> [DHS] (Conf: 100.0%, Supp: 1.7%)
+[MANHATTAN,DHS,Homeless Person Assistance] --> [Operations Unit - Department of Homeless Services] (Conf: 100.0%, Supp: 1.7%)
+[MANHATTAN,DHS] --> [Operations Unit - Department of Homeless Services] (Conf: 100.0%, Supp: 1.7%)
+[MANHATTAN,DHS] --> [Homeless Person Assistance] (Conf: 100.0%, Supp: 1.7%)
+[MANHATTAN,Operations Unit - Department of Homeless Services] --> [Homeless Person Assistance] (Conf: 100.0%, Supp: 1.7%)
+[Sanitation Condition] --> [DSNY] (Conf: 100.0%, Supp: 1.7%)
+[ENTIRE BUILDING,BRONX,HPD] --> [RESIDENTIAL BUILDING] (Conf: 100.0%, Supp: 1.7%)
+[ENTIRE BUILDING,BRONX] --> [Department of Housing Preservation and Development] (Conf: 100.0%, Supp: 1.7%)
+[ENTIRE BUILDING,RESIDENTIAL BUILDING,BRONX,Department of Housing Preservation and Development] --> [HPD] (Conf: 100.0%, Supp: 1.7%)
+[ENTIRE BUILDING,BRONX,Department of Housing Preservation and Development] --> [RESIDENTIAL BUILDING] (Conf: 100.0%, Supp: 1.7%)
+[ENTIRE BUILDING,RESIDENTIAL BUILDING,BRONX] --> [HEAT/HOT WATER] (Conf: 100.0%, Supp: 1.7%)
+[ENTIRE BUILDING,BRONX,HEAT/HOT WATER,HPD] --> [RESIDENTIAL BUILDING] (Conf: 100.0%, Supp: 1.7%)
+[ENTIRE BUILDING,BRONX,HPD,Department of Housing Preservation and Development] --> [HEAT/HOT WATER] (Conf: 100.0%, Supp: 1.7%)
+[ENTIRE BUILDING,BRONX] --> [HPD] (Conf: 100.0%, Supp: 1.7%)
+[ENTIRE BUILDING,BRONX,HEAT/HOT WATER] --> [HPD] (Conf: 100.0%, Supp: 1.7%)
+[ENTIRE BUILDING,BRONX,HEAT/HOT WATER] --> [Department of Housing Preservation and Development] (Conf: 100.0%, Supp: 1.7%)
+[ENTIRE BUILDING,BRONX,HEAT/HOT WATER] --> [RESIDENTIAL BUILDING] (Conf: 100.0%, Supp: 1.7%)
+[ENTIRE BUILDING,RESIDENTIAL BUILDING,BRONX] --> [HPD] (Conf: 100.0%, Supp: 1.7%)
+[ENTIRE BUILDING,RESIDENTIAL BUILDING,BRONX] --> [Department of Housing Preservation and Development] (Conf: 100.0%, Supp: 1.7%)
+[ENTIRE BUILDING,BRONX,Department of Housing Preservation and Development] --> [HEAT/HOT WATER] (Conf: 100.0%, Supp: 1.7%)
+[ENTIRE BUILDING,BRONX] --> [HEAT/HOT WATER] (Conf: 100.0%, Supp: 1.7%)
+[ENTIRE BUILDING,BRONX,HPD,Department of Housing Preservation and Development] --> [RESIDENTIAL BUILDING] (Conf: 100.0%, Supp: 1.7%)
+[ENTIRE BUILDING,BRONX] --> [RESIDENTIAL BUILDING] (Conf: 100.0%, Supp: 1.7%)
+[ENTIRE BUILDING,BRONX,HPD] --> [HEAT/HOT WATER] (Conf: 100.0%, Supp: 1.7%)
+[ENTIRE BUILDING,BRONX,HEAT/HOT WATER,HPD] --> [Department of Housing Preservation and Development] (Conf: 100.0%, Supp: 1.7%)
+[ENTIRE BUILDING,BRONX,HPD] --> [Department of Housing Preservation and Development] (Conf: 100.0%, Supp: 1.7%)
+[ENTIRE BUILDING,BRONX,Department of Housing Preservation and Development] --> [HPD] (Conf: 100.0%, Supp: 1.7%)
+[ENTIRE BUILDING,RESIDENTIAL BUILDING,BRONX,Department of Housing Preservation and Development] --> [HEAT/HOT WATER] (Conf: 100.0%, Supp: 1.7%)
+[QUEENS,NYPD,No Access] --> [Blocked Driveway] (Conf: 100.0%, Supp: 1.7%)
+[QUEENS,NYPD,No Access] --> [New York City Police Department] (Conf: 100.0%, Supp: 1.7%)
+[QUEENS,NYPD,No Access] --> [Street/Sidewalk] (Conf: 100.0%, Supp: 1.7%)
+[QUEENS,No Access] --> [Street/Sidewalk] (Conf: 100.0%, Supp: 1.7%)
+[QUEENS,No Access,Blocked Driveway] --> [New York City Police Department] (Conf: 100.0%, Supp: 1.7%)
+[New York City Police Department,NYPD,No Access,QUEENS] --> [Street/Sidewalk] (Conf: 100.0%, Supp: 1.7%)
+[New York City Police Department,QUEENS,No Access] --> [Street/Sidewalk] (Conf: 100.0%, Supp: 1.7%)
+[QUEENS,No Access] --> [NYPD] (Conf: 100.0%, Supp: 1.7%)
+[New York City Police Department,QUEENS,No Access] --> [NYPD] (Conf: 100.0%, Supp: 1.7%)
+[QUEENS,No Access,Blocked Driveway] --> [Street/Sidewalk] (Conf: 100.0%, Supp: 1.7%)
+[New York City Police Department,QUEENS,No Access] --> [Blocked Driveway] (Conf: 100.0%, Supp: 1.7%)
+[QUEENS,No Access] --> [New York City Police Department] (Conf: 100.0%, Supp: 1.7%)
+[QUEENS,No Access] --> [Blocked Driveway] (Conf: 100.0%, Supp: 1.7%)
+[QUEENS,No Access,Blocked Driveway] --> [NYPD] (Conf: 100.0%, Supp: 1.7%)
+[New York City Police Department,NYPD,No Access,QUEENS] --> [Blocked Driveway] (Conf: 100.0%, Supp: 1.7%)
+[Illegal Parking,QUEENS,Street/Sidewalk] --> [New York City Police Department] (Conf: 100.0%, Supp: 1.6%)
+[Illegal Parking,QUEENS,Street/Sidewalk] --> [NYPD] (Conf: 100.0%, Supp: 1.6%)
+[Illegal Parking,QUEENS] --> [New York City Police Department] (Conf: 100.0%, Supp: 1.6%)
+[Illegal Parking,QUEENS,NYPD] --> [Street/Sidewalk] (Conf: 100.0%, Supp: 1.6%)
+[Illegal Parking,QUEENS] --> [Street/Sidewalk] (Conf: 100.0%, Supp: 1.6%)
+[Illegal Parking,QUEENS,NYPD,Street/Sidewalk] --> [New York City Police Department] (Conf: 100.0%, Supp: 1.6%)
+[Illegal Parking,QUEENS,NYPD] --> [New York City Police Department] (Conf: 100.0%, Supp: 1.6%)
+[Illegal Parking,QUEENS] --> [NYPD] (Conf: 100.0%, Supp: 1.6%)
+[ENTIRE BUILDING,HEAT/HOT WATER,BROOKLYN] --> [HPD] (Conf: 100.0%, Supp: 1.6%)
+[ENTIRE BUILDING,BROOKLYN] --> [Department of Housing Preservation and Development] (Conf: 100.0%, Supp: 1.6%)
+[ENTIRE BUILDING,HEAT/HOT WATER,BROOKLYN] --> [RESIDENTIAL BUILDING] (Conf: 100.0%, Supp: 1.6%)
+[ENTIRE BUILDING,BROOKLYN] --> [HPD] (Conf: 100.0%, Supp: 1.6%)
+[ENTIRE BUILDING,BROOKLYN] --> [HEAT/HOT WATER] (Conf: 100.0%, Supp: 1.6%)
+[ENTIRE BUILDING,BROOKLYN] --> [RESIDENTIAL BUILDING] (Conf: 100.0%, Supp: 1.6%)
+[ENTIRE BUILDING,HEAT/HOT WATER,BROOKLYN] --> [Department of Housing Preservation and Development] (Conf: 100.0%, Supp: 1.6%)
+[New York City Police Department,BROOKLYN,No Access] --> [Blocked Driveway] (Conf: 100.0%, Supp: 1.6%)
+[No Access,BROOKLYN] --> [New York City Police Department] (Conf: 100.0%, Supp: 1.6%)
+[No Access,BROOKLYN,NYPD] --> [Street/Sidewalk] (Conf: 100.0%, Supp: 1.6%)
+[New York City Police Department,BROOKLYN,No Access] --> [Street/Sidewalk] (Conf: 100.0%, Supp: 1.6%)
+[No Access,BROOKLYN,NYPD] --> [New York City Police Department] (Conf: 100.0%, Supp: 1.6%)
+[No Access,Street/Sidewalk,BROOKLYN] --> [Blocked Driveway] (Conf: 100.0%, Supp: 1.6%)
+[No Access,Street/Sidewalk,BROOKLYN] --> [NYPD] (Conf: 100.0%, Supp: 1.6%)
+[No Access,BROOKLYN] --> [NYPD] (Conf: 100.0%, Supp: 1.6%)
+[No Access,BROOKLYN] --> [Street/Sidewalk] (Conf: 100.0%, Supp: 1.6%)
+[No Access,Street/Sidewalk,BROOKLYN] --> [New York City Police Department] (Conf: 100.0%, Supp: 1.6%)
+[New York City Police Department,BROOKLYN,No Access] --> [NYPD] (Conf: 100.0%, Supp: 1.6%)
+[No Access,BROOKLYN,NYPD] --> [Blocked Driveway] (Conf: 100.0%, Supp: 1.6%)
+[No Access,BROOKLYN] --> [Blocked Driveway] (Conf: 100.0%, Supp: 1.6%)
+[Illegal Parking,Posted Parking Sign Violation] --> [NYPD] (Conf: 100.0%, Supp: 1.6%)
+[NYPD,Street/Sidewalk,Posted Parking Sign Violation] --> [Illegal Parking] (Conf: 100.0%, Supp: 1.6%)
+[Street/Sidewalk,Posted Parking Sign Violation] --> [Illegal Parking] (Conf: 100.0%, Supp: 1.6%)
+[Illegal Parking,Street/Sidewalk,Posted Parking Sign Violation] --> [NYPD] (Conf: 100.0%, Supp: 1.6%)
+[Street/Sidewalk,Posted Parking Sign Violation] --> [NYPD] (Conf: 100.0%, Supp: 1.6%)
+[Posted Parking Sign Violation] --> [Street/Sidewalk] (Conf: 100.0%, Supp: 1.6%)
+[NYPD,Posted Parking Sign Violation] --> [Street/Sidewalk] (Conf: 100.0%, Supp: 1.6%)
+[Posted Parking Sign Violation] --> [NYPD] (Conf: 100.0%, Supp: 1.6%)
+[Posted Parking Sign Violation] --> [Illegal Parking] (Conf: 100.0%, Supp: 1.6%)
+[NYPD,Posted Parking Sign Violation] --> [Illegal Parking] (Conf: 100.0%, Supp: 1.6%)
+[Illegal Parking,Posted Parking Sign Violation] --> [Street/Sidewalk] (Conf: 100.0%, Supp: 1.6%)
+[Illegal Parking,Posted Parking Sign Violation,New York City Police Department] --> [Street/Sidewalk] (Conf: 100.0%, Supp: 1.6%)
+[Illegal Parking,Posted Parking Sign Violation,New York City Police Department] --> [NYPD] (Conf: 100.0%, Supp: 1.6%)
+[New York City Police Department,NYPD,Posted Parking Sign Violation] --> [Illegal Parking] (Conf: 100.0%, Supp: 1.6%)
+[New York City Police Department,NYPD,Posted Parking Sign Violation,Street/Sidewalk] --> [Illegal Parking] (Conf: 100.0%, Supp: 1.6%)
+[New York City Police Department,Posted Parking Sign Violation] --> [Illegal Parking] (Conf: 100.0%, Supp: 1.6%)
+[New York City Police Department,Posted Parking Sign Violation] --> [NYPD] (Conf: 100.0%, Supp: 1.6%)
+[New York City Police Department,Posted Parking Sign Violation] --> [Street/Sidewalk] (Conf: 100.0%, Supp: 1.6%)
+[New York City Police Department,NYPD,Posted Parking Sign Violation] --> [Street/Sidewalk] (Conf: 100.0%, Supp: 1.6%)
+[11226] --> [BROOKLYN] (Conf: 100.0%, Supp: 1.6%)
+[Illegal Parking,Blocked Hydrant,Street/Sidewalk] --> [NYPD] (Conf: 100.0%, Supp: 1.6%)
+[Blocked Hydrant,Street/Sidewalk] --> [NYPD] (Conf: 100.0%, Supp: 1.6%)
+[Illegal Parking,Blocked Hydrant] --> [NYPD] (Conf: 100.0%, Supp: 1.6%)
+[Blocked Hydrant,Street/Sidewalk] --> [Illegal Parking] (Conf: 100.0%, Supp: 1.6%)
+[NYPD,Blocked Hydrant] --> [Illegal Parking] (Conf: 100.0%, Supp: 1.6%)
+[Blocked Hydrant] --> [Illegal Parking] (Conf: 100.0%, Supp: 1.6%)
+[Illegal Parking,Blocked Hydrant] --> [Street/Sidewalk] (Conf: 100.0%, Supp: 1.6%)
+[NYPD,Blocked Hydrant] --> [Street/Sidewalk] (Conf: 100.0%, Supp: 1.6%)
+[Illegal Parking,Blocked Hydrant,NYPD] --> [Street/Sidewalk] (Conf: 100.0%, Supp: 1.6%)
+[Blocked Hydrant] --> [Street/Sidewalk] (Conf: 100.0%, Supp: 1.6%)
+[Blocked Hydrant] --> [NYPD] (Conf: 100.0%, Supp: 1.6%)
+[NYPD,Street/Sidewalk,Blocked Hydrant] --> [Illegal Parking] (Conf: 100.0%, Supp: 1.6%)
+[New York City Police Department,Blocked Hydrant,Street/Sidewalk] --> [Illegal Parking] (Conf: 100.0%, Supp: 1.6%)
+[New York City Police Department,Blocked Hydrant] --> [NYPD] (Conf: 100.0%, Supp: 1.6%)
+[New York City Police Department,Blocked Hydrant] --> [Street/Sidewalk] (Conf: 100.0%, Supp: 1.6%)
+[New York City Police Department,NYPD,Blocked Hydrant] --> [Street/Sidewalk] (Conf: 100.0%, Supp: 1.6%)
+[New York City Police Department,NYPD,Blocked Hydrant,Street/Sidewalk] --> [Illegal Parking] (Conf: 100.0%, Supp: 1.6%)
+[New York City Police Department,Blocked Hydrant,Street/Sidewalk] --> [NYPD] (Conf: 100.0%, Supp: 1.6%)
+[BRONX,Department of Transportation] --> [DOT] (Conf: 100.0%, Supp: 1.6%)
+[BRONX,DOT] --> [Department of Transportation] (Conf: 100.0%, Supp: 1.6%)
+[New York City Police Department,NYPD,Blocked Hydrant] --> [Illegal Parking] (Conf: 100.0%, Supp: 1.6%)
+[New York City Police Department,Blocked Hydrant] --> [Illegal Parking] (Conf: 100.0%, Supp: 1.6%)
+[New York City Police Department,Partial Access,NYPD] --> [Street/Sidewalk] (Conf: 100.0%, Supp: 1.6%)
+[Street/Sidewalk,Partial Access] --> [New York City Police Department] (Conf: 100.0%, Supp: 1.6%)
+[NYPD,Partial Access] --> [Street/Sidewalk] (Conf: 100.0%, Supp: 1.6%)
+[New York City Police Department,Partial Access,NYPD] --> [Blocked Driveway] (Conf: 100.0%, Supp: 1.6%)
+[Street/Sidewalk,Blocked Driveway,Partial Access] --> [NYPD] (Conf: 100.0%, Supp: 1.6%)
+[New York City Police Department,Partial Access,Blocked Driveway] --> [Street/Sidewalk] (Conf: 100.0%, Supp: 1.6%)
+[New York City Police Department,Partial Access,NYPD,Blocked Driveway] --> [Street/Sidewalk] (Conf: 100.0%, Supp: 1.6%)
+[Street/Sidewalk,Partial Access] --> [Blocked Driveway] (Conf: 100.0%, Supp: 1.6%)
+[NYPD,Street/Sidewalk,Partial Access] --> [Blocked Driveway] (Conf: 100.0%, Supp: 1.6%)
+[NYPD,Partial Access] --> [New York City Police Department] (Conf: 100.0%, Supp: 1.6%)
+[NYPD,Street/Sidewalk,Partial Access,Blocked Driveway] --> [New York City Police Department] (Conf: 100.0%, Supp: 1.6%)
+[Blocked Driveway,Partial Access] --> [New York City Police Department] (Conf: 100.0%, Supp: 1.6%)
+[NYPD,Blocked Driveway,Partial Access] --> [Street/Sidewalk] (Conf: 100.0%, Supp: 1.6%)
+[NYPD,Street/Sidewalk,Partial Access] --> [New York City Police Department] (Conf: 100.0%, Supp: 1.6%)
+[NYPD,Partial Access] --> [Blocked Driveway] (Conf: 100.0%, Supp: 1.6%)
+[Partial Access] --> [Blocked Driveway] (Conf: 100.0%, Supp: 1.6%)
+[Partial Access] --> [NYPD] (Conf: 100.0%, Supp: 1.6%)
+[Blocked Driveway,Partial Access] --> [Street/Sidewalk] (Conf: 100.0%, Supp: 1.6%)
+[New York City Police Department,Partial Access] --> [Street/Sidewalk] (Conf: 100.0%, Supp: 1.6%)
+[NYPD,Blocked Driveway,Partial Access] --> [New York City Police Department] (Conf: 100.0%, Supp: 1.6%)
+[New York City Police Department,Partial Access] --> [Blocked Driveway] (Conf: 100.0%, Supp: 1.6%)
+[New York City Police Department,Partial Access] --> [NYPD] (Conf: 100.0%, Supp: 1.6%)
+[Street/Sidewalk,Partial Access] --> [NYPD] (Conf: 100.0%, Supp: 1.6%)
+[Blocked Driveway,Partial Access] --> [NYPD] (Conf: 100.0%, Supp: 1.6%)
+[Street/Sidewalk,Blocked Driveway,Partial Access] --> [New York City Police Department] (Conf: 100.0%, Supp: 1.6%)
+[Partial Access] --> [Street/Sidewalk] (Conf: 100.0%, Supp: 1.6%)
+[Partial Access] --> [New York City Police Department] (Conf: 100.0%, Supp: 1.6%)
+[New York City Police Department,Partial Access,Blocked Driveway] --> [NYPD] (Conf: 100.0%, Supp: 1.6%)
+[Noise - Residential,MANHATTAN,Loud Music/Party] --> [Residential Building/House] (Conf: 100.0%, Supp: 1.5%)
+[Noise - Residential,MANHATTAN,Loud Music/Party] --> [NYPD] (Conf: 100.0%, Supp: 1.5%)
+[MANHATTAN,Residential Building/House,Loud Music/Party,NYPD] --> [Noise - Residential] (Conf: 100.0%, Supp: 1.5%)
+[MANHATTAN,Residential Building/House,Loud Music/Party] --> [NYPD] (Conf: 100.0%, Supp: 1.5%)
+[MANHATTAN,Residential Building/House,Loud Music/Party] --> [Noise - Residential] (Conf: 100.0%, Supp: 1.5%)
+[Dirty Conditions] --> [DSNY] (Conf: 100.0%, Supp: 1.5%)
+[Traffic Signal Condition,Department of Transportation] --> [DOT] (Conf: 100.0%, Supp: 1.5%)
+[Traffic Signal Condition,DOT] --> [Department of Transportation] (Conf: 100.0%, Supp: 1.5%)
+[Traffic Signal Condition] --> [DOT] (Conf: 100.0%, Supp: 1.5%)
+[Traffic Signal Condition] --> [Department of Transportation] (Conf: 100.0%, Supp: 1.5%)
+[DOOR/WINDOW] --> [Department of Housing Preservation and Development] (Conf: 100.0%, Supp: 1.5%)
+[Department of Housing Preservation and Development,HPD,DOOR/WINDOW] --> [RESIDENTIAL BUILDING] (Conf: 100.0%, Supp: 1.5%)
+[DOOR/WINDOW,RESIDENTIAL BUILDING] --> [HPD] (Conf: 100.0%, Supp: 1.5%)
+[DOOR/WINDOW] --> [RESIDENTIAL BUILDING] (Conf: 100.0%, Supp: 1.5%)
+[DOOR/WINDOW,HPD,RESIDENTIAL BUILDING] --> [Department of Housing Preservation and Development] (Conf: 100.0%, Supp: 1.5%)
+[Department of Housing Preservation and Development,RESIDENTIAL BUILDING,DOOR/WINDOW] --> [HPD] (Conf: 100.0%, Supp: 1.5%)
+[DOOR/WINDOW] --> [HPD] (Conf: 100.0%, Supp: 1.5%)
+[DOOR/WINDOW,HPD] --> [RESIDENTIAL BUILDING] (Conf: 100.0%, Supp: 1.5%)
+[DOOR/WINDOW,RESIDENTIAL BUILDING] --> [Department of Housing Preservation and Development] (Conf: 100.0%, Supp: 1.5%)
+[Department of Housing Preservation and Development,DOOR/WINDOW] --> [HPD] (Conf: 100.0%, Supp: 1.5%)
+[DOOR/WINDOW,HPD] --> [Department of Housing Preservation and Development] (Conf: 100.0%, Supp: 1.5%)
+[Department of Housing Preservation and Development,DOOR/WINDOW] --> [RESIDENTIAL BUILDING] (Conf: 100.0%, Supp: 1.5%)
+[Sewer] --> [Department of Environmental Protection] (Conf: 100.0%, Supp: 1.5%)
+[Sewer] --> [DEP] (Conf: 100.0%, Supp: 1.5%)
+[Sewer,DEP] --> [Department of Environmental Protection] (Conf: 100.0%, Supp: 1.5%)
+[Department of Environmental Protection,Sewer] --> [DEP] (Conf: 100.0%, Supp: 1.5%)
+[Missed Collection (All Materials)] --> [DSNY] (Conf: 100.0%, Supp: 1.5%)
+[New York City Police Department,Store/Commercial] --> [NYPD] (Conf: 100.0%, Supp: 1.5%)
+[Store/Commercial,NYPD] --> [New York City Police Department] (Conf: 100.0%, Supp: 1.5%)
+[Sidewalk,Missed Collection (All Materials)] --> [DSNY] (Conf: 100.0%, Supp: 1.4%)
+[MANHATTAN,RESIDENTIAL BUILDING,ENTIRE BUILDING] --> [HEAT/HOT WATER] (Conf: 100.0%, Supp: 1.4%)
+[MANHATTAN,ENTIRE BUILDING,Department of Housing Preservation and Development] --> [HPD] (Conf: 100.0%, Supp: 1.4%)
+[MANHATTAN,RESIDENTIAL BUILDING,ENTIRE BUILDING] --> [HPD] (Conf: 100.0%, Supp: 1.4%)
+[MANHATTAN,ENTIRE BUILDING] --> [Department of Housing Preservation and Development] (Conf: 100.0%, Supp: 1.4%)
+[MANHATTAN,ENTIRE BUILDING,Department of Housing Preservation and Development] --> [HEAT/HOT WATER] (Conf: 100.0%, Supp: 1.4%)
+[MANHATTAN,ENTIRE BUILDING] --> [HPD] (Conf: 100.0%, Supp: 1.4%)
+[MANHATTAN,ENTIRE BUILDING] --> [HEAT/HOT WATER] (Conf: 100.0%, Supp: 1.4%)
+[MANHATTAN,HPD,ENTIRE BUILDING] --> [RESIDENTIAL BUILDING] (Conf: 100.0%, Supp: 1.4%)
+[MANHATTAN,RESIDENTIAL BUILDING,ENTIRE BUILDING] --> [Department of Housing Preservation and Development] (Conf: 100.0%, Supp: 1.4%)
+[MANHATTAN,ENTIRE BUILDING] --> [RESIDENTIAL BUILDING] (Conf: 100.0%, Supp: 1.4%)
+[MANHATTAN,ENTIRE BUILDING,Department of Housing Preservation and Development] --> [RESIDENTIAL BUILDING] (Conf: 100.0%, Supp: 1.4%)
+[MANHATTAN,HPD,ENTIRE BUILDING] --> [HEAT/HOT WATER] (Conf: 100.0%, Supp: 1.4%)
+[MANHATTAN,HPD,ENTIRE BUILDING] --> [Department of Housing Preservation and Development] (Conf: 100.0%, Supp: 1.4%)
+[14 Derelict Vehicles,DSNY] --> [Derelict Vehicles] (Conf: 100.0%, Supp: 1.4%)
+[Derelict Vehicles,DSNY] --> [14 Derelict Vehicles] (Conf: 100.0%, Supp: 1.4%)
+[14 Derelict Vehicles,Street] --> [DSNY] (Conf: 100.0%, Supp: 1.4%)
+[Street,Derelict Vehicles] --> [14 Derelict Vehicles] (Conf: 100.0%, Supp: 1.4%)
+[14 Derelict Vehicles,Street,Derelict Vehicles] --> [DSNY] (Conf: 100.0%, Supp: 1.4%)
+[Street,Derelict Vehicles] --> [DSNY] (Conf: 100.0%, Supp: 1.4%)
+[14 Derelict Vehicles,Derelict Vehicles] --> [Street] (Conf: 100.0%, Supp: 1.4%)
+[14 Derelict Vehicles,DSNY,Derelict Vehicles] --> [Street] (Conf: 100.0%, Supp: 1.4%)
+[14 Derelict Vehicles,Street,DSNY] --> [Derelict Vehicles] (Conf: 100.0%, Supp: 1.4%)
+[Derelict Vehicles] --> [DSNY] (Conf: 100.0%, Supp: 1.4%)
+[14 Derelict Vehicles,Street] --> [Derelict Vehicles] (Conf: 100.0%, Supp: 1.4%)
+[Derelict Vehicles] --> [14 Derelict Vehicles] (Conf: 100.0%, Supp: 1.4%)
+[14 Derelict Vehicles] --> [DSNY] (Conf: 100.0%, Supp: 1.4%)
+[14 Derelict Vehicles] --> [Street] (Conf: 100.0%, Supp: 1.4%)
+[14 Derelict Vehicles] --> [Derelict Vehicles] (Conf: 100.0%, Supp: 1.4%)
+[Derelict Vehicles] --> [Street] (Conf: 100.0%, Supp: 1.4%)
+[Derelict Vehicles,DSNY] --> [Street] (Conf: 100.0%, Supp: 1.4%)
+[14 Derelict Vehicles,Derelict Vehicles] --> [DSNY] (Conf: 100.0%, Supp: 1.4%)
+[14 Derelict Vehicles,DSNY] --> [Street] (Conf: 100.0%, Supp: 1.4%)
+[WATER LEAK,RESIDENTIAL BUILDING] --> [Department of Housing Preservation and Development] (Conf: 100.0%, Supp: 1.3%)
+[WATER LEAK,HPD] --> [Department of Housing Preservation and Development] (Conf: 100.0%, Supp: 1.3%)
+[WATER LEAK] --> [RESIDENTIAL BUILDING] (Conf: 100.0%, Supp: 1.3%)
+[WATER LEAK,HPD,Department of Housing Preservation and Development] --> [RESIDENTIAL BUILDING] (Conf: 100.0%, Supp: 1.3%)
+[WATER LEAK] --> [Department of Housing Preservation and Development] (Conf: 100.0%, Supp: 1.3%)
+[WATER LEAK,RESIDENTIAL BUILDING,HPD] --> [Department of Housing Preservation and Development] (Conf: 100.0%, Supp: 1.3%)
+[WATER LEAK,Department of Housing Preservation and Development] --> [RESIDENTIAL BUILDING] (Conf: 100.0%, Supp: 1.3%)
+[WATER LEAK,Department of Housing Preservation and Development] --> [HPD] (Conf: 100.0%, Supp: 1.3%)
+[WATER LEAK,HPD] --> [RESIDENTIAL BUILDING] (Conf: 100.0%, Supp: 1.3%)
+[WATER LEAK,RESIDENTIAL BUILDING] --> [HPD] (Conf: 100.0%, Supp: 1.3%)
+[WATER LEAK] --> [HPD] (Conf: 100.0%, Supp: 1.3%)
+[Store/Commercial,Noise - Commercial] --> [NYPD] (Conf: 100.0%, Supp: 1.3%)
+[Store/Commercial,Noise - Commercial] --> [New York City Police Department] (Conf: 100.0%, Supp: 1.3%)
+[Rodent] --> [Department of Health and Mental Hygiene] (Conf: 100.0%, Supp: 1.3%)
+[Department of Health and Mental Hygiene,Rodent] --> [DOHMH] (Conf: 100.0%, Supp: 1.3%)
+[Rodent] --> [DOHMH] (Conf: 100.0%, Supp: 1.3%)
+[DOHMH,Rodent] --> [Department of Health and Mental Hygiene] (Conf: 100.0%, Supp: 1.3%)
+[QUEENS,Department of Parks and Recreation] --> [DPR] (Conf: 100.0%, Supp: 1.3%)
+[DPR,QUEENS] --> [Department of Parks and Recreation] (Conf: 100.0%, Supp: 1.3%)
+[Street,Street Condition] --> [Department of Transportation] (Conf: 100.0%, Supp: 1.3%)
+[Street,Street Condition,Department of Transportation] --> [DOT] (Conf: 100.0%, Supp: 1.3%)
+[Street,DOT,Street Condition] --> [Department of Transportation] (Conf: 100.0%, Supp: 1.3%)
+[Street,Street Condition] --> [DOT] (Conf: 100.0%, Supp: 1.3%)
+[Derelict Vehicle] --> [NYPD] (Conf: 100.0%, Supp: 1.3%)
+[NYPD,Derelict Vehicle] --> [With License Plate] (Conf: 100.0%, Supp: 1.3%)
+[With License Plate,NYPD] --> [Derelict Vehicle] (Conf: 100.0%, Supp: 1.3%)
+[With License Plate] --> [Derelict Vehicle] (Conf: 100.0%, Supp: 1.3%)
+[With License Plate,Derelict Vehicle] --> [NYPD] (Conf: 100.0%, Supp: 1.3%)
+[With License Plate] --> [NYPD] (Conf: 100.0%, Supp: 1.3%)
+[Derelict Vehicle] --> [With License Plate] (Conf: 100.0%, Supp: 1.3%)
+[New York City Police Department,Derelict Vehicle] --> [NYPD] (Conf: 100.0%, Supp: 1.3%)
+[New York City Police Department,Derelict Vehicle] --> [With License Plate] (Conf: 100.0%, Supp: 1.3%)
+[New York City Police Department,With License Plate] --> [Derelict Vehicle] (Conf: 100.0%, Supp: 1.3%)
+[New York City Police Department,With License Plate] --> [NYPD] (Conf: 100.0%, Supp: 1.3%)
+[New York City Police Department,With License Plate,Derelict Vehicle] --> [NYPD] (Conf: 100.0%, Supp: 1.3%)
+[New York City Police Department,NYPD,Derelict Vehicle] --> [With License Plate] (Conf: 100.0%, Supp: 1.3%)
+[Noise - Residential,QUEENS,Loud Music/Party] --> [Residential Building/House] (Conf: 100.0%, Supp: 1.3%)
+[Noise - Residential,QUEENS,Loud Music/Party] --> [NYPD] (Conf: 100.0%, Supp: 1.3%)
+[Noise - Residential,New York City Police Department,QUEENS,Loud Music/Party] --> [NYPD] (Conf: 100.0%, Supp: 1.3%)
+[Noise - Residential,New York City Police Department,QUEENS,Loud Music/Party] --> [Residential Building/House] (Conf: 100.0%, Supp: 1.3%)
+[Noise - Residential,New York City Police Department,QUEENS,Loud Music/Party,Residential Building/House] --> [NYPD] (Conf: 100.0%, Supp: 1.3%)
+[Building/Use] --> [DOB] (Conf: 100.0%, Supp: 1.3%)
+[Department of Buildings,Building/Use] --> [DOB] (Conf: 100.0%, Supp: 1.3%)
+[Building/Use,DOB] --> [Department of Buildings] (Conf: 100.0%, Supp: 1.3%)
+[Building/Use] --> [Department of Buildings] (Conf: 100.0%, Supp: 1.3%)
+[With License Plate,Street/Sidewalk,Derelict Vehicle] --> [NYPD] (Conf: 100.0%, Supp: 1.3%)
+[With License Plate,Street/Sidewalk] --> [Derelict Vehicle] (Conf: 100.0%, Supp: 1.3%)
+[Street/Sidewalk,Derelict Vehicle] --> [NYPD] (Conf: 100.0%, Supp: 1.3%)
+[NYPD,Street/Sidewalk,Derelict Vehicle] --> [With License Plate] (Conf: 100.0%, Supp: 1.3%)
+[With License Plate,NYPD,Street/Sidewalk] --> [Derelict Vehicle] (Conf: 100.0%, Supp: 1.3%)
+[Street/Sidewalk,Derelict Vehicle] --> [With License Plate] (Conf: 100.0%, Supp: 1.3%)
+[With License Plate,Street/Sidewalk] --> [NYPD] (Conf: 100.0%, Supp: 1.3%)
+[New York City Police Department,With License Plate,Street/Sidewalk] --> [NYPD] (Conf: 100.0%, Supp: 1.3%)
+[New York City Police Department,NYPD,Derelict Vehicle,Street/Sidewalk] --> [With License Plate] (Conf: 100.0%, Supp: 1.3%)
+[New York City Police Department,With License Plate,Street/Sidewalk] --> [Derelict Vehicle] (Conf: 100.0%, Supp: 1.3%)
+[New York City Police Department,Derelict Vehicle,Street/Sidewalk] --> [With License Plate] (Conf: 100.0%, Supp: 1.3%)
+[New York City Police Department,Derelict Vehicle,Street/Sidewalk] --> [NYPD] (Conf: 100.0%, Supp: 1.3%)
+[Sidewalk,Dirty Conditions] --> [DSNY] (Conf: 100.0%, Supp: 1.2%)
+[Department of Buildings,General Construction/Plumbing] --> [DOB] (Conf: 100.0%, Supp: 1.2%)
+[General Construction/Plumbing,DOB] --> [Department of Buildings] (Conf: 100.0%, Supp: 1.2%)
+[General Construction/Plumbing] --> [DOB] (Conf: 100.0%, Supp: 1.2%)
+[General Construction/Plumbing] --> [Department of Buildings] (Conf: 100.0%, Supp: 1.2%)
+[Department of Housing Preservation and Development,WALL] --> [HPD] (Conf: 100.0%, Supp: 1.2%)
+[WALL,HPD,RESIDENTIAL BUILDING] --> [Department of Housing Preservation and Development] (Conf: 100.0%, Supp: 1.2%)
+[WALL,RESIDENTIAL BUILDING] --> [Department of Housing Preservation and Development] (Conf: 100.0%, Supp: 1.2%)
+[WALL,HPD,RESIDENTIAL BUILDING] --> [PAINT/PLASTER] (Conf: 100.0%, Supp: 1.2%)
+[WALL,PAINT/PLASTER] --> [RESIDENTIAL BUILDING] (Conf: 100.0%, Supp: 1.2%)
+[WALL] --> [PAINT/PLASTER] (Conf: 100.0%, Supp: 1.2%)
+[WALL,HPD] --> [Department of Housing Preservation and Development] (Conf: 100.0%, Supp: 1.2%)
+[WALL,PAINT/PLASTER,RESIDENTIAL BUILDING] --> [Department of Housing Preservation and Development] (Conf: 100.0%, Supp: 1.2%)
+[Department of Housing Preservation and Development,PAINT/PLASTER,WALL] --> [HPD] (Conf: 100.0%, Supp: 1.2%)
+[WALL,PAINT/PLASTER] --> [HPD] (Conf: 100.0%, Supp: 1.2%)
+[WALL,PAINT/PLASTER] --> [Department of Housing Preservation and Development] (Conf: 100.0%, Supp: 1.2%)
+[WALL,HPD] --> [PAINT/PLASTER] (Conf: 100.0%, Supp: 1.2%)
+[Department of Housing Preservation and Development,PAINT/PLASTER,WALL] --> [RESIDENTIAL BUILDING] (Conf: 100.0%, Supp: 1.2%)
+[WALL] --> [HPD] (Conf: 100.0%, Supp: 1.2%)
+[WALL,PAINT/PLASTER,RESIDENTIAL BUILDING] --> [HPD] (Conf: 100.0%, Supp: 1.2%)
+[WALL] --> [RESIDENTIAL BUILDING] (Conf: 100.0%, Supp: 1.2%)
+[WALL,RESIDENTIAL BUILDING] --> [HPD] (Conf: 100.0%, Supp: 1.2%)
+[WALL] --> [Department of Housing Preservation and Development] (Conf: 100.0%, Supp: 1.2%)
+[Department of Housing Preservation and Development,WALL] --> [RESIDENTIAL BUILDING] (Conf: 100.0%, Supp: 1.2%)
+[Department of Housing Preservation and Development,PAINT/PLASTER,HPD,WALL] --> [RESIDENTIAL BUILDING] (Conf: 100.0%, Supp: 1.2%)
+[Department of Housing Preservation and Development,WALL] --> [PAINT/PLASTER] (Conf: 100.0%, Supp: 1.2%)
+[WALL,RESIDENTIAL BUILDING] --> [PAINT/PLASTER] (Conf: 100.0%, Supp: 1.2%)
+[WALL,HPD] --> [RESIDENTIAL BUILDING] (Conf: 100.0%, Supp: 1.2%)
+[HRA] --> [Unspecified] (Conf: 100.0%, Supp: 1.2%)
+[10467] --> [BRONX] (Conf: 100.0%, Supp: 1.2%)
+[HRA,Benefit Card Replacement] --> [Unspecified] (Conf: 100.0%, Supp: 1.2%)
+[HRA,Benefit Card Replacement,HRA Benefit Card Replacement] --> [Unspecified] (Conf: 100.0%, Supp: 1.2%)
+[HRA Benefit Card Replacement] --> [Unspecified] (Conf: 100.0%, Supp: 1.2%)
+[Benefit Card Replacement] --> [HRA] (Conf: 100.0%, Supp: 1.2%)
+[Benefit Card Replacement,Unspecified] --> [HRA] (Conf: 100.0%, Supp: 1.2%)
+[Benefit Card Replacement,HRA Benefit Card Replacement] --> [Unspecified] (Conf: 100.0%, Supp: 1.2%)
+[Unspecified,HRA Benefit Card Replacement] --> [HRA] (Conf: 100.0%, Supp: 1.2%)
+[Benefit Card Replacement] --> [Unspecified] (Conf: 100.0%, Supp: 1.2%)
+[Benefit Card Replacement] --> [HRA Benefit Card Replacement] (Conf: 100.0%, Supp: 1.2%)
+[Benefit Card Replacement,Unspecified] --> [HRA Benefit Card Replacement] (Conf: 100.0%, Supp: 1.2%)
+[HRA,Benefit Card Replacement] --> [HRA Benefit Card Replacement] (Conf: 100.0%, Supp: 1.2%)
+[HRA,HRA Benefit Card Replacement] --> [Unspecified] (Conf: 100.0%, Supp: 1.2%)
+[HRA Benefit Card Replacement] --> [Benefit Card Replacement] (Conf: 100.0%, Supp: 1.2%)
+[HRA,Benefit Card Replacement,Unspecified] --> [HRA Benefit Card Replacement] (Conf: 100.0%, Supp: 1.2%)
+[Benefit Card Replacement,HRA Benefit Card Replacement] --> [HRA] (Conf: 100.0%, Supp: 1.2%)
+[Unspecified,HRA Benefit Card Replacement] --> [Benefit Card Replacement] (Conf: 100.0%, Supp: 1.2%)
+[HRA,HRA Benefit Card Replacement] --> [Benefit Card Replacement] (Conf: 100.0%, Supp: 1.2%)
+[HRA Benefit Card Replacement] --> [HRA] (Conf: 100.0%, Supp: 1.2%)
+[HRA,Unspecified,HRA Benefit Card Replacement] --> [Benefit Card Replacement] (Conf: 100.0%, Supp: 1.2%)
+[Noise: Construction Before/After Hours (NM1),Noise,Department of Environmental Protection] --> [DEP] (Conf: 100.0%, Supp: 1.2%)
+[Noise: Construction Before/After Hours (NM1)] --> [DEP] (Conf: 100.0%, Supp: 1.2%)
+[Noise: Construction Before/After Hours (NM1),Noise,DEP] --> [Department of Environmental Protection] (Conf: 100.0%, Supp: 1.2%)
+[Noise: Construction Before/After Hours (NM1)] --> [Noise] (Conf: 100.0%, Supp: 1.2%)
+[Noise: Construction Before/After Hours (NM1),Department of Environmental Protection] --> [Noise] (Conf: 100.0%, Supp: 1.2%)
+[Noise: Construction Before/After Hours (NM1),Department of Environmental Protection,DEP] --> [Noise] (Conf: 100.0%, Supp: 1.2%)
+[Noise: Construction Before/After Hours (NM1),Noise] --> [Department of Environmental Protection] (Conf: 100.0%, Supp: 1.2%)
+[Noise: Construction Before/After Hours (NM1),Department of Environmental Protection] --> [DEP] (Conf: 100.0%, Supp: 1.2%)
+[Noise: Construction Before/After Hours (NM1),DEP] --> [Department of Environmental Protection] (Conf: 100.0%, Supp: 1.2%)
+[Noise: Construction Before/After Hours (NM1)] --> [Department of Environmental Protection] (Conf: 100.0%, Supp: 1.2%)
+[Noise: Construction Before/After Hours (NM1),Noise] --> [DEP] (Conf: 100.0%, Supp: 1.2%)
+[Noise: Construction Before/After Hours (NM1),DEP] --> [Noise] (Conf: 100.0%, Supp: 1.2%)
+[10453] --> [BRONX] (Conf: 100.0%, Supp: 1.2%)
+[QUEENS,DOB] --> [Department of Buildings] (Conf: 100.0%, Supp: 1.2%)
+[Department of Buildings,QUEENS] --> [DOB] (Conf: 100.0%, Supp: 1.2%)
+[CEILING] --> [RESIDENTIAL BUILDING] (Conf: 100.0%, Supp: 1.2%)
+[CEILING,HPD] --> [RESIDENTIAL BUILDING] (Conf: 100.0%, Supp: 1.2%)
+[CEILING,PAINT/PLASTER] --> [RESIDENTIAL BUILDING] (Conf: 100.0%, Supp: 1.2%)
+[CEILING,HPD,Department of Housing Preservation and Development] --> [PAINT/PLASTER] (Conf: 100.0%, Supp: 1.2%)
+[CEILING,PAINT/PLASTER,Department of Housing Preservation and Development] --> [RESIDENTIAL BUILDING] (Conf: 100.0%, Supp: 1.2%)
+[CEILING] --> [HPD] (Conf: 100.0%, Supp: 1.2%)
+[CEILING] --> [Department of Housing Preservation and Development] (Conf: 100.0%, Supp: 1.2%)
+[CEILING,HPD,Department of Housing Preservation and Development] --> [RESIDENTIAL BUILDING] (Conf: 100.0%, Supp: 1.2%)
+[CEILING,PAINT/PLASTER,Department of Housing Preservation and Development] --> [HPD] (Conf: 100.0%, Supp: 1.2%)
+[CEILING,Department of Housing Preservation and Development] --> [HPD] (Conf: 100.0%, Supp: 1.2%)
+[CEILING,Department of Housing Preservation and Development] --> [RESIDENTIAL BUILDING] (Conf: 100.0%, Supp: 1.2%)
+[CEILING,RESIDENTIAL BUILDING] --> [HPD] (Conf: 100.0%, Supp: 1.2%)
+[CEILING,RESIDENTIAL BUILDING] --> [PAINT/PLASTER] (Conf: 100.0%, Supp: 1.2%)
+[CEILING,HPD] --> [PAINT/PLASTER] (Conf: 100.0%, Supp: 1.2%)
+[CEILING,PAINT/PLASTER] --> [HPD] (Conf: 100.0%, Supp: 1.2%)
+[CEILING] --> [PAINT/PLASTER] (Conf: 100.0%, Supp: 1.2%)
+[CEILING,HPD] --> [Department of Housing Preservation and Development] (Conf: 100.0%, Supp: 1.2%)
+[CEILING,RESIDENTIAL BUILDING] --> [Department of Housing Preservation and Development] (Conf: 100.0%, Supp: 1.2%)
+[CEILING,PAINT/PLASTER] --> [Department of Housing Preservation and Development] (Conf: 100.0%, Supp: 1.2%)
+[CEILING,Department of Housing Preservation and Development] --> [PAINT/PLASTER] (Conf: 100.0%, Supp: 1.2%)
+[CEILING,RESIDENTIAL BUILDING,HPD] --> [Department of Housing Preservation and Development] (Conf: 100.0%, Supp: 1.2%)
+[CEILING,RESIDENTIAL BUILDING,HPD] --> [PAINT/PLASTER] (Conf: 100.0%, Supp: 1.2%)
+[11207] --> [BROOKLYN] (Conf: 100.0%, Supp: 1.2%)
+[QUEENS,Street Light Condition] --> [Department of Transportation] (Conf: 100.0%, Supp: 1.2%)
+[QUEENS,DOT,Street Light Condition] --> [Department of Transportation] (Conf: 100.0%, Supp: 1.2%)
+[QUEENS,Department of Transportation,Street Light Condition] --> [DOT] (Conf: 100.0%, Supp: 1.2%)
+[QUEENS,Street Light Condition] --> [DOT] (Conf: 100.0%, Supp: 1.2%)
+[GENERAL,RESIDENTIAL BUILDING] --> [Department of Housing Preservation and Development] (Conf: 100.0%, Supp: 1.2%)
+[HPD,GENERAL] --> [Department of Housing Preservation and Development] (Conf: 100.0%, Supp: 1.2%)
+[HPD,GENERAL] --> [RESIDENTIAL BUILDING] (Conf: 100.0%, Supp: 1.2%)
+[GENERAL,RESIDENTIAL BUILDING] --> [HPD] (Conf: 100.0%, Supp: 1.2%)
+[GENERAL] --> [RESIDENTIAL BUILDING] (Conf: 100.0%, Supp: 1.2%)
+[GENERAL] --> [Department of Housing Preservation and Development] (Conf: 100.0%, Supp: 1.2%)
+[Department of Housing Preservation and Development,GENERAL] --> [RESIDENTIAL BUILDING] (Conf: 100.0%, Supp: 1.2%)
+[Department of Housing Preservation and Development,GENERAL] --> [HPD] (Conf: 100.0%, Supp: 1.2%)
+[HPD,RESIDENTIAL BUILDING,GENERAL] --> [Department of Housing Preservation and Development] (Conf: 100.0%, Supp: 1.2%)
+[Department of Housing Preservation and Development,GENERAL,HPD] --> [RESIDENTIAL BUILDING] (Conf: 100.0%, Supp: 1.2%)
+[GENERAL] --> [HPD] (Conf: 100.0%, Supp: 1.2%)
+[10458] --> [BRONX] (Conf: 100.0%, Supp: 1.2%)
+[MANHATTAN,Noise] --> [Department of Environmental Protection] (Conf: 100.0%, Supp: 1.2%)
+[MANHATTAN,Noise] --> [DEP] (Conf: 100.0%, Supp: 1.2%)
+[MANHATTAN,Department of Environmental Protection,Noise] --> [DEP] (Conf: 100.0%, Supp: 1.2%)
+[MANHATTAN,Noise,DEP] --> [Department of Environmental Protection] (Conf: 100.0%, Supp: 1.2%)
+[Noise - Vehicle,Street/Sidewalk] --> [NYPD] (Conf: 100.0%, Supp: 1.2%)
+[Noise - Vehicle,Street/Sidewalk] --> [New York City Police Department] (Conf: 100.0%, Supp: 1.2%)
+[Noise - Vehicle] --> [Street/Sidewalk] (Conf: 100.0%, Supp: 1.2%)
+[New York City Police Department,Noise - Vehicle] --> [Street/Sidewalk] (Conf: 100.0%, Supp: 1.2%)
+[Noise - Vehicle,NYPD] --> [New York City Police Department] (Conf: 100.0%, Supp: 1.2%)
+[Noise - Vehicle] --> [NYPD] (Conf: 100.0%, Supp: 1.2%)
+[New York City Police Department,Noise - Vehicle,Street/Sidewalk] --> [NYPD] (Conf: 100.0%, Supp: 1.2%)
+[Noise - Vehicle,NYPD] --> [Street/Sidewalk] (Conf: 100.0%, Supp: 1.2%)
+[New York City Police Department,Noise - Vehicle] --> [NYPD] (Conf: 100.0%, Supp: 1.2%)
+[Noise - Vehicle,NYPD,Street/Sidewalk] --> [New York City Police Department] (Conf: 100.0%, Supp: 1.2%)
+[Noise - Vehicle] --> [New York City Police Department] (Conf: 100.0%, Supp: 1.2%)
+[BROOKLYN,DOB] --> [Department of Buildings] (Conf: 100.0%, Supp: 1.2%)
+[Department of Buildings,BROOKLYN] --> [DOB] (Conf: 100.0%, Supp: 1.2%)
+[New York City Police Department,STATEN ISLAND] --> [NYPD] (Conf: 100.0%, Supp: 1.2%)
+[NYPD,STATEN ISLAND] --> [New York City Police Department] (Conf: 100.0%, Supp: 1.2%)
+[Department of Housing Preservation and Development,BROOKLYN,UNSANITARY CONDITION] --> [RESIDENTIAL BUILDING] (Conf: 100.0%, Supp: 1.2%)
+[UNSANITARY CONDITION,BROOKLYN] --> [RESIDENTIAL BUILDING] (Conf: 100.0%, Supp: 1.2%)
+[UNSANITARY CONDITION,BROOKLYN] --> [HPD] (Conf: 100.0%, Supp: 1.2%)
+[UNSANITARY CONDITION,HPD,RESIDENTIAL BUILDING,BROOKLYN] --> [Department of Housing Preservation and Development] (Conf: 100.0%, Supp: 1.2%)
+[UNSANITARY CONDITION,BROOKLYN] --> [Department of Housing Preservation and Development] (Conf: 100.0%, Supp: 1.2%)
+[UNSANITARY CONDITION,RESIDENTIAL BUILDING,BROOKLYN] --> [Department of Housing Preservation and Development] (Conf: 100.0%, Supp: 1.2%)
+[UNSANITARY CONDITION,HPD,BROOKLYN] --> [Department of Housing Preservation and Development] (Conf: 100.0%, Supp: 1.2%)
+[Department of Housing Preservation and Development,BROOKLYN,UNSANITARY CONDITION] --> [HPD] (Conf: 100.0%, Supp: 1.2%)
+[UNSANITARY CONDITION,HPD,BROOKLYN] --> [RESIDENTIAL BUILDING] (Conf: 100.0%, Supp: 1.2%)
+[10452] --> [BRONX] (Conf: 100.0%, Supp: 1.2%)
+[UNSANITARY CONDITION,RESIDENTIAL BUILDING,BROOKLYN] --> [HPD] (Conf: 100.0%, Supp: 1.2%)
+[NYPD,Club/Bar/Restaurant] --> [New York City Police Department] (Conf: 100.0%, Supp: 1.1%)
+[New York City Police Department,Club/Bar/Restaurant] --> [NYPD] (Conf: 100.0%, Supp: 1.1%)
+[Club/Bar/Restaurant] --> [New York City Police Department] (Conf: 100.0%, Supp: 1.1%)
+[Club/Bar/Restaurant] --> [NYPD] (Conf: 100.0%, Supp: 1.1%)
+[Taxi and Limousine Commission] --> [TLC] (Conf: 100.0%, Supp: 1.1%)
+[Department of Housing Preservation and Development,ELECTRIC,HPD] --> [RESIDENTIAL BUILDING] (Conf: 100.0%, Supp: 1.1%)
+[ELECTRIC,RESIDENTIAL BUILDING] --> [Department of Housing Preservation and Development] (Conf: 100.0%, Supp: 1.1%)
+[Department of Housing Preservation and Development,ELECTRIC] --> [RESIDENTIAL BUILDING] (Conf: 100.0%, Supp: 1.1%)
+[ELECTRIC] --> [RESIDENTIAL BUILDING] (Conf: 100.0%, Supp: 1.1%)
+[ELECTRIC] --> [HPD] (Conf: 100.0%, Supp: 1.1%)
+[ELECTRIC,HPD] --> [RESIDENTIAL BUILDING] (Conf: 100.0%, Supp: 1.1%)
+[Department of Housing Preservation and Development,ELECTRIC] --> [HPD] (Conf: 100.0%, Supp: 1.1%)
+[ELECTRIC,HPD] --> [Department of Housing Preservation and Development] (Conf: 100.0%, Supp: 1.1%)
+[ELECTRIC,RESIDENTIAL BUILDING] --> [HPD] (Conf: 100.0%, Supp: 1.1%)
+[Department of Housing Preservation and Development,RESIDENTIAL BUILDING,ELECTRIC] --> [HPD] (Conf: 100.0%, Supp: 1.1%)
+[ELECTRIC] --> [Department of Housing Preservation and Development] (Conf: 100.0%, Supp: 1.1%)
+[ELECTRIC,RESIDENTIAL BUILDING,HPD] --> [Department of Housing Preservation and Development] (Conf: 100.0%, Supp: 1.1%)
+[10456] --> [BRONX] (Conf: 100.0%, Supp: 1.1%)
+[New York City Police Department,Club/Bar/Restaurant,Noise - Commercial] --> [NYPD] (Conf: 100.0%, Supp: 1.1%)
+[NYPD,Noise - Commercial,Club/Bar/Restaurant] --> [New York City Police Department] (Conf: 100.0%, Supp: 1.1%)
+[Club/Bar/Restaurant,Noise - Commercial] --> [NYPD] (Conf: 100.0%, Supp: 1.1%)
+[Club/Bar/Restaurant,Noise - Commercial] --> [New York City Police Department] (Conf: 100.0%, Supp: 1.1%)
+[QUEENS,HEAT/HOT WATER,Department of Housing Preservation and Development] --> [HPD] (Conf: 100.0%, Supp: 1.1%)
+[QUEENS,RESIDENTIAL BUILDING,HEAT/HOT WATER] --> [Department of Housing Preservation and Development] (Conf: 100.0%, Supp: 1.1%)
+[QUEENS,HPD,RESIDENTIAL BUILDING,HEAT/HOT WATER] --> [Department of Housing Preservation and Development] (Conf: 100.0%, Supp: 1.1%)
+[QUEENS,HPD,HEAT/HOT WATER] --> [Department of Housing Preservation and Development] (Conf: 100.0%, Supp: 1.1%)
+[QUEENS,RESIDENTIAL BUILDING,HEAT/HOT WATER] --> [HPD] (Conf: 100.0%, Supp: 1.1%)
+[QUEENS,HEAT/HOT WATER] --> [HPD] (Conf: 100.0%, Supp: 1.1%)
+[QUEENS,HEAT/HOT WATER] --> [RESIDENTIAL BUILDING] (Conf: 100.0%, Supp: 1.1%)
+[QUEENS,HEAT/HOT WATER] --> [Department of Housing Preservation and Development] (Conf: 100.0%, Supp: 1.1%)
+[QUEENS,HEAT/HOT WATER,Department of Housing Preservation and Development] --> [RESIDENTIAL BUILDING] (Conf: 100.0%, Supp: 1.1%)
+[QUEENS,HPD,HEAT/HOT WATER] --> [RESIDENTIAL BUILDING] (Conf: 100.0%, Supp: 1.1%)
+[MANHATTAN,NYPD,Noise - Street/Sidewalk] --> [Street/Sidewalk] (Conf: 100.0%, Supp: 1.1%)
+[MANHATTAN,Noise - Street/Sidewalk] --> [NYPD] (Conf: 100.0%, Supp: 1.1%)
+[MANHATTAN,Street/Sidewalk,Noise - Street/Sidewalk] --> [NYPD] (Conf: 100.0%, Supp: 1.1%)
+[MANHATTAN,Noise - Street/Sidewalk] --> [New York City Police Department] (Conf: 100.0%, Supp: 1.1%)
+[MANHATTAN,Street/Sidewalk,Noise - Street/Sidewalk] --> [New York City Police Department] (Conf: 100.0%, Supp: 1.1%)
+[MANHATTAN,NYPD,Noise - Street/Sidewalk] --> [New York City Police Department] (Conf: 100.0%, Supp: 1.1%)
+[MANHATTAN,Noise - Street/Sidewalk] --> [Street/Sidewalk] (Conf: 100.0%, Supp: 1.1%)
+[15 Street Cond/Dump-Out/Drop-Off] --> [Sanitation Condition] (Conf: 100.0%, Supp: 1.1%)
+[15 Street Cond/Dump-Out/Drop-Off,DSNY] --> [Street] (Conf: 100.0%, Supp: 1.1%)
+[15 Street Cond/Dump-Out/Drop-Off] --> [Street] (Conf: 100.0%, Supp: 1.1%)
+[15 Street Cond/Dump-Out/Drop-Off,Sanitation Condition] --> [Street] (Conf: 100.0%, Supp: 1.1%)
+[15 Street Cond/Dump-Out/Drop-Off,DSNY] --> [Sanitation Condition] (Conf: 100.0%, Supp: 1.1%)
+[15 Street Cond/Dump-Out/Drop-Off,Sanitation Condition] --> [DSNY] (Conf: 100.0%, Supp: 1.1%)
+[15 Street Cond/Dump-Out/Drop-Off] --> [DSNY] (Conf: 100.0%, Supp: 1.1%)
+[Street,Sanitation Condition] --> [15 Street Cond/Dump-Out/Drop-Off] (Conf: 100.0%, Supp: 1.1%)
+[Street,15 Street Cond/Dump-Out/Drop-Off] --> [Sanitation Condition] (Conf: 100.0%, Supp: 1.1%)
+[Street,DSNY,Sanitation Condition] --> [15 Street Cond/Dump-Out/Drop-Off] (Conf: 100.0%, Supp: 1.1%)
+[Street,Sanitation Condition] --> [DSNY] (Conf: 100.0%, Supp: 1.1%)
+[Street,15 Street Cond/Dump-Out/Drop-Off] --> [DSNY] (Conf: 100.0%, Supp: 1.1%)
+[HRA,NYC Street Address] --> [HRA Benefit Card Replacement] (Conf: 100.0%, Supp: 1.1%)
+[HRA,HRA Benefit Card Replacement,NYC Street Address] --> [Benefit Card Replacement] (Conf: 100.0%, Supp: 1.1%)
+[Unspecified,HRA Benefit Card Replacement,NYC Street Address] --> [HRA] (Conf: 100.0%, Supp: 1.1%)
+[Unspecified,NYC Street Address] --> [HRA] (Conf: 100.0%, Supp: 1.1%)
+[HRA Benefit Card Replacement,NYC Street Address] --> [Unspecified] (Conf: 100.0%, Supp: 1.1%)
+[Benefit Card Replacement,NYC Street Address] --> [HRA] (Conf: 100.0%, Supp: 1.1%)
+[Benefit Card Replacement,NYC Street Address,HRA Benefit Card Replacement] --> [HRA] (Conf: 100.0%, Supp: 1.1%)
+[NYC Street Address] --> [HRA] (Conf: 100.0%, Supp: 1.1%)
+[Unspecified,NYC Street Address] --> [Benefit Card Replacement] (Conf: 100.0%, Supp: 1.1%)
+[NYC Street Address] --> [Benefit Card Replacement] (Conf: 100.0%, Supp: 1.1%)
+[HRA,HRA Benefit Card Replacement,NYC Street Address] --> [Unspecified] (Conf: 100.0%, Supp: 1.1%)
+[HRA,Unspecified,NYC Street Address] --> [Benefit Card Replacement] (Conf: 100.0%, Supp: 1.1%)
+[HRA,Unspecified,NYC Street Address] --> [HRA Benefit Card Replacement] (Conf: 100.0%, Supp: 1.1%)
+[HRA Benefit Card Replacement,NYC Street Address] --> [Benefit Card Replacement] (Conf: 100.0%, Supp: 1.1%)
+[Benefit Card Replacement,NYC Street Address] --> [HRA Benefit Card Replacement] (Conf: 100.0%, Supp: 1.1%)
+[NYC Street Address] --> [Unspecified] (Conf: 100.0%, Supp: 1.1%)
+[HRA Benefit Card Replacement,NYC Street Address] --> [HRA] (Conf: 100.0%, Supp: 1.1%)
+[Unspecified,HRA Benefit Card Replacement,NYC Street Address] --> [Benefit Card Replacement] (Conf: 100.0%, Supp: 1.1%)
+[HRA,Benefit Card Replacement,HRA Benefit Card Replacement,NYC Street Address] --> [Unspecified] (Conf: 100.0%, Supp: 1.1%)
+[HRA,NYC Street Address] --> [Unspecified] (Conf: 100.0%, Supp: 1.1%)
+[HRA,Benefit Card Replacement,NYC Street Address] --> [HRA Benefit Card Replacement] (Conf: 100.0%, Supp: 1.1%)
+[HRA,Unspecified,NYC Street Address,HRA Benefit Card Replacement] --> [Benefit Card Replacement] (Conf: 100.0%, Supp: 1.1%)
+[Benefit Card Replacement,NYC Street Address] --> [Unspecified] (Conf: 100.0%, Supp: 1.1%)
+[Benefit Card Replacement,NYC Street Address,HRA Benefit Card Replacement] --> [Unspecified] (Conf: 100.0%, Supp: 1.1%)
+[HRA,NYC Street Address] --> [Benefit Card Replacement] (Conf: 100.0%, Supp: 1.1%)
+[NYC Street Address] --> [HRA Benefit Card Replacement] (Conf: 100.0%, Supp: 1.1%)
+[Unspecified,NYC Street Address] --> [HRA Benefit Card Replacement] (Conf: 100.0%, Supp: 1.1%)
+[HRA,Benefit Card Replacement,NYC Street Address] --> [Unspecified] (Conf: 100.0%, Supp: 1.1%)
+[Department of Parks and Recreation,BROOKLYN] --> [DPR] (Conf: 100.0%, Supp: 1.1%)
+[DPR,BROOKLYN] --> [Department of Parks and Recreation] (Conf: 100.0%, Supp: 1.1%)
+[11221] --> [BROOKLYN] (Conf: 100.0%, Supp: 1.1%)
+[10457] --> [BRONX] (Conf: 100.0%, Supp: 1.1%)
+[Street/Sidewalk,DHS] --> [Operations Unit - Department of Homeless Services] (Conf: 100.0%, Supp: 1.0%)
+[Homeless Person Assistance,Street/Sidewalk,DHS] --> [Operations Unit - Department of Homeless Services] (Conf: 100.0%, Supp: 1.0%)
+[Operations Unit - Department of Homeless Services,Street/Sidewalk,DHS] --> [Homeless Person Assistance] (Conf: 100.0%, Supp: 1.0%)
+[Homeless Person Assistance,Street/Sidewalk] --> [DHS] (Conf: 100.0%, Supp: 1.0%)
+[Operations Unit - Department of Homeless Services,Street/Sidewalk] --> [DHS] (Conf: 100.0%, Supp: 1.0%)
+[Operations Unit - Department of Homeless Services,Street/Sidewalk] --> [Homeless Person Assistance] (Conf: 100.0%, Supp: 1.0%)
+[Homeless Person Assistance,Street/Sidewalk] --> [Operations Unit - Department of Homeless Services] (Conf: 100.0%, Supp: 1.0%)
+[Street/Sidewalk,DHS] --> [Homeless Person Assistance] (Conf: 100.0%, Supp: 1.0%)
+[10472] --> [BRONX] (Conf: 100.0%, Supp: 1.0%)
+[DPR,Street,QUEENS] --> [Department of Parks and Recreation] (Conf: 100.0%, Supp: 1.0%)
+[Street,Department of Parks and Recreation,QUEENS] --> [DPR] (Conf: 100.0%, Supp: 1.0%)
+[New York City Police Department,Blocked Driveway,BRONX] --> [Street/Sidewalk] (Conf: 100.0%, Supp: 1.0%)
+[BRONX,Blocked Driveway] --> [NYPD] (Conf: 100.0%, Supp: 1.0%)
+[New York City Police Department,Blocked Driveway,BRONX] --> [NYPD] (Conf: 100.0%, Supp: 1.0%)
+[BRONX,Blocked Driveway,Street/Sidewalk] --> [NYPD] (Conf: 100.0%, Supp: 1.0%)
+[BRONX,Blocked Driveway] --> [Street/Sidewalk] (Conf: 100.0%, Supp: 1.0%)
+[BRONX,Blocked Driveway] --> [New York City Police Department] (Conf: 100.0%, Supp: 1.0%)
+[BRONX,Blocked Driveway,Street/Sidewalk] --> [New York City Police Department] (Conf: 100.0%, Supp: 1.0%)
+[MANHATTAN,Noise - Commercial,NYPD] --> [New York City Police Department] (Conf: 100.0%, Supp: 1.0%)
+[MANHATTAN,Noise - Commercial] --> [New York City Police Department] (Conf: 100.0%, Supp: 1.0%)
+[MANHATTAN,Noise - Commercial] --> [NYPD] (Conf: 100.0%, Supp: 1.0%)
+[New York City Police Department,Noise - Commercial,MANHATTAN] --> [NYPD] (Conf: 100.0%, Supp: 1.0%)
+[10468] --> [BRONX] (Conf: 100.0%, Supp: 1.0%)
+[10031] --> [MANHATTAN] (Conf: 100.0%, Supp: 1.0%)
+[DOT] --> [Department of Transportation] (Conf: 100.0%, Supp: 10.7%)
+[QUEENS,NYPD] --> [New York City Police Department] (Conf: 100.0%, Supp: 7.8%)
+[Street/Sidewalk,Blocked Driveway] --> [New York City Police Department] (Conf: 100.0%, Supp: 5.9%)
+[NYPD,Blocked Driveway] --> [New York City Police Department] (Conf: 100.0%, Supp: 5.9%)
+[Blocked Driveway] --> [New York City Police Department] (Conf: 100.0%, Supp: 5.9%)
+[NYPD,Street/Sidewalk,Blocked Driveway] --> [New York City Police Department] (Conf: 100.0%, Supp: 5.9%)
+[No Access] --> [New York City Police Department] (Conf: 100.0%, Supp: 4.3%)
+[No Access,Blocked Driveway,NYPD,Street/Sidewalk] --> [New York City Police Department] (Conf: 100.0%, Supp: 4.3%)
+[No Access,Blocked Driveway,NYPD] --> [New York City Police Department] (Conf: 100.0%, Supp: 4.3%)
+[No Access,Street/Sidewalk] --> [New York City Police Department] (Conf: 100.0%, Supp: 4.3%)
+[No Access,Blocked Driveway,Street/Sidewalk] --> [New York City Police Department] (Conf: 100.0%, Supp: 4.3%)
+[No Access,NYPD] --> [New York City Police Department] (Conf: 100.0%, Supp: 4.3%)
+[No Access,Blocked Driveway] --> [New York City Police Department] (Conf: 100.0%, Supp: 4.3%)
+[NYPD,Residential Building/House] --> [New York City Police Department] (Conf: 100.0%, Supp: 10.7%)
+[NYPD,Street/Sidewalk] --> [New York City Police Department] (Conf: 100.0%, Supp: 17.7%)
+[Noise - Residential] --> [New York City Police Department] (Conf: 100.0%, Supp: 10.2%)
+[Noise - Residential,NYPD] --> [New York City Police Department] (Conf: 100.0%, Supp: 10.2%)
+[Noise - Residential,NYPD,Residential Building/House] --> [New York City Police Department] (Conf: 100.0%, Supp: 10.2%)
+[Noise - Residential,Residential Building/House] --> [New York City Police Department] (Conf: 100.0%, Supp: 10.2%)
+[Loud Music/Party,NYPD] --> [New York City Police Department] (Conf: 100.0%, Supp: 10.1%)
+[Loud Music/Party] --> [New York City Police Department] (Conf: 100.0%, Supp: 10.1%)
+[MANHATTAN,Loud Music/Party,NYPD] --> [New York City Police Department] (Conf: 100.0%, Supp: 3.1%)
+[MANHATTAN,Loud Music/Party] --> [New York City Police Department] (Conf: 100.0%, Supp: 3.1%)
+[Illegal Parking] --> [New York City Police Department] (Conf: 100.0%, Supp: 5.7%)
+[Illegal Parking,NYPD] --> [New York City Police Department] (Conf: 100.0%, Supp: 5.7%)
+[Illegal Parking,Street/Sidewalk] --> [New York City Police Department] (Conf: 100.0%, Supp: 5.7%)
+[Noise - Residential,BROOKLYN] --> [New York City Police Department] (Conf: 100.0%, Supp: 2.9%)
+[Noise - Residential,BROOKLYN,Residential Building/House] --> [New York City Police Department] (Conf: 100.0%, Supp: 2.9%)
+[Loud Music/Party,NYPD,BROOKLYN] --> [New York City Police Department] (Conf: 100.0%, Supp: 2.8%)
+[Loud Music/Party,BROOKLYN] --> [New York City Police Department] (Conf: 100.0%, Supp: 2.8%)
+[BRONX,NYPD] --> [New York City Police Department] (Conf: 100.0%, Supp: 5.5%)
+[Noise - Street/Sidewalk] --> [New York City Police Department] (Conf: 100.0%, Supp: 2.6%)
+[Noise - Street/Sidewalk] --> [NYPD] (Conf: 100.0%, Supp: 2.6%)
+[Noise - Street/Sidewalk,Street/Sidewalk] --> [NYPD] (Conf: 100.0%, Supp: 2.6%)
+[Noise - Street/Sidewalk,Street/Sidewalk] --> [New York City Police Department] (Conf: 100.0%, Supp: 2.6%)
+[MANHATTAN,Residential Building/House,NYPD] --> [New York City Police Department] (Conf: 100.0%, Supp: 2.5%)
+[Noise - Residential,MANHATTAN] --> [New York City Police Department] (Conf: 100.0%, Supp: 2.4%)
+[Noise - Residential,Loud Music/Party] --> [New York City Police Department] (Conf: 100.0%, Supp: 6.4%)
+[Loud Music/Party,NYPD,Residential Building/House] --> [New York City Police Department] (Conf: 100.0%, Supp: 6.4%)
+[Loud Music/Party,Residential Building/House] --> [New York City Police Department] (Conf: 100.0%, Supp: 6.4%)
+[QUEENS,NYPD,Residential Building/House] --> [New York City Police Department] (Conf: 100.0%, Supp: 2.1%)
+[Homeless Person Assistance] --> [DHS] (Conf: 100.0%, Supp: 2.0%)
+[Homeless Person Assistance] --> [Operations Unit - Department of Homeless Services] (Conf: 100.0%, Supp: 2.0%)
+[Loud Talking] --> [NYPD] (Conf: 100.0%, Supp: 2.0%)
+[Loud Talking] --> [New York City Police Department] (Conf: 100.0%, Supp: 2.0%)
+[Noise - Residential,QUEENS,Residential Building/House] --> [New York City Police Department] (Conf: 100.0%, Supp: 2.0%)
+[Noise - Residential,QUEENS] --> [New York City Police Department] (Conf: 100.0%, Supp: 2.0%)
+[QUEENS,Loud Music/Party] --> [New York City Police Department] (Conf: 100.0%, Supp: 1.8%)
+[MANHATTAN,Homeless Person Assistance] --> [Operations Unit - Department of Homeless Services] (Conf: 100.0%, Supp: 1.7%)
+[MANHATTAN,Homeless Person Assistance] --> [DHS] (Conf: 100.0%, Supp: 1.7%)
+[BROOKLYN,NYPD] --> [New York City Police Department] (Conf: 100.0%, Supp: 9.9%)
+[NYPD] --> [New York City Police Department] (Conf: 100.0%, Supp: 31.3%)
+[NYPD,Street/Sidewalk,Posted Parking Sign Violation] --> [New York City Police Department] (Conf: 100.0%, Supp: 1.6%)
+[Illegal Parking,Street/Sidewalk,Posted Parking Sign Violation] --> [New York City Police Department] (Conf: 100.0%, Supp: 1.6%)
+[Street/Sidewalk,Posted Parking Sign Violation] --> [New York City Police Department] (Conf: 100.0%, Supp: 1.6%)
+[Posted Parking Sign Violation] --> [New York City Police Department] (Conf: 100.0%, Supp: 1.6%)
+[NYPD,Posted Parking Sign Violation] --> [New York City Police Department] (Conf: 100.0%, Supp: 1.6%)
+[Illegal Parking,Posted Parking Sign Violation] --> [New York City Police Department] (Conf: 100.0%, Supp: 1.6%)
+[Illegal Parking,Blocked Hydrant,Street/Sidewalk] --> [New York City Police Department] (Conf: 100.0%, Supp: 1.6%)
+[Illegal Parking,Blocked Hydrant] --> [New York City Police Department] (Conf: 100.0%, Supp: 1.6%)
+[Blocked Hydrant,Street/Sidewalk] --> [New York City Police Department] (Conf: 100.0%, Supp: 1.6%)
+[Blocked Hydrant] --> [New York City Police Department] (Conf: 100.0%, Supp: 1.6%)
+[Illegal Parking,Blocked Hydrant,NYPD] --> [New York City Police Department] (Conf: 100.0%, Supp: 1.6%)
+[NYPD,Blocked Hydrant] --> [New York City Police Department] (Conf: 100.0%, Supp: 1.6%)
+[NYPD,Street/Sidewalk,Blocked Hydrant] --> [New York City Police Department] (Conf: 100.0%, Supp: 1.6%)
+[MANHATTAN,Residential Building/House,Loud Music/Party] --> [New York City Police Department] (Conf: 100.0%, Supp: 1.5%)
+[MANHATTAN,Residential Building/House,Loud Music/Party,NYPD] --> [New York City Police Department] (Conf: 100.0%, Supp: 1.5%)
+[Noise - Residential,MANHATTAN,Loud Music/Party] --> [New York City Police Department] (Conf: 100.0%, Supp: 1.5%)
+[11385] --> [QUEENS] (Conf: 100.0%, Supp: 1.3%)
+[Noise - Residential,QUEENS,Loud Music/Party] --> [New York City Police Department] (Conf: 100.0%, Supp: 1.3%)
+[Illegal Parking,BROOKLYN] --> [New York City Police Department] (Conf: 100.0%, Supp: 2.2%)
+[Illegal Parking,BROOKLYN,Street/Sidewalk] --> [New York City Police Department] (Conf: 100.0%, Supp: 2.2%)
+[Illegal Parking,BROOKLYN,NYPD] --> [New York City Police Department] (Conf: 100.0%, Supp: 2.2%)
+[DHS] --> [Homeless Person Assistance] (Conf: 99.9%, Supp: 2.0%)
+[DHS] --> [Operations Unit - Department of Homeless Services] (Conf: 99.9%, Supp: 2.0%)
+[MANHATTAN,NYPD] --> [New York City Police Department] (Conf: 99.9%, Supp: 6.7%)
+[NYPD,Derelict Vehicle] --> [New York City Police Department] (Conf: 99.9%, Supp: 1.3%)
+[With License Plate,NYPD] --> [New York City Police Department] (Conf: 99.9%, Supp: 1.3%)
+[With License Plate,NYPD,Derelict Vehicle] --> [New York City Police Department] (Conf: 99.9%, Supp: 1.3%)
+[With License Plate,Derelict Vehicle] --> [New York City Police Department] (Conf: 99.9%, Supp: 1.3%)
+[With License Plate] --> [New York City Police Department] (Conf: 99.9%, Supp: 1.3%)
+[Derelict Vehicle] --> [New York City Police Department] (Conf: 99.9%, Supp: 1.3%)
+[With License Plate,Street/Sidewalk] --> [New York City Police Department] (Conf: 99.9%, Supp: 1.3%)
+[With License Plate,NYPD,Street/Sidewalk] --> [New York City Police Department] (Conf: 99.9%, Supp: 1.3%)
+[Street/Sidewalk,Derelict Vehicle] --> [New York City Police Department] (Conf: 99.9%, Supp: 1.3%)
+[With License Plate,NYPD,Derelict Vehicle,Street/Sidewalk] --> [New York City Police Department] (Conf: 99.9%, Supp: 1.3%)
+[With License Plate,Street/Sidewalk,Derelict Vehicle] --> [New York City Police Department] (Conf: 99.9%, Supp: 1.3%)
+[NYPD,Street/Sidewalk,Derelict Vehicle] --> [New York City Police Department] (Conf: 99.9%, Supp: 1.3%)
+[Department of Transportation,Pothole] --> [Street Condition] (Conf: 99.9%, Supp: 1.7%)
+[DOT,Department of Transportation,Pothole] --> [Street Condition] (Conf: 99.9%, Supp: 1.7%)
+[DOT,Pothole] --> [Street Condition] (Conf: 99.9%, Supp: 1.7%)
+[Pothole] --> [Street Condition] (Conf: 99.9%, Supp: 1.7%)
+[DEP] --> [Department of Environmental Protection] (Conf: 99.8%, Supp: 7.3%)
+[BRONX,Residential Building/House] --> [New York City Police Department] (Conf: 99.7%, Supp: 2.7%)
+[BRONX,Residential Building/House] --> [NYPD] (Conf: 99.7%, Supp: 2.7%)
+[11208] --> [BROOKLYN] (Conf: 99.7%, Supp: 1.1%)
+[QUEENS,Residential Building/House] --> [NYPD] (Conf: 99.7%, Supp: 2.1%)
+[QUEENS,Residential Building/House] --> [New York City Police Department] (Conf: 99.6%, Supp: 2.1%)
+[BROOKLYN,Residential Building/House] --> [NYPD] (Conf: 99.5%, Supp: 3.0%)
+[BROOKLYN,Residential Building/House] --> [New York City Police Department] (Conf: 99.5%, Supp: 3.0%)
+[Department of Housing Preservation and Development,HPD] --> [RESIDENTIAL BUILDING] (Conf: 99.4%, Supp: 23.3%)
+[Department of Housing Preservation and Development] --> [RESIDENTIAL BUILDING] (Conf: 99.4%, Supp: 23.3%)
+[HPD] --> [RESIDENTIAL BUILDING] (Conf: 99.4%, Supp: 23.3%)
+[QUEENS,Street/Sidewalk] --> [NYPD] (Conf: 99.4%, Supp: 5.3%)
+[QUEENS,Street/Sidewalk] --> [New York City Police Department] (Conf: 99.4%, Supp: 5.3%)
+[With License Plate,NYPD] --> [Street/Sidewalk] (Conf: 99.3%, Supp: 1.3%)
+[Derelict Vehicle] --> [Street/Sidewalk] (Conf: 99.3%, Supp: 1.3%)
+[With License Plate] --> [Street/Sidewalk] (Conf: 99.3%, Supp: 1.3%)
+[With License Plate,NYPD,Derelict Vehicle] --> [Street/Sidewalk] (Conf: 99.3%, Supp: 1.3%)
+[With License Plate,Derelict Vehicle] --> [Street/Sidewalk] (Conf: 99.3%, Supp: 1.3%)
+[NYPD,Derelict Vehicle] --> [Street/Sidewalk] (Conf: 99.3%, Supp: 1.3%)
+[New York City Police Department,With License Plate,Derelict Vehicle] --> [Street/Sidewalk] (Conf: 99.3%, Supp: 1.3%)
+[New York City Police Department,With License Plate] --> [Street/Sidewalk] (Conf: 99.3%, Supp: 1.3%)
+[New York City Police Department,Derelict Vehicle] --> [Street/Sidewalk] (Conf: 99.3%, Supp: 1.3%)
+[New York City Police Department,NYPD,Derelict Vehicle] --> [Street/Sidewalk] (Conf: 99.3%, Supp: 1.3%)
+[BRONX,Street/Sidewalk] --> [New York City Police Department] (Conf: 99.1%, Supp: 2.5%)
+[BRONX,Street/Sidewalk] --> [NYPD] (Conf: 99.1%, Supp: 2.5%)
+[HRA,Unspecified] --> [HRA Benefit Card Replacement] (Conf: 99.0%, Supp: 1.2%)
+[HRA,Unspecified] --> [Benefit Card Replacement] (Conf: 99.0%, Supp: 1.2%)
+[HRA] --> [Benefit Card Replacement] (Conf: 99.0%, Supp: 1.2%)
+[HRA] --> [HRA Benefit Card Replacement] (Conf: 99.0%, Supp: 1.2%)
+[DPR] --> [Department of Parks and Recreation] (Conf: 98.9%, Supp: 3.4%)
+[Residential Building/House] --> [NYPD] (Conf: 98.8%, Supp: 10.8%)
+[Residential Building/House] --> [New York City Police Department] (Conf: 98.8%, Supp: 10.8%)
+[Missed Collection (All Materials),DSNY] --> [Sidewalk] (Conf: 98.6%, Supp: 1.5%)
+[Missed Collection (All Materials)] --> [Sidewalk] (Conf: 98.6%, Supp: 1.5%)
+[BROOKLYN,Street/Sidewalk] --> [NYPD] (Conf: 98.6%, Supp: 6.1%)
+[BROOKLYN,Street/Sidewalk] --> [New York City Police Department] (Conf: 98.6%, Supp: 6.1%)
+[New York City Police Department,Club/Bar/Restaurant] --> [Noise - Commercial] (Conf: 98.2%, Supp: 1.1%)
+[New York City Police Department,NYPD,Club/Bar/Restaurant] --> [Noise - Commercial] (Conf: 98.2%, Supp: 1.1%)
+[NYPD,Club/Bar/Restaurant] --> [Noise - Commercial] (Conf: 98.2%, Supp: 1.1%)
+[Club/Bar/Restaurant] --> [Noise - Commercial] (Conf: 98.2%, Supp: 1.1%)
+[TLC] --> [Taxi and Limousine Commission] (Conf: 98.0%, Supp: 1.1%)
+[DOHMH] --> [Department of Health and Mental Hygiene] (Conf: 97.7%, Supp: 2.6%)
+[MANHATTAN,Residential Building/House,NYPD] --> [Noise - Residential] (Conf: 96.5%, Supp: 2.5%)
+[New York City Police Department,Residential Building/House,MANHATTAN] --> [Noise - Residential] (Conf: 96.5%, Supp: 2.5%)
+[MANHATTAN,Residential Building/House] --> [NYPD] (Conf: 96.3%, Supp: 2.6%)
+[MANHATTAN,Residential Building/House] --> [New York City Police Department] (Conf: 96.3%, Supp: 2.6%)
+[BRONX,Residential Building/House] --> [Noise - Residential] (Conf: 95.9%, Supp: 2.7%)
+[New York City Police Department,Residential Building/House,BROOKLYN] --> [Noise - Residential] (Conf: 95.7%, Supp: 3.0%)
+[Sidewalk,QUEENS] --> [DSNY] (Conf: 95.6%, Supp: 1.3%)
+[NYPD,Residential Building/House] --> [Noise - Residential] (Conf: 95.3%, Supp: 10.7%)
+[New York City Police Department,NYPD,Residential Building/House] --> [Noise - Residential] (Conf: 95.3%, Supp: 10.7%)
+[New York City Police Department,Residential Building/House] --> [Noise - Residential] (Conf: 95.3%, Supp: 10.7%)
+[BROOKLYN,Residential Building/House] --> [Noise - Residential] (Conf: 95.3%, Supp: 3.0%)
+[Street/Sidewalk] --> [NYPD] (Conf: 94.4%, Supp: 18.7%)
+[Street/Sidewalk] --> [New York City Police Department] (Conf: 94.4%, Supp: 18.7%)
+[Residential Building/House] --> [Noise - Residential] (Conf: 94.2%, Supp: 10.8%)
+[Sidewalk] --> [DSNY] (Conf: 93.3%, Supp: 4.5%)
+[QUEENS,NYPD,Residential Building/House] --> [Noise - Residential] (Conf: 93.2%, Supp: 2.1%)
+[New York City Police Department,NYPD,QUEENS,Residential Building/House] --> [Noise - Residential] (Conf: 93.2%, Supp: 2.1%)
+[New York City Police Department,QUEENS,Residential Building/House] --> [Noise - Residential] (Conf: 93.2%, Supp: 2.1%)
+[MANHATTAN,Residential Building/House] --> [Noise - Residential] (Conf: 92.9%, Supp: 2.6%)
+[QUEENS,Residential Building/House] --> [Noise - Residential] (Conf: 92.8%, Supp: 2.1%)
+[Banging/Pounding] --> [Residential Building/House] (Conf: 92.8%, Supp: 3.0%)
+[Banging/Pounding] --> [Noise - Residential] (Conf: 92.8%, Supp: 3.0%)
+[NYPD,Banging/Pounding] --> [Noise - Residential] (Conf: 92.8%, Supp: 3.0%)
+[New York City Police Department,NYPD,Banging/Pounding] --> [Residential Building/House] (Conf: 92.8%, Supp: 3.0%)
+[New York City Police Department,Banging/Pounding] --> [Noise - Residential] (Conf: 92.8%, Supp: 3.0%)
+[NYPD,Banging/Pounding] --> [Residential Building/House] (Conf: 92.8%, Supp: 3.0%)
+[New York City Police Department,NYPD,Banging/Pounding] --> [Noise - Residential] (Conf: 92.8%, Supp: 3.0%)
+[New York City Police Department,Banging/Pounding] --> [Residential Building/House] (Conf: 92.8%, Supp: 3.0%)
+[Sidewalk,BROOKLYN] --> [DSNY] (Conf: 92.0%, Supp: 1.4%)
+[Store/Commercial,NYPD] --> [Noise - Commercial] (Conf: 90.1%, Supp: 1.5%)
+[New York City Police Department,Store/Commercial] --> [Noise - Commercial] (Conf: 90.1%, Supp: 1.5%)
+[New York City Police Department,NYPD,Store/Commercial] --> [Noise - Commercial] (Conf: 90.1%, Supp: 1.5%)
+[HRA,Benefit Card Replacement,Unspecified] --> [NYC Street Address] (Conf: 88.4%, Supp: 1.2%)
+[Benefit Card Replacement] --> [NYC Street Address] (Conf: 88.4%, Supp: 1.2%)
+[HRA,Benefit Card Replacement,HRA Benefit Card Replacement] --> [NYC Street Address] (Conf: 88.4%, Supp: 1.2%)
+[Benefit Card Replacement,Unspecified] --> [NYC Street Address] (Conf: 88.4%, Supp: 1.2%)
+[Benefit Card Replacement,HRA Benefit Card Replacement] --> [NYC Street Address] (Conf: 88.4%, Supp: 1.2%)
+[HRA Benefit Card Replacement] --> [NYC Street Address] (Conf: 88.4%, Supp: 1.2%)
+[HRA,Benefit Card Replacement] --> [NYC Street Address] (Conf: 88.4%, Supp: 1.2%)
+[HRA,HRA Benefit Card Replacement] --> [NYC Street Address] (Conf: 88.4%, Supp: 1.2%)
+[HRA,Unspecified,HRA Benefit Card Replacement] --> [NYC Street Address] (Conf: 88.4%, Supp: 1.2%)
+[Unspecified,HRA Benefit Card Replacement] --> [NYC Street Address] (Conf: 88.4%, Supp: 1.2%)
+[HRA,Unspecified] --> [NYC Street Address] (Conf: 87.5%, Supp: 1.2%)
+[HRA] --> [NYC Street Address] (Conf: 87.5%, Supp: 1.2%)
+[DOF,Unspecified] --> [Department of Finance] (Conf: 87.2%, Supp: 2.0%)
+[DOF,Unspecified] --> [DOF Literature Request] (Conf: 87.2%, Supp: 2.0%)
+[Homeless Person Assistance,Street/Sidewalk,DHS] --> [MANHATTAN] (Conf: 86.8%, Supp: 1.0%)
+[Operations Unit - Department of Homeless Services,Street/Sidewalk] --> [MANHATTAN] (Conf: 86.8%, Supp: 1.0%)
+[Street/Sidewalk,DHS] --> [MANHATTAN] (Conf: 86.8%, Supp: 1.0%)
+[Homeless Person Assistance,Street/Sidewalk] --> [MANHATTAN] (Conf: 86.8%, Supp: 1.0%)
+[Operations Unit - Department of Homeless Services,Street/Sidewalk,DHS] --> [MANHATTAN] (Conf: 86.8%, Supp: 1.0%)
+[NYPD,Noise - Commercial,Club/Bar/Restaurant] --> [Loud Music/Party] (Conf: 86.6%, Supp: 1.1%)
+[New York City Police Department,Club/Bar/Restaurant,Noise - Commercial] --> [Loud Music/Party] (Conf: 86.6%, Supp: 1.1%)
+[New York City Police Department,NYPD,Club/Bar/Restaurant,Noise - Commercial] --> [Loud Music/Party] (Conf: 86.6%, Supp: 1.1%)
+[Club/Bar/Restaurant,Noise - Commercial] --> [Loud Music/Party] (Conf: 86.6%, Supp: 1.1%)
+[New York City Police Department,NYPD,Club/Bar/Restaurant] --> [Loud Music/Party] (Conf: 85.0%, Supp: 1.1%)
+[Club/Bar/Restaurant] --> [Loud Music/Party] (Conf: 85.0%, Supp: 1.1%)
+[New York City Police Department,Club/Bar/Restaurant] --> [Loud Music/Party] (Conf: 85.0%, Supp: 1.1%)
+[NYPD,Club/Bar/Restaurant] --> [Loud Music/Party] (Conf: 85.0%, Supp: 1.1%)
+[Homeless Person Assistance] --> [MANHATTAN] (Conf: 84.1%, Supp: 2.0%)
+[Operations Unit - Department of Homeless Services,DHS] --> [MANHATTAN] (Conf: 84.1%, Supp: 2.0%)
+[Homeless Person Assistance,Operations Unit - Department of Homeless Services] --> [MANHATTAN] (Conf: 84.1%, Supp: 2.0%)
+[Operations Unit - Department of Homeless Services] --> [MANHATTAN] (Conf: 84.1%, Supp: 2.0%)
+[Homeless Person Assistance,DHS] --> [MANHATTAN] (Conf: 84.1%, Supp: 2.0%)
+[Homeless Person Assistance,DHS,Operations Unit - Department of Homeless Services] --> [MANHATTAN] (Conf: 84.1%, Supp: 2.0%)
+[DHS] --> [MANHATTAN] (Conf: 84.1%, Supp: 2.0%)
+[DSNY,Dirty Conditions] --> [Sidewalk] (Conf: 81.2%, Supp: 1.5%)
+[Dirty Conditions] --> [Sidewalk] (Conf: 81.2%, Supp: 1.5%)
+[BROADWAY] --> [MANHATTAN] (Conf: 80.0%, Supp: 1.2%)
+[QUEENS,Department of Parks and Recreation] --> [Street] (Conf: 79.9%, Supp: 1.3%)
+[DPR,Department of Parks and Recreation,QUEENS] --> [Street] (Conf: 79.9%, Supp: 1.3%)
+[DPR,QUEENS] --> [Street] (Conf: 79.9%, Supp: 1.3%)
+[Loud Music/Party,BRONX] --> [Noise - Residential] (Conf: 79.5%, Supp: 2.1%)
+[New York City Police Department,Loud Music/Party,BRONX] --> [Noise - Residential] (Conf: 79.5%, Supp: 2.1%)
+[Loud Music/Party,BRONX] --> [Residential Building/House] (Conf: 79.5%, Supp: 2.1%)
+[New York City Police Department,Loud Music/Party,BRONX] --> [Residential Building/House] (Conf: 79.5%, Supp: 2.1%)
+[DSNY,STATEN ISLAND] --> [Sidewalk] (Conf: 79.2%, Supp: 1.0%)
+[MANHATTAN,Noise - Commercial,NYPD] --> [Loud Music/Party] (Conf: 77.9%, Supp: 1.0%)
+[New York City Police Department,Noise - Commercial,MANHATTAN] --> [Loud Music/Party] (Conf: 77.9%, Supp: 1.0%)
+[MANHATTAN,Noise - Commercial] --> [Loud Music/Party] (Conf: 77.9%, Supp: 1.0%)
+[Street Light Condition,Department of Transportation] --> [Street Light Out] (Conf: 77.6%, Supp: 3.8%)
+[Street Light Condition] --> [Street Light Out] (Conf: 77.6%, Supp: 3.8%)
+[DOT,Street Light Condition,Department of Transportation] --> [Street Light Out] (Conf: 77.6%, Supp: 3.8%)
+[DOT,Street Light Condition] --> [Street Light Out] (Conf: 77.6%, Supp: 3.8%)
+[Store/Commercial] --> [NYPD] (Conf: 77.2%, Supp: 1.9%)
+[Store/Commercial] --> [New York City Police Department] (Conf: 77.2%, Supp: 1.9%)
+[MANHATTAN,Street/Sidewalk] --> [NYPD] (Conf: 76.7%, Supp: 3.9%)
+[MANHATTAN,Street/Sidewalk] --> [New York City Police Department] (Conf: 76.7%, Supp: 3.9%)
+[NYPD,Noise - Commercial] --> [Loud Music/Party] (Conf: 76.5%, Supp: 2.4%)
+[New York City Police Department,Noise - Commercial] --> [Loud Music/Party] (Conf: 76.5%, Supp: 2.4%)
+[Noise - Commercial] --> [Loud Music/Party] (Conf: 76.5%, Supp: 2.4%)
+[New York City Police Department,NYPD,Noise - Commercial] --> [Loud Music/Party] (Conf: 76.5%, Supp: 2.4%)
+[BRONX,Blocked Driveway,Street/Sidewalk] --> [No Access] (Conf: 76.3%, Supp: 1.0%)
+[BRONX,Blocked Driveway] --> [No Access] (Conf: 76.3%, Supp: 1.0%)
+[New York City Police Department,Blocked Driveway,BRONX] --> [No Access] (Conf: 76.3%, Supp: 1.0%)
+[QUEENS,Street Light Condition] --> [Street Light Out] (Conf: 76.2%, Supp: 1.2%)
+[QUEENS,DOT,Street Light Condition] --> [Street Light Out] (Conf: 76.2%, Supp: 1.2%)
+[QUEENS,DOT,Street Light Condition,Department of Transportation] --> [Street Light Out] (Conf: 76.2%, Supp: 1.2%)
+[QUEENS,Department of Transportation,Street Light Condition] --> [Street Light Out] (Conf: 76.2%, Supp: 1.2%)
+[MANHATTAN,RESIDENTIAL BUILDING,HEAT/HOT WATER,Department of Housing Preservation and Development] --> [ENTIRE BUILDING] (Conf: 75.9%, Supp: 1.9%)
+[MANHATTAN,HPD,HEAT/HOT WATER] --> [ENTIRE BUILDING] (Conf: 75.9%, Supp: 1.9%)
+[MANHATTAN,RESIDENTIAL BUILDING,HEAT/HOT WATER] --> [ENTIRE BUILDING] (Conf: 75.9%, Supp: 1.9%)
+[MANHATTAN,HPD,HEAT/HOT WATER,Department of Housing Preservation and Development] --> [ENTIRE BUILDING] (Conf: 75.9%, Supp: 1.9%)
+[MANHATTAN,HEAT/HOT WATER] --> [ENTIRE BUILDING] (Conf: 75.9%, Supp: 1.9%)
